@@ -2,6 +2,9 @@
 
 @import "./reset-css.css";
 
+@import "/library/avatar/avatar.css";
+
+
 :root{
     --primary-color: #059669;
     --rgba-primary-color-hover: 5, 150, 105, 0.1;
