@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 @import "./reset-css.css";
-
 @import "/library/avatar/avatar.css";
+@import "./alert/alert.css";
 
 
 :root{
@@ -12,6 +12,16 @@
 
     --light-theme: #ffffff;
     --light-theme-contrast: #000000;
+    --alert-success-light-font-color: #00b341;
+    --rgba-alert-success-light-background-color: 0, 173, 64, 0.10;
+    --alert-error-light-font-color: #ff4500;
+    --rgba-alert-error-light-background-color: 250, 67, 0, 0.15;
+    --alert-warning-light-font-color: #e6ac00;
+    --rgba-alert-warning-light-background-color: 255, 191, 0, 0.15;
+    --alert-info-light-font-color: #00abfb;
+    --rgba-alert-info-light-background-color: 31, 184, 255, 0.15;
+
+
 }
 
 html {
@@ -20,4 +30,5 @@ html {
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 160%;
 }
