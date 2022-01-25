@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+@import "./reset-css.css";
+
+
+:root{
+    --primary-color: #059669;
+    --rgba-primary-color-hover: 5, 150, 105, 0.1;
+    --secondary-color: white;
+
+    --light-theme: #ffffff;
+    --light-theme-contrast: #000000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background: #dedede;
+    padding: 15rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
