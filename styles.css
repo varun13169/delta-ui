@@ -1,0 +1,10 @@
+
+@import "./library/component.css";
+
+
+body{
+    background: #dedede;
+    padding: 15rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
