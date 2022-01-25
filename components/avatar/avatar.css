@@ -1,0 +1,70 @@
+/*  Avatar Component Starts */
+.avatar{
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.avatar__content {
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+}
+
+/* Avatar Component Starts -- Extra Large */
+.avatar--xlg {
+    width: 15rem;
+    height: 15rem;
+}
+
+.avatar__content--xlg {
+    width: 15rem;
+    height: 15rem;
+}
+/*  Avatar Component Ends -- Extra Large */
+
+
+/* Avatar Component Starts -- Large */
+.avatar--lg {
+    width: 10rem;
+    height: 10rem;
+}
+
+.avatar__content--lg {
+    width: 10rem;
+    height: 10rem;
+}
+/*  Avatar Component Ends -- Large */
+
+
+/* Avatar Component Starts -- Medium */
+.avatar--md {
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.avatar__content--md {
+    width: 6.4rem;
+    height: 6.4rem;
+}
+/*  Avatar Component Ends -- Medium */
+
+
+/* Avatar Component Starts -- Small */
+.avatar--sm {
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar__content--sm {
+    width: 3rem;
+    height: 3rem;
+}
+/*  Avatar Component Ends -- Small */

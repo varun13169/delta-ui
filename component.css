@@ -2,6 +2,8 @@
 
 @import "./reset-css.css";
 
+@import "./components/avatar/avatar.css";
+
 
 :root{
     --primary-color: #059669;
