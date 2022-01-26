@@ -1,0 +1,171 @@
+/*  Card Component Starts */
+.card{
+    display: grid;
+    width: 32rem;
+    height: auto;
+    background: var(--light-theme);
+    border-radius: 0.4rem;
+    overflow: hidden;
+
+}
+
+.card__img {
+    grid-area: cardImg;
+    width: 9.6rem;
+    height: 9.6rem;
+}
+
+.card__info {
+    grid-area: cardInfo;
+}
+
+.card__actions {
+    grid-area: cardActions;
+}
+
+.card__info {
+    padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+}
+
+.card__primary-text{
+    font-size: 2rem;
+    color: var(--light-theme-contrast);
+}
+.card__secondary-text{
+    color: var(--grey-secondary);
+}
+
+.card__description {
+    grid-area: cardDesc;
+    padding: 0.4rem;
+    color: var(--grey-secondary);
+    /* display: none; */
+}
+
+.card__actions {
+    display: flex;
+
+    min-height: 3.2rem;
+    padding: 0.8rem;
+    align-items: center;
+
+}
+
+.card__button {
+    /* color: var(--primary-color); */
+    padding: 0.8rem;
+}
+
+.card__icons {
+    margin-left: auto;
+}
+
+.card__icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 1.6rem;
+}
+
+/*  Card Component Starts -- Basic */
+.card--basic {
+    grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+                         'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc'
+                         'cardActions cardActions cardActions cardActions cardActions cardActions';
+}
+
+.card .badge {
+    width: 5rem;
+    border-radius: 0;
+    top: 1rem;
+    left: 1rem;
+}
+/*  Card Component Ends -- Basic */
+
+
+/*  Card Component Starts -- Basic with Dismiss Button */
+.card--basic-with-dismiss-button {
+    grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+                         'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc'
+                         'cardActions cardActions cardActions cardActions cardActions cardActions';
+}
+
+.card__img--basic-with-dismiss-button {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card__actions--basic-with-dismiss-button  {
+    justify-content: end;
+}
+/*  Card Component Ends -- Basic with Dismiss Button */
+
+
+/*  Card Component Starts -- Basic with Text Overlay No Action */
+.card--basic-text-overlay-no-action {
+    grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg';
+}
+
+.card__img--basic-text-overlay-no-action {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card__info--basic-text-overlay-no-action {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+}
+
+.card__description--basic-text-overlay-no-action {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+.card__action--basic-text-overlay-no-action {
+    display: none;
+}
+/*  Card Component Ends -- Basic with Text Overlay No Action  */
+
+
+/*  Card Component Starts -- Basic Text Only */
+.card--basic-text-only {
+    grid-template-areas: 'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+                         'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc';
+}
+/*  Card Component Ends -- Basic Text Only  */
+
+/*  Card Component Starts -- Basic */
+.card--horizontal {
+    width: 50rem;
+    grid-template-areas: 'cardImg  cardImg  cardImg  cardInfo     cardInfo     cardInfo'
+                         'cardImg  cardImg  cardImg  cardDesc     cardDesc     cardDesc'
+                         'cardImg  cardImg  cardImg  cardActions  cardActions  cardActions';
+}
+
+.card__img--basic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card .badge {
+    width: 5rem;
+    border-radius: 0;
+    top: 1rem;
+    left: 1rem;
+}
+/*  Card Component Ends -- Basic */
+
+/*  Card Component Ends */

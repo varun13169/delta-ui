@@ -179,6 +179,10 @@ body{
     height: 240rem;
 }
 
+.container__iframe--card-component {
+    height: 240rem;
+}
+
 .display-none {
     display: none;
 }
