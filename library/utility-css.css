@@ -1,0 +1,8 @@
+
+.display-none {
+    display: none;
+}
+
+.color-light-theme {
+    color: var(--light-theme);
+}
