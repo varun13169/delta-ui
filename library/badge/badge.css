@@ -1,0 +1,28 @@
+/*  Badge Component Starts */
+.badge{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--light-theme);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+}
+
+.badge__content {
+    width: 70%;
+    height: 70%;
+}
+
+.badge--round-img-top-right {
+    top: -0.5rem;
+    right: -0.5rem;
+}
+/*  Badge Component Ends */

@@ -56,7 +56,7 @@
                         <!-- <img class="drawer__icon" src="/components/drawer/star.svg" alt="star"> -->
                         <p class="drawer__icon-description">Alert</p>
                     </div>
-                    <div class="drawer__content">
+                    <div id="drawer__content--badge" class="drawer__content">
                         <!-- <img class="drawer__icon" src="/components/drawer/sent.svg" alt="sent mail"> -->
                         <p class="drawer__icon-description">Badge</p>
                     </div>
@@ -69,11 +69,12 @@
         <section class="container__content">
             <div class="container__content-iframe">
                 <iframe class="container__iframe container__iframe--avatar-component" src="/components/avatar/avatar.html"
-                style="width: 875px; height: 620px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin"></iframe>
         
                 <iframe class="container__iframe container__iframe--alert-component display-none" src="/components/alert/alert.html"
-                style="width: 875px; height: 700px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin"></iframe>
+
+                <iframe class="container__iframe container__iframe--badge-component display-none" src="/components/badge/badge.html"
                 sandbox="allow-scripts allow-same-origin"></iframe>
              </div>
         </section>
