@@ -1,8 +1,15 @@
-
 .utility-display-none {
     display: none;
 }
 
 .utility-color-light-theme {
     color: var(--light-theme);
+}
+
+.utility-border-radius-5px {
+    border-radius: 5px;
+}
+
+.utility-small-clickable-padding-1rem {
+    padding: 1rem;
 }

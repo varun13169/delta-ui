@@ -175,6 +175,10 @@ body{
     height: 120rem;
 }
 
+.container__iframe--button-component {
+    height: 240rem;
+}
+
 .display-none {
     display: none;
 }
