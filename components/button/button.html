@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta UI | Button Component</title>
+    <link rel="stylesheet" href="/library/component.css">
+    <style>
+        body {
+            padding: 5px;
+        }
+        .comp-lib-hr, .comp-lib-h1, .comp-lib-h2 {
+            margin: 1rem;
+        }
+        .component-demo-container {
+            width: fit-content;
+            margin: 4rem;
+        }
+        .code_snippets_div {
+            padding: 2rem;
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="component-demo-container">
+        <h2 class="comp-lib-h2">Primary Button</h2>
+        <!-- Button Component Starts -- Primary -->
+        <button class="btn btn--primary utility-border-radius-5px utility-small-clickable-padding-1rem reset-button-inherit-parent">
+            Primary Button
+        </button>
+        <!-- Button Component Ends -- Primary -->
+    </div>
+    <div class="code_snippets_div">
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28147%2C236%2C218%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn--primary%2520reset-button-inherit-parent%2522%253E%250A%2509Primary%2520Button%250A%253C%252Fbutton%253E"
+            style="width: 680px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+
+    <div class="component-demo-container">
+        <h2 class="comp-lib-h2">Link Button</h2>
+        <!-- Link Button Component Starts -- Link Primary -->
+        <a class="link link--primary utility-border-radius-5px utility-small-clickable-padding-1rem" href="#">
+            Primary Link
+        </a>
+        <!-- Link Button Component Ends -- Link Primary -->
+    </div>
+    <div class="code_snippets_div">
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28147%2C236%2C218%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522link%2520link--primary%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520Primary%2520Link%250A%253C%252Fa%253E"
+            style="width: 680px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+
+
+    <div class="component-demo-container">
+        <h2 class="comp-lib-h2">Icon Button</h2>
+        <!-- Button Component Starts -- Icon -->
+        <button class="btn reset-button-inherit-parent">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
+                <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
+                <rect x="7" y="13" width="10" height="8" rx="2" />
+              </svg>
+        </button>
+        <!-- Button Component Ends -- Icon -->
+    </div>
+    <div class="code_snippets_div">
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28147%2C236%2C218%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520reset-button-inherit-parent%2522%253E%250A%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520class%253D%2522icon%2520icon-tabler%2520icon-tabler-printer%2522%2520width%253D%252256%2522%2520height%253D%252256%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520stroke-width%253D%25221.5%2522%2520stroke%253D%2522%2523000000%2522%2520fill%253D%2522none%2522%2520stroke-linecap%253D%2522round%2522%2520stroke-linejoin%253D%2522round%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520stroke%253D%2522none%2522%2520d%253D%2522M0%25200h24v24H0z%2522%2520fill%253D%2522none%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M17%252017h2a2%25202%25200%25200%25200%25202%2520-2v-4a2%25202%25200%25200%25200%2520-2%2520-2h-14a2%25202%25200%25200%25200%2520-2%25202v4a2%25202%25200%25200%25200%25202%25202h2%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M17%25209v-4a2%25202%25200%25200%25200%2520-2%2520-2h-6a2%25202%25200%25200%25200%2520-2%25202v4%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Crect%2520x%253D%25227%2522%2520y%253D%252213%2522%2520width%253D%252210%2522%2520height%253D%25228%2522%2520rx%253D%25222%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%253C%252Fbutton%253E"
+            style="width: 680px; height: 402px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+
+    <div class="component-demo-container">
+        <h2 class="comp-lib-h2">Floating Action Button</h2>
+        <p>Check Bottom Right of the Page</p>
+        <!-- Button Component Starts -- Floating Action Button -->
+        <button class="btn btn--primary btn--floating-action utility-small-clickable-padding-1rem utility-border-radius-5px reset-button-inherit-parent">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
+                <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
+                <rect x="7" y="13" width="10" height="8" rx="2" />
+              </svg>
+        </button>
+        <!-- Button Component Ends -- Floating Action Button -->
+    </div>
+    <div class="code_snippets_div">
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28147%2C236%2C218%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn--primary%2520btn--floating-action%2520reset-button-inherit-parent%2522%253E%250A%2520%2520%2520%2520%253Csvg%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520class%253D%2522icon%2520icon-tabler%2520icon-tabler-printer%2522%2520width%253D%252256%2522%2520height%253D%252256%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520stroke-width%253D%25221.5%2522%2520stroke%253D%2522%2523ffffff%2522%2520fill%253D%2522none%2522%2520stroke-linecap%253D%2522round%2522%2520stroke-linejoin%253D%2522round%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520stroke%253D%2522none%2522%2520d%253D%2522M0%25200h24v24H0z%2522%2520fill%253D%2522none%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M17%252017h2a2%25202%25200%25200%25200%25202%2520-2v-4a2%25202%25200%25200%25200%2520-2%2520-2h-14a2%25202%25200%25200%25200%2520-2%25202v4a2%25202%25200%25200%25200%25202%25202h2%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M17%25209v-4a2%25202%25200%25200%25200%2520-2%2520-2h-6a2%25202%25200%25200%25200%2520-2%25202v4%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Crect%2520x%253D%25227%2522%2520y%253D%252213%2522%2520width%253D%252210%2522%2520height%253D%25228%2522%2520rx%253D%25222%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%253C%252Fbutton%253E"
+            style="width: 680px; height: 419px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*  Button Component Starts */
+.btn {
+    /* padding: 0.5rem 1rem; */
+}
+
+.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--light-theme);
+}
+
+.btn--txt-primary {
+    color: var(--primary-color);
+    padding: 0.8rem;
+}
+
+.btn--floating-action {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+/*  Button Component Ends */
+
+
+/* Link Button Component Starts -- Link Primary */
+.link {
+    text-decoration: none;
+}
+
+.link--primary {
+    background-color: var(--primary-color);
+    color: var(--light-theme);
+}
+/* Link Button Component Starts -- Link Primary */
