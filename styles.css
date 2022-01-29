@@ -183,6 +183,10 @@ body{
     height: 240rem;
 }
 
+.container__iframe--input-component {
+    height: 120rem;
+}
+
 .display-none {
     display: none;
 }

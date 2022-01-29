@@ -6,7 +6,7 @@
 @import "./badge/badge.css";
 @import "./button/button.css";
 @import "./card/card.css";
-@import "./utility-css.css";
+@import "./input/input.css";
 
 @import "./utility-css.css";
 
@@ -17,6 +17,10 @@
 
     --light-theme: #ffffff;
     --light-theme-contrast: #000000;
+
+    --input-text-border-color: #D0D0D0;
+    --input-text-border-color-focus: #7BB9FA;
+    --input-text-border-color-error: #F34E4E;
 
     --alert-success-light-font-color: #00b341;
     --rgba-alert-success-light-background-color: 0, 173, 64, 0.10;

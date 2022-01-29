@@ -8,6 +8,7 @@ let alertIframe = document.querySelector(".container__iframe--alert-component");
 let badgeIframe = document.querySelector(".container__iframe--badge-component");
 let buttonIframe = document.querySelector(".container__iframe--button-component");
 let cardIframe = document.querySelector(".container__iframe--card-component");
+let inputIframe = document.querySelector(".container__iframe--input-component");
 
 drawerContent.forEach((element) =>{
     element.addEventListener("click", (e)=>{
@@ -32,6 +33,9 @@ drawerContent.forEach((element) =>{
             break;
             case "drawer__content--card":
                 cardIframe.classList.remove("display-none")
+            break;
+            case "drawer__content--input":
+                inputIframe.classList.remove("display-none")
             break;
             default:
                 console.error("Error: No switch case found !!")
