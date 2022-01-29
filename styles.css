@@ -156,7 +156,23 @@ body{
 
 /* Iframes */
 
+.container__iframe {
+    width: 100%;
+    border:0;
+    transform: scale(1);
+    overflow:hidden;
+}
+
+.container__iframe--avatar-component {
+    height: 62rem;
+}
+
 .container__iframe--alert-component {
+    height: 70rem;
+}
+
+.container__iframe--badge-component {
+    height: 120rem;
 }
 
 .display-none {

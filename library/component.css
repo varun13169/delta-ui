@@ -3,6 +3,8 @@
 @import "./reset-css.css";
 @import "/library/avatar/avatar.css";
 @import "./alert/alert.css";
+@import "./badge/badge.css";
+@import "./utility-css.css";
 
 
 :root{

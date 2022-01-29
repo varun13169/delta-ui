@@ -1,8 +1,8 @@
 
-.display-none {
+.utility-display-none {
     display: none;
 }
 
-.color-light-theme {
+.utility-color-light-theme {
     color: var(--light-theme);
 }
