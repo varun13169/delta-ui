@@ -13,3 +13,11 @@
 .utility-small-clickable-padding-1rem {
     padding: 1rem;
 }
+
+.utility-grey-shadow {
+    box-shadow: 2px 2px 2px 1px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.utility-position-relative {
+    position: relative;
+}

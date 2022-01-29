@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Component</title>
+    <style>
+        body {
+            padding: 0px;
+        }
+        .component-holder {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+        .comp-lib-hr, .comp-lib-h1, .comp-lib-h2 {
+            margin: 2rem;
+        }
+        .component_demo_container {
+            display: flex;
+            flex-direction: row;
+        }
+        .code_snippets_div {
+            padding: 2rem;
+            width: auto;
+            margin: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="/library/component.css">
+</head>
+<body>
+
+    <h2 class="comp-lib-h2">Card Component Basic with Badge</h2>
+    <div class="component_demo_container">
+        <!-- Card Component Starts -- Basic -->
+        <div class="card card--basic utility-grey-shadow utility-position-relative">
+            
+            <!-- Badge Component Starts -- with Text -->
+            <div class="badge">
+                <div>
+                    SALE
+                </div>
+            </div>
+            <!-- Badge Component Ends -- with Text -->
+
+            <img class="card__img card__img--basic"
+                src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+            <div class="card__info">
+                <h2 class="card__primary-text">Mountains Hill Top</h2>
+                <h3 class="card__secondary-text">Author Name</h3>
+            </div>
+
+            <div class="card__description">
+                <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+            </div>
+
+            <div class="card__actions">
+                <div class="card__buttons">
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">READ</button>
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">BOOKMARK</button>
+                </div>
+
+                <!-- Inset Icons base on need -->
+                <div class="card__icons">
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                          </svg>
+                    </button>
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="12" r="3" />
+                            <circle cx="18" cy="6" r="3" />
+                            <circle cx="18" cy="18" r="3" />
+                            <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                            <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                          </svg>
+                    </button>
+                    
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="12" r="1" />
+                            <circle cx="12" cy="19" r="1" />
+                            <circle cx="12" cy="5" r="1" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Card Component Ends -- Basic -->
+
+        <div class="code_snippets_div">
+            
+        </div>    
+    </div>
+
+
+    <h2 class="comp-lib-h2">Card Component Basic with Dismiss Button</h2>
+    <div class="component_demo_container">
+        <!-- Card Component Starts -- Basic with Dismiss Button -->
+        <div class="card card--basic-with-dismiss-button utility-grey-shadow">
+            <img class="card__img card__img--basic-with-dismiss-button"
+                src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+            <div class="card__info">
+                <h2 class="card__primary-text">Mountains Hill Top</h2>
+                <h3 class="card__secondary-text">Author Name</h3>
+            </div>
+
+            <div class="card__description">
+                <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+            </div>
+
+            <div class="card__actions card__actions--basic-with-dismiss-button">
+                <div class="card__buttons">
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">Dismiss</button>
+                    <button class="btn btn--txt-primary reset-button-inherit-parent utility-display-none">BOOKMARK</button>
+                </div>
+
+                <!-- Inset Icons base on need -->
+                <div class="card__icons utility-display-none">
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                          </svg>
+                    </button>
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="12" r="3" />
+                            <circle cx="18" cy="6" r="3" />
+                            <circle cx="18" cy="18" r="3" />
+                            <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                            <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                          </svg>
+                    </button>
+                    
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="12" r="1" />
+                            <circle cx="12" cy="19" r="1" />
+                            <circle cx="12" cy="5" r="1" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Card Component Ends -- with Dismiss Button -->
+
+        <div class="code_snippets_div">
+            
+        </div>    
+    </div>
+
+
+
+
+    <h2 class="comp-lib-h2">Card Component Basic with Text Overlay No Action</h2>
+    <div class="component_demo_container">        
+        <!-- Card Component Starts -- Basic with Text Overlay No Action -->
+        <div class="card card--basic-text-overlay-no-action utility-grey-shadow">
+            <img class="card__img card__img--basic-text-overlay-no-action"
+                src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+            <div class="card__info card__info--basic-text-overlay-no-action">
+                <h2 class="card__primary-text utility-color-light-theme">Mountains Hill Top</h2>
+                <h3 class="card__secondary-text utility-color-light-theme">Author Name</h3>
+            </div>
+
+            <div class="card__description card__description--basic-text-overlay-no-action utility-color-light-theme">
+                <p>Visit ten places on our planet that are undergoing the biggest changes today. Visit ten places on our planet that are undergoing the biggest changes today.</p>
+            </div>
+
+            <div class="card__actions utility-display-none">
+                <div class="card__buttons">
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">READ</button>
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">BOOKMARK</button>
+                </div>
+
+                <!-- Inset Icons base on need -->
+                <div class="card__icons">
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                          </svg>
+                    </button>
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="12" r="3" />
+                            <circle cx="18" cy="6" r="3" />
+                            <circle cx="18" cy="18" r="3" />
+                            <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                            <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                          </svg>
+                    </button>
+                    
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="12" r="1" />
+                            <circle cx="12" cy="19" r="1" />
+                            <circle cx="12" cy="5" r="1" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Card Component Ends -- Basic with Text Overlay No Action -->
+
+        <div class="code_snippets_div">
+            
+        </div>    
+    </div>
+
+
+    <h2 class="comp-lib-h2">Card Component Basic with Text Only</h2>
+    <div class="component_demo_container">        
+        <!-- Card Component Starts -- Basic with Text Only -->
+        <div class="card card--basic-text-only utility-grey-shadow">
+            <img class="card__img utility-display-none"
+                src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+            <div class="card__info">
+                <h2 class="card__primary-text">Mountains Hill Top</h2>
+                <h3 class="card__secondary-text">Author Name</h3>
+            </div>
+
+            <div class="card__description">
+                <p>Visit ten places on our planet that are undergoing the biggest changes today. Visit ten places on our planet that are undergoing the biggest changes today.</p>
+            </div>
+
+            <div class="card__actions utility-display-none">
+                <div class="card__buttons">
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">READ</button>
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">BOOKMARK</button>
+                </div>
+
+                <!-- Inset Icons base on need -->
+                <div class="card__icons">
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                          </svg>
+                    </button>
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="12" r="3" />
+                            <circle cx="18" cy="6" r="3" />
+                            <circle cx="18" cy="18" r="3" />
+                            <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                            <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                          </svg>
+                    </button>
+                    
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="12" r="1" />
+                            <circle cx="12" cy="19" r="1" />
+                            <circle cx="12" cy="5" r="1" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Card Component Ends -- Basic with Text Only  -->
+
+        <div class="code_snippets_div">
+            
+        </div>    
+    </div>
+
+
+    <h2 class="comp-lib-h2">Card Component Horizontal with Badge</h2>
+    <div class="component_demo_container">
+        <!-- Card Component Starts -- Basic -->
+        <div class="card card--horizontal utility-grey-shadow utility-position-relative">
+            
+            <!-- Badge Component Starts -- with Text -->
+            <div class="badge">
+                <div>
+                    SALE
+                </div>
+            </div>
+            <!-- Badge Component Ends -- with Text -->
+
+            <img class="card__img card__img--basic"
+                src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+            <div class="card__info">
+                <h2 class="card__primary-text">Mountains Hill Top</h2>
+                <h3 class="card__secondary-text">Author Name</h3>
+            </div>
+
+            <div class="card__description">
+                <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+            </div>
+
+            <div class="card__actions">
+                <div class="card__buttons">
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">READ</button>
+                    <button class="btn btn--txt-primary reset-button-inherit-parent">BOOKMARK</button>
+                </div>
+
+                <!-- Inset Icons base on need -->
+                <div class="card__icons">
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                          </svg>
+                    </button>
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="12" r="3" />
+                            <circle cx="18" cy="6" r="3" />
+                            <circle cx="18" cy="18" r="3" />
+                            <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                            <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                          </svg>
+                    </button>
+                    
+                    <button class="btn reset-button-inherit-parent">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="12" r="1" />
+                            <circle cx="12" cy="19" r="1" />
+                            <circle cx="12" cy="5" r="1" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Card Component Ends -- Basic -->
+
+        <div class="code_snippets_div">
+            
+        </div>    
+    </div>
+
+</body>
+</html>

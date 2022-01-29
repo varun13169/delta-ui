@@ -5,8 +5,10 @@
 @import "./alert/alert.css";
 @import "./badge/badge.css";
 @import "./button/button.css";
+@import "./card/card.css";
 @import "./utility-css.css";
 
+@import "./utility-css.css";
 
 :root{
     --primary-color: #059669;
@@ -15,6 +17,7 @@
 
     --light-theme: #ffffff;
     --light-theme-contrast: #000000;
+
     --alert-success-light-font-color: #00b341;
     --rgba-alert-success-light-background-color: 0, 173, 64, 0.10;
     --alert-error-light-font-color: #ff4500;
@@ -25,6 +28,9 @@
     --rgba-alert-info-light-background-color: 31, 184, 255, 0.15;
 
 
+    --rgba-light-theme-hover: 255, 255, 255, 0.1;
+    --grey-subtle: #F2F2F2;
+    --grey-secondary: #757575;
 }
 
 html {
