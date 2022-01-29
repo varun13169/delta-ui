@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta UI | Input Component</title>
+    <link rel="stylesheet" href="/library/component.css">
+    <link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0px;
+        }
+        .comp-lib-hr, .comp-lib-h1, .comp-lib-h2 {
+            margin: 2rem;
+        }
+        .component_demo_container {
+            display: flex;
+            flex-direction: row;
+        }
+        .code_snippets_div {
+            padding: 2rem;
+            width: auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="comp-lib-h1">Input Component</h1>
+
+        
+    
+    <h2 class="comp-lib-h2">Input with No Focus</h2>
+    <div class="component_demo_container">
+        <div class="input-field">
+            <i class="input-field__icon utility-display-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content icon icon-tabler icon-tabler-alert-triangle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 9v2m0 4v.01" />
+                    <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+                  </svg>
+            </i>
+            <input class="input-field__input utility-border-radius-5px reset-input-inherit-parent"
+                type="text"
+                placeholder="Username">
+            
+        </div>
+        <div class="code_snippets_div">
+        
+        </div>
+    </div>
+
+    <h2 class="comp-lib-h2">Input with Focus</h2>
+    <div class="component_demo_container">
+        <div class="input-field">
+            <i class="input-field__icon  utility-display-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content icon icon-tabler icon-tabler-alert-triangle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 9v2m0 4v.01" />
+                    <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+                  </svg>
+            </i>
+            <input class="input-field__input input-field__input--focus utility-border-radius-5px reset-input-inherit-parent"
+                type="text"
+                placeholder="Username">
+            
+        </div>
+        <div class="code_snippets_div">
+        
+        </div>
+    </div>
+
+    <h2 class="comp-lib-h2">Input with Error</h2>
+    <div class="component_demo_container">
+        
+        <div class="input-field">
+            <i class="input-field__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content icon icon-tabler icon-tabler-alert-triangle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 9v2m0 4v.01" />
+                    <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+                  </svg>
+            </i>
+            <input class="input-field__input input-field__input--error utility-border-radius-5px reset-input-inherit-parent"
+                type="text"
+                placeholder="Username">
+            
+        </div>
+
+        <div class="code_snippets_div">
+        
+        </div>
+    </div>
+
+
+
+</body>
+</html>
