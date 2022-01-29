@@ -1,0 +1,18 @@
+.img-circle {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-circle__content {
+    width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+
+.img-responsive {
+    width: 25%;
+    height: auto;
+}
