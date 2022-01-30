@@ -59,6 +59,7 @@ body{
 .header__title {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 1rem;
     color: var(--light-theme);    
 }
 
@@ -73,6 +74,10 @@ body{
     height: 3em;
     border-radius: 50%;
     margin: auto 0.8rem;
+}
+.header__btn svg {
+    width: 100%;
+    height: auto;
 }
 
 .header__btn:hover {
@@ -164,11 +169,11 @@ body{
 }
 
 .container__iframe--avatar-component {
-    height: 62rem;
+    height: 90rem;
 }
 
 .container__iframe--alert-component {
-    height: 70rem;
+    height: 180rem;
 }
 
 .container__iframe--badge-component {
@@ -176,7 +181,7 @@ body{
 }
 
 .container__iframe--button-component {
-    height: 240rem;
+    height: 110rem;
 }
 
 .container__iframe--card-component {

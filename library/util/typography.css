@@ -1,0 +1,87 @@
+/* Typography */
+/* Font Heading */
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+/* .dui-util-hdg-md  */
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* .dui-util-hdg-reg  */
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.h5 {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 16px;
+}
+
+/* Font Text */
+.dui-util-txt-lg {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.dui-util-txt-md {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.dui-util-txt-reg {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.dui-util-txt-sm {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dui-util-txt-xsm {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 16px;
+}
+
+
+/* Font Weight */
+.dui-util-fw-lgt {
+    font-weight: 300;
+}
+
+.dui-util-fw-reg {
+    font-weight: 400;
+}
+
+.dui-util-fw-sbld {
+    font-weight: 600;
+}
+
+.dui-util-fw-bld {
+    font-weight: 700;
+}
+
+.dui-util-fw-blk {
+    font-weight: 900;
+}
+/*  */

@@ -1,27 +1,30 @@
-.utility-display-none {
+@import "./util/typography.css";
+@import "./util/spacing.css";
+
+.dui-util-disp-none {
     display: none;
 }
 
-.utility-color-light-theme {
-    color: var(--light-theme);
-}
-
-.utility-border-radius-5px {
-    border-radius: 5px;
-}
-
-.utility-border-radius-10px {
-    border-radius: 10px;
-}
-
-.utility-small-clickable-padding-1rem {
-    padding: 1rem;
-}
-
-.utility-grey-shadow {
+.dui-util-gry-shdw {
     box-shadow: 2px 2px 2px 1px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
-.utility-position-relative {
+.dui-util-pos-rel {
     position: relative;
+}
+
+.dui-util-clr-lt-theme {
+    color: var(--light-theme);
+}
+
+.dui-util-clr-prim-p2 {
+    color: var(--primary-color-p2);
+}
+
+.dui-util-txt-align-cent {
+    text-align: center;
+}
+
+.dui-util-txt-align-left {
+    text-align: left;
 }

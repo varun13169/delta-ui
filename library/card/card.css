@@ -2,11 +2,9 @@
 .card{
     display: grid;
     width: 32rem;
-    height: auto;
+    height: fit-content;
     background: var(--light-theme);
-    border-radius: 0.4rem;
     overflow: hidden;
-
 }
 
 .card__img {
@@ -24,11 +22,9 @@
 }
 
 .card__info {
-    padding: 0.8rem 0.4rem 0.4rem 0.4rem;
 }
 
 .card__primary-text{
-    font-size: 2rem;
     color: var(--light-theme-contrast);
 }
 .card__secondary-text{
@@ -37,23 +33,18 @@
 
 .card__description {
     grid-area: cardDesc;
-    padding: 0.4rem;
     color: var(--grey-secondary);
-    /* display: none; */
 }
 
 .card__actions {
     display: flex;
 
     min-height: 3.2rem;
-    padding: 0.8rem;
     align-items: center;
 
 }
 
 .card__button {
-    /* color: var(--primary-color); */
-    padding: 0.8rem;
 }
 
 .card__icons {
