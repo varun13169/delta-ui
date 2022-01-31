@@ -1,5 +1,5 @@
 /*  Card Component Starts */
-.card{
+.dui-card{
     display: grid;
     width: 32rem;
     height: fit-content;
@@ -7,36 +7,36 @@
     overflow: hidden;
 }
 
-.card__img {
+.dui-card__img {
     grid-area: cardImg;
     width: 9.6rem;
     height: 9.6rem;
 }
 
-.card__info {
+.dui-card__info {
     grid-area: cardInfo;
 }
 
-.card__actions {
+.dui-card__actions {
     grid-area: cardActions;
 }
 
-.card__info {
+.dui-card__info {
 }
 
-.card__primary-text{
+.dui-card__primary-text{
     color: var(--light-theme-contrast);
 }
-.card__secondary-text{
+.dui-card__secondary-text{
     color: var(--grey-secondary);
 }
 
-.card__description {
+.dui-card__description {
     grid-area: cardDesc;
     color: var(--grey-secondary);
 }
 
-.card__actions {
+.dui-card__actions {
     display: flex;
 
     min-height: 3.2rem;
@@ -44,21 +44,21 @@
 
 }
 
-.card__button {
+.dui-card__button {
 }
 
-.card__icons {
+.dui-card__icons {
     margin-left: auto;
 }
 
-.card__icon {
+.dui-card__icon {
     width: 2.4rem;
     height: 2.4rem;
     margin-left: 1.6rem;
 }
 
 /*  Card Component Starts -- Basic */
-.card--basic {
+.dui-card--basic {
     grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
@@ -68,7 +68,7 @@
                          'cardActions cardActions cardActions cardActions cardActions cardActions';
 }
 
-.card .dui-badge {
+.dui-card .dui-badge {
     width: 5rem;
     border-radius: 0;
     top: 1rem;
@@ -78,7 +78,7 @@
 
 
 /*  Card Component Starts -- Basic with Dismiss Button */
-.card--basic-with-dismiss-button {
+.dui-card--basic-with-dismiss-button {
     grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
@@ -88,70 +88,70 @@
                          'cardActions cardActions cardActions cardActions cardActions cardActions';
 }
 
-.card__img--basic-with-dismiss-button {
+.dui-card__img--basic-with-dismiss-button {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.card__actions--basic-with-dismiss-button  {
+.dui-card__actions--basic-with-dismiss-button  {
     justify-content: end;
 }
 /*  Card Component Ends -- Basic with Dismiss Button */
 
 
 /*  Card Component Starts -- Basic with Text Overlay No Action */
-.card--basic-text-overlay-no-action {
+.dui-card--basic-text-overlay-no-action {
     grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
                          'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg';
 }
 
-.card__img--basic-text-overlay-no-action {
+.dui-card__img--basic-text-overlay-no-action {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.card__info--basic-text-overlay-no-action {
+.dui-card__info--basic-text-overlay-no-action {
     grid-row: 1 / 2;
     grid-column: 1 / -1;
 }
 
-.card__description--basic-text-overlay-no-action {
+.dui-card__description--basic-text-overlay-no-action {
     grid-row: 2 / 3;
     grid-column: 1 / -1;
 }
 
-.card__action--basic-text-overlay-no-action {
+.dui-card__action--basic-text-overlay-no-action {
     display: none;
 }
 /*  Card Component Ends -- Basic with Text Overlay No Action  */
 
 
 /*  Card Component Starts -- Basic Text Only */
-.card--basic-text-only {
+.dui-card--basic-text-only {
     grid-template-areas: 'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
                          'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc';
 }
 /*  Card Component Ends -- Basic Text Only  */
 
 /*  Card Component Starts -- Basic */
-.card--horizontal {
+.dui-card--horizontal {
     width: 50rem;
     grid-template-areas: 'cardImg  cardImg  cardImg  cardInfo     cardInfo     cardInfo'
                          'cardImg  cardImg  cardImg  cardDesc     cardDesc     cardDesc'
                          'cardImg  cardImg  cardImg  cardActions  cardActions  cardActions';
 }
 
-.card__img--basic {
+.dui-card__img--basic {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.card .badge {
+.dui-card .dui-badge {
     width: 5rem;
     border-radius: 0;
     top: 1rem;
