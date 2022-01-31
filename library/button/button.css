@@ -1,52 +1,52 @@
 /*  Button Component Starts */
-.btn {
+.dui-btn {
     height: fit-content;
 }
 
-.btn__icon {
+.dui-btn__icon {
     width: 100%;
     height: 100%;
 }
 
-.btn--primary {
+.dui-btn--primary {
     background-color: var(--primary-color);
     color: var(--light-theme);
 }
 
-.btn--primary-p2 {
+.dui-btn--primary-p2 {
     background-color: var(--primary-color-p2);
     color: var(--light-theme);
 }
 
-.btn--primary:hover {
+.dui-btn--primary:hover {
     background-color: var(--dui-rgba-primary-color-hover-75pct);
 }
 
-.btn--txt-primary {
+.dui-btn--txt-primary {
     color: var(--primary-color);
 }
 
-.btn--txt-primary:hover {
+.dui-btn--txt-primary:hover {
     background-color: var(--dui-rgba-primary-color-hover-10pct);
 }
 
-.btn--floating-action {
+.dui-btn--floating-action {
     position: fixed;
 }
 /*  Button Component Ends */
 
 
 /* Link Button Component Starts -- Link Primary */
-.link {
+.dui-link {
     text-decoration: none;
 }
 
-.link--primary {
+.dui-link--primary {
     background-color: var(--primary-color);
     color: var(--light-theme);
 }
 
-.link--primary:hover {
+.dui-link--primary:hover {
     background-color: var(--dui-rgba-primary-color-hover-75pct);
 }
 /* Link Button Component Starts -- Link Primary */
