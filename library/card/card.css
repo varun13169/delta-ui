@@ -68,7 +68,7 @@
                          'cardActions cardActions cardActions cardActions cardActions cardActions';
 }
 
-.card .badge {
+.card .dui-badge {
     width: 5rem;
     border-radius: 0;
     top: 1rem;
