@@ -12,8 +12,6 @@
     align-items: center;
 
     position: absolute;
-    top: -1.5rem;
-    right: -1.5rem;
 }
 
 .badge__content {
@@ -21,7 +19,12 @@
     height: 70%;
 }
 
-.badge--round-img-top-right {
+.badge--sq-ele-1_5-top-1_5-right {
+    top: -1.5rem;
+    right: -1.5rem;
+}
+
+.badge--round-ele-0_5-top-0_5-right {
     top: -0.5rem;
     right: -0.5rem;
 }

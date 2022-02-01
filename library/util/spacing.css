@@ -1,0 +1,45 @@
+/* Spacing */
+/* Border */
+.dui-util-bdr-radi-5px-s {
+    border-radius: 5px;
+}
+
+.dui-util-bdr-radi-10px-m {
+    border-radius: 10px;
+}
+
+.dui-util-bdr-radi-15px-l {
+    border-radius: 15px;
+}
+
+.dui-util-bdr-radi-999px-mx {
+    border-radius: 999px;
+}
+
+
+/* Padding */
+.dui-util-spc-pad-0_8rem-xs {
+    padding: 0.8rem;
+}
+
+.dui-util-spc-pad-1_6rem-s {
+    padding: 1.6rem;
+}
+
+.dui-util-spc-pad-2_4rem-m {
+    padding: 2.4rem;
+}
+
+
+/* Margin */
+.dui-util-spc-mgn-0_8rem-xs {
+    margin: 0.8rem;
+}
+
+.dui-util-spc-mgn-1_6rem-s {
+    margin: 1.6rem;
+}
+
+.dui-util-spc-mgn-2_4rem-m {
+    margin: 2.4rem;
+}
