@@ -1,5 +1,5 @@
 /*  Avatar Component Starts */
-.avatar{
+.dui-avatar{
     width: 6.4rem;
     height: 6.4rem;
     border-radius: 50%;
@@ -12,14 +12,14 @@
 
     position: relative;
 }
-.avatar__content {
+.dui-avatar__content {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
 /* Avatar Component Starts -- Extra Large */
-.avatar--xlg {
+.dui-avatar--xlg {
     width: 15rem;
     height: 15rem;
 }
@@ -27,7 +27,7 @@
 
 
 /* Avatar Component Starts -- Large */
-.avatar--lg {
+.dui-avatar--lg {
     width: 10rem;
     height: 10rem;
 }
@@ -35,7 +35,7 @@
 
 
 /* Avatar Component Starts -- Medium */
-.avatar--md {
+.dui-avatar--md {
     width: 6.4rem;
     height: 6.4rem;
 }
@@ -43,7 +43,7 @@
 
 
 /* Avatar Component Starts -- Small */
-.avatar--sm {
+.dui-avatar--sm {
     width: 3rem;
     height: 3rem;
 }
