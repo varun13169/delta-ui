@@ -15,9 +15,10 @@ body{
 
 .container {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 6.4rem;
     grid-auto-columns: 1fr;
     grid-template-areas: 
     'header header header header header header'
@@ -35,6 +36,7 @@ body{
 .container__content {
     grid-area: mcontent;
     padding: 3rem;
+    overflow: scroll;
 }
 .container__footer {
     display: none;
@@ -70,10 +72,12 @@ body{
 
 .header__btn {
     font-size: 100%;
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
+    /* width: 3em;
+    height: 3em; */
+    /* border-radius: 50%; */
     margin: auto 0.8rem;
+    color: var(--light-theme);
+
 }
 .header__btn svg {
     width: 100%;
@@ -110,7 +114,7 @@ body{
 .drawer {
     width: 100%;
     height: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: var(--light-theme);
     display: flex;
     flex-direction: column;
@@ -140,8 +144,22 @@ body{
     padding: 0.8rem;
     color: var(--grey-secondary);
 }
+.drawer__content:hover{ 
+    background-color: var(--primary-color-p2-lgt-30pct);
+}
+.drawer__content a:any-link {
+    color: var(--primary-color-p2-dkr-20pct);
+    width: auto;
+    height: auto;
+    display: block;
+
+    flex-grow: 1;
+}
 .drawer__content--focus {
     background-color: rgba(var(--rgba-primary-color-hover));
+    color: var(--primary-color);
+}
+.drawer__content--focus a:any-link {
     color: var(--primary-color);
 }
 
@@ -177,7 +195,7 @@ body{
 }
 
 .container__iframe--badge-component {
-    height: 120rem;
+    height: 100%;
 }
 
 .container__iframe--button-component {
@@ -185,18 +203,33 @@ body{
 }
 
 .container__iframe--card-component {
-    height: 240rem;
+    height: 100%;
 }
 
 .container__iframe--image-component {
-    height: 120rem;
+    height: 100%;
 }
 
 .container__iframe--input-component {
-    height: 120rem;
+    height: 100%;
 }
 
 .display-none {
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1515px) {
+    html {
+        font-size: 60%;
+    }
+}

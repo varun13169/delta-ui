@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta UI</title>
+    <link rel="stylesheet" href="/assets/prism.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./alertPage.css">
+</head>
+<body>
+    <div class="container">
+        <section class="container__header">
+            <!-- Header Component Starts -- Standard -->
+            <div class="header header--standard">
+                <button class="header__btn button-inherit-parent">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 17.6l-2 -1.1v-2.5" />
+                        <path d="M4 10v-2.5l2 -1.1" />
+                        <path d="M10 4.1l2 -1.1l2 1.1" />
+                        <path d="M18 6.4l2 1.1v2.5" />
+                        <path d="M20 14v2.5l-2 1.12" />
+                        <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                        <line x1="12" y1="12" x2="14" y2="10.9" />
+                        <line x1="18" y1="8.6" x2="20" y2="7.5" />
+                        <line x1="12" y1="12" x2="12" y2="14.5" />
+                        <line x1="12" y1="18.5" x2="12" y2="21" />
+                        <path d="M12 12l-2 -1.12" />
+                        <line x1="6" y1="8.6" x2="4" y2="7.5" />
+                      </svg>
+                </button>
+                <h3 class="header__title">
+                    Delta UI
+                </h3>
+
+                <div class="header__action">
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs" href="/index.html">
+                        HOME
+                    </a>
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs" href="/components/avatar/avatarPage.html">
+                        DOCUMENTATION
+                    </a>
+                </div>
+            </div>
+            <!-- Header Component Ends -- Standard -->
+
+        </section>
+        <section class="container__sidebar">
+            <!-- Drawer Component Regular -->
+            <div class="drawer">
+                <div class="drawer__heading">
+                    <h3 class="drawer__title">Components</h3>
+                    <!-- <h3 class="drawer__subtitle">Component Lists</h3> -->
+                </div>
+
+                <div class="drawer__content-holder">
+                    <div id="drawer__content--avatar" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/avatar/avatarPage.html">
+                            Avatar
+                        </a>
+                    </div>
+                    <div id="drawer__content--alert" class="drawer__content drawer__content--focus">
+                        <a class="dui-link dui-util-txt-sm" href="/components/alert/alertPage.html">
+                            Alert
+                        </a>
+                    </div>
+                    <div id="drawer__content--badge" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/badge/badgePage.html">
+                            Badge
+                        </a>
+                    </div>
+                    <div id="drawer__content--button" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/button/buttonPage.html">
+                            Button
+                        </a>
+                    </div>
+                    <div id="drawer__content--card" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/card/cardPage.html">
+                            Card
+                        </a>
+                    </div>
+                    <div id="drawer__content--image" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/image/imagePage.html">
+                            Image
+                        </a>
+                    </div>
+                    <div id="drawer__content--input" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/input/inputPage.html">
+                            Input
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drawer Component Ends-->
+
+        </section>
+        <section class="container__content">
+            <h1>Alert Component</h1>
+            <div class="container__content--demo">
+            <div class="container__components-holder dui-util-spc-pad-1_6rem-s">
+                <div id="container__component-holder">
+                    <!-- Alert Component Starts -- Success -->
+                    <div class="dui-alert dui-alert--success">
+                        <img class="dui-alert__icon" src="/components/alert/success.svg" alt="success">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--success">
+                                <h3 class="dui-alert__title">Success</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is a success alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Alert Component Ends -- Success -->
+                </div>
+
+                <div id="container__component-holder">
+                    <!-- Alert Component Starts -- Error -->
+                    <div class="dui-alert dui-alert--error">
+                        <img class="dui-alert__icon" src="/components/alert/error.svg" alt="error">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--error">
+                                <h3 class="dui-alert__title">Error</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is an error alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Alert Component Ends -- Error -->
+                </div>
+
+                <div id="container__component-holder">
+                    <!-- Alert Component Starts -- Warning -->
+                    <div class="dui-alert dui-alert--warning">
+                        <img class="dui-alert__icon" src="/components/alert/warning.svg" alt="warning">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--warning ">
+                                <h3 class="dui-alert__title">Warning</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is a warning alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Alert Component Ends -- Warning -->
+                </div>
+
+                <div id="container__component-holder">
+                    <!-- Alert Component Starts -- Info -->
+                    <div class="dui-alert dui-alert--info">
+                        <img class="dui-alert__icon" src="/components/alert/info.svg" alt="Info">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--info">
+                                <h3 class="dui-alert__title">Info</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is an info alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Alert Component Ends -- Info -->
+                </div>
+
+            </div>
+
+            
+            <div id="container__code-preview--alert-success" class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-alert dui-alert--success">
+                        <img class="dui-alert__icon" src="/components/alert/success.svg" alt="success">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--success">
+                                <h3 class="dui-alert__title">Success</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is a success alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+            <div id="container__code-preview--alert-error" class="container__code-preview dui-util-spc-pad-1_6rem-s dui-util-disp-none">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-alert dui-alert--error">
+                        <img class="dui-alert__icon" src="/components/alert/error.svg" alt="error">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--error">
+                                <h3 class="dui-alert__title">Error</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is an error alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+            <div id="container__code-preview--alert-warning" class="container__code-preview dui-util-spc-pad-1_6rem-s dui-util-disp-none">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-alert dui-alert--warning">
+                        <img class="dui-alert__icon" src="/components/alert/warning.svg" alt="warning">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--warning ">
+                                <h3 class="dui-alert__title">Warning</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is a warning alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+            <div id="container__code-preview--alert-info" class="container__code-preview dui-util-spc-pad-1_6rem-s dui-util-disp-none">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-alert dui-alert--info">
+                        <img class="dui-alert__icon" src="/components/alert/info.svg" alt="Info">
+                        </img>
+                
+                        <div class="dui-alert__content">
+                            <div class="dui-alert__text dui-alert__text--info">
+                                <h3 class="dui-alert__title">Info</h3>
+                                <p class="dui-alert__description dui-util-txt-sm">This is an info alert — <strong>check it out!</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            </div>
+            
+            
+        </section>
+        <section class="container__footer">
+
+        </section>    
+    </div>
+
+
+    <script src="./alertPage.js"></script>
+    <script src="/assets/prism.js"></script>
+    
+</body>
+</html>

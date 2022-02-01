@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delta UI</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./home.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container home-container">
         <section class="container__header">
+
+
             <!-- Header Component Starts -- Standard -->
             <div class="header header--standard">
                 <button class="header__btn button-inherit-parent">
@@ -34,86 +37,46 @@
                 </h3>
 
                 <div class="header__action">
-                    <!-- <button class="header__btn button-inherit-parent">
-                        <img class="header__icon" src="/components/header/download.svg" alt="Image">
-                    </button>
-                    <button class="header__btn button-inherit-parent">
-                        <img class="header__icon" src="/components/header/printer.svg" alt="Image">
-                    </button>
-                    <button class="header__btn button-inherit-parent">
-                        <img class="header__icon" src="/components/header/bookmark.svg" alt="Image">
-                    </button> -->
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs" href="/index.html">
+                        HOME
+                    </a>
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs" href="/components/avatar/avatarPage.html">
+                        DOCUMENTATION
+                    </a>
                 </div>
             </div>
             <!-- Header Component Ends -- Standard -->
 
         </section>
-        <section class="container__sidebar">
-            <!-- Drawer Component Regular -->
-            <div class="drawer">
-                <div class="drawer__heading">
-                    <h3 class="drawer__title">Components</h3>
-                    <!-- <h3 class="drawer__subtitle">Component Lists</h3> -->
-                </div>
-
-                <div class="drawer__content-holder">
-                    <div id="drawer__content--avatar" class="drawer__content drawer__content--focus">
-                        <!-- <img class="drawer__icon" src="/components/drawer/inbox-primary.svg" alt="inbox"> -->
-                        <p class="drawer__icon-description">Avatar</p>
-                    </div>
-                    <div id="drawer__content--alert" class="drawer__content">
-                        <!-- <img class="drawer__icon" src="/components/drawer/star.svg" alt="star"> -->
-                        <p class="drawer__icon-description">Alert</p>
-                    </div>
-                    <div id="drawer__content--badge" class="drawer__content">
-                        <!-- <img class="drawer__icon" src="/components/drawer/sent.svg" alt="sent mail"> -->
-                        <p class="drawer__icon-description">Badge</p>
-                    </div>
-                    <div id="drawer__content--button" class="drawer__content">
-                        <!-- <img class="drawer__icon" src="/components/drawer/sent.svg" alt="sent mail"> -->
-                        <p class="drawer__icon-description">Button</p>
-                    </div>
-                    <div id="drawer__content--card" class="drawer__content">
-                        <!-- <img class="drawer__icon" src="/components/drawer/sent.svg" alt="sent mail"> -->
-                        <p class="drawer__icon-description">Card</p>
-                    </div>
-                    <div id="drawer__content--image" class="drawer__content">
-                        <!-- <img class="drawer__icon" src="/components/drawer/sent.svg" alt="sent mail"> -->
-                        <p class="drawer__icon-description">Image</p>
-                    </div>
-                    <div id="drawer__content--input" class="drawer__content">
-                        <!-- <img class="drawer__icon" src="/components/drawer/sent.svg" alt="sent mail"> -->
-                        <p class="drawer__icon-description">Input</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Drawer Component Ends-->
 
         </section>
         <section class="container__content">
-            <div class="container__content-iframe">
-                <iframe class="container__iframe container__iframe--avatar-component" src="/components/avatar/avatar.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
-        
-                <iframe class="container__iframe container__iframe--alert-component display-none" src="/components/alert/alert.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
 
-                <iframe class="container__iframe container__iframe--badge-component display-none" src="/components/badge/badge.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
 
-                <iframe class="container__iframe container__iframe--button-component display-none" src="/components/button/button.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 17.6l-2 -1.1v-2.5" />
+                <path d="M4 10v-2.5l2 -1.1" />
+                <path d="M10 4.1l2 -1.1l2 1.1" />
+                <path d="M18 6.4l2 1.1v2.5" />
+                <path d="M20 14v2.5l-2 1.12" />
+                <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                <line x1="12" y1="12" x2="14" y2="10.9" />
+                <line x1="18" y1="8.6" x2="20" y2="7.5" />
+                <line x1="12" y1="12" x2="12" y2="14.5" />
+                <line x1="12" y1="18.5" x2="12" y2="21" />
+                <path d="M12 12l-2 -1.12" />
+                <line x1="6" y1="8.6" x2="4" y2="7.5" />
+              </svg>
 
-                <iframe class="container__iframe container__iframe--card-component display-none" src="/components/card/card.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
+            <h2>&lt;/Delta UI&gt;</h2>
 
-                <iframe class="container__iframe container__iframe--image-component display-none" src="/components/image/image.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
-
-                <iframe class="container__iframe container__iframe--input-component display-none" src="/components/input/input.html"
-                sandbox="allow-scripts allow-same-origin"></iframe>
-             </div>
+            </div>
+            
+    
+            
+            
         </section>
         <section class="container__footer">
 
@@ -121,8 +84,8 @@
     </div>
 
 
-    <script src="index.js">
-    </script>
+    <!-- <script src="index.js"></script> -->
+    <script src="./buttonPage.js"></script>
     
 </body>
 </html>

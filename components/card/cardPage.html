@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta UI</title>
+    <link rel="stylesheet" href="/assets/prism.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./cardPage.css">
+</head>
+<body>
+    <div class="container">
+        <section class="container__header">
+            <!-- Header Component Starts -- Standard -->
+            <div class="header header--standard">
+                <button class="header__btn button-inherit-parent">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 17.6l-2 -1.1v-2.5" />
+                        <path d="M4 10v-2.5l2 -1.1" />
+                        <path d="M10 4.1l2 -1.1l2 1.1" />
+                        <path d="M18 6.4l2 1.1v2.5" />
+                        <path d="M20 14v2.5l-2 1.12" />
+                        <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                        <line x1="12" y1="12" x2="14" y2="10.9" />
+                        <line x1="18" y1="8.6" x2="20" y2="7.5" />
+                        <line x1="12" y1="12" x2="12" y2="14.5" />
+                        <line x1="12" y1="18.5" x2="12" y2="21" />
+                        <path d="M12 12l-2 -1.12" />
+                        <line x1="6" y1="8.6" x2="4" y2="7.5" />
+                      </svg>
+                </button>
+                <h3 class="header__title">
+                    Delta UI
+                </h3>
+
+                <div class="header__action">
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs" href="/index.html">
+                        HOME
+                    </a>
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs" href="/components/avatar/avatarPage.html">
+                        DOCUMENTATION
+                    </a>
+                </div>
+            </div>
+            <!-- Header Component Ends -- Standard -->
+
+        </section>
+        <section class="container__sidebar">
+            <!-- Drawer Component Regular -->
+            <div class="drawer">
+                <div class="drawer__heading">
+                    <h3 class="drawer__title">Components</h3>
+                    <!-- <h3 class="drawer__subtitle">Component Lists</h3> -->
+                </div>
+
+                <div class="drawer__content-holder">
+                    <div id="drawer__content--avatar" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/avatar/avatarPage.html">
+                            Avatar
+                        </a>
+                    </div>
+                    <div id="drawer__content--alert" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/alert/alertPage.html">
+                            Alert
+                        </a>
+                    </div>
+                    <div id="drawer__content--badge" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/badge/badgePage.html">
+                            Badge
+                        </a>
+                    </div>
+                    <div id="drawer__content--button" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/button/buttonPage.html">
+                            Button
+                        </a>
+                    </div>
+                    <div id="drawer__content--card" class="drawer__content drawer__content--focus">
+                        <a class="dui-link dui-util-txt-sm" href="/components/card/cardPage.html">
+                            Card
+                        </a>
+                    </div>
+                    <div id="drawer__content--image" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/image/imagePage.html">
+                            Image
+                        </a>
+                    </div>
+                    <div id="drawer__content--input" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/input/inputPage.html">
+                            Input
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drawer Component Ends-->
+
+        </section>
+
+        <section class="container__content">
+            <h1 class="comp-lib-h1">Card Component</h1>
+
+            <h2 class="container__content__sub-title">Card Component with Badge</h2>
+
+            <!-- Card Component Starts -- Basic -->
+            <div class="dui-card dui-card--basic dui-util-gry-shdw dui-util-bdr-radi-5px-s dui-util-pos-rel">
+                
+                <!-- Badge Component Starts -- with Text -->
+                <div class="dui-badge">
+                    <div class="dui-util-txt-xsm">
+                        SALE
+                    </div>
+                </div>
+                <!-- Badge Component Ends -- with Text -->
+    
+                <img class="dui-card__img dui-card__img--basic"
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+    
+                <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                    <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                    <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                </div>
+    
+                <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                </div>
+    
+                <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs">
+                    <div class="dui-card__buttons">
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                    </div>
+    
+                    <div class="dui-card__icons">
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                              </svg>
+                        </button>
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="6" cy="12" r="3" />
+                                <circle cx="18" cy="6" r="3" />
+                                <circle cx="18" cy="18" r="3" />
+                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                              </svg>
+                        </button>
+                        
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                              </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Component Ends -- Basic -->
+
+            <div class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-card dui-card--basic dui-util-gry-shdw dui-util-bdr-radi-5px-s dui-util-pos-rel">
+                
+                        <!-- Badge Component Starts -- with Text -->
+                        <div class="dui-badge">
+                            <div class="dui-util-txt-xsm">
+                                SALE
+                            </div>
+                        </div>
+                        <!-- Badge Component Ends -- with Text -->
+            
+                        <img class="dui-card__img dui-card__img--basic"
+                            src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+            
+                        <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                            <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                            <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                        </div>
+            
+                        <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+            
+                        <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs">
+                            <div class="dui-card__buttons">
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                            </div>
+            
+                            <div class="dui-card__icons">
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                      </svg>
+                                </button>
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="6" cy="12" r="3" />
+                                        <circle cx="18" cy="6" r="3" />
+                                        <circle cx="18" cy="18" r="3" />
+                                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                                      </svg>
+                                </button>
+                                
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="12" r="1" />
+                                        <circle cx="12" cy="19" r="1" />
+                                        <circle cx="12" cy="5" r="1" />
+                                      </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+
+            <h2 class="container__content__sub-title">Card Component with Dismiss Button</h2>
+
+            <!-- Card Component Starts -- Basic with Dismiss Button -->
+            <div class="dui-card dui-card--basic-with-dismiss-button dui-util-bdr-radi-5px-s dui-util-gry-shdw">
+                <img class="dui-card__img dui-card__img--basic-with-dismiss-button"
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+                <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                    <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                    <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                </div>
+
+                <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                </div>
+
+                <div class="dui-card__actions dui-card__actions--basic-with-dismiss-button dui-util-spc-pad-0_8rem-xs">
+                    <div class="dui-card__buttons">
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">Dismiss</button>
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent dui-util-disp-none">BOOKMARK</button>
+                    </div>
+
+                    <div class="dui-card__icons dui-util-disp-none">
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </button>
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="6" cy="12" r="3" />
+                                <circle cx="18" cy="6" r="3" />
+                                <circle cx="18" cy="18" r="3" />
+                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                            </svg>
+                        </button>
+                        
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Component Ends -- with Dismiss Button -->
+
+            <div class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-card dui-card--basic-with-dismiss-button dui-util-bdr-radi-5px-s dui-util-gry-shdw">
+                        <img class="dui-card__img dui-card__img--basic-with-dismiss-button"
+                            src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+        
+                        <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                            <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                            <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                        </div>
+        
+                        <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+        
+                        <div class="dui-card__actions dui-card__actions--basic-with-dismiss-button dui-util-spc-pad-0_8rem-xs">
+                            <div class="dui-card__buttons">
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">Dismiss</button>
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent dui-util-disp-none">BOOKMARK</button>
+                            </div>
+        
+                            <div class="dui-card__icons dui-util-disp-none">
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                    </svg>
+                                </button>
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="6" cy="12" r="3" />
+                                        <circle cx="18" cy="6" r="3" />
+                                        <circle cx="18" cy="18" r="3" />
+                                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                                    </svg>
+                                </button>
+                                
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="12" r="1" />
+                                        <circle cx="12" cy="19" r="1" />
+                                        <circle cx="12" cy="5" r="1" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+
+            <h2 class="container__content__sub-title">Card Component with Text Overlay</h2>
+            <!-- Card Component Starts -- Basic with Text Overlay No Action -->
+            <div class="dui-card dui-card--basic-text-overlay-no-action dui-util-bdr-radi-5px-s dui-util-gry-shdw">
+                <img class="dui-card__img dui-card__img--basic-text-overlay-no-action"
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+                <div class="dui-card__info dui-card__info--basic-text-overlay-no-action dui-util-spc-pad-0_8rem-xs">
+                    <h3 class="dui-card__primary-text dui-util-clr-lt-theme">Mountains Hill Top</h3>
+                    <p class="dui-card__secondary-text dui-util-txt-sm dui-util-clr-lt-theme">Author Name</p>
+                </div>
+
+                <div class="dui-card__description dui-card__description--basic-text-overlay-no-action dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-clr-lt-theme">
+                    <p>Visit ten places on our planet that are undergoing the biggest changes today. Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                </div>
+
+                <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs dui-util-disp-none">
+                    <div class="dui-card__buttons">
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                    </div>
+
+                    <div class="dui-card__icons">
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </button>
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="6" cy="12" r="3" />
+                                <circle cx="18" cy="6" r="3" />
+                                <circle cx="18" cy="18" r="3" />
+                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                            </svg>
+                        </button>
+                        
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Component Ends -- Basic with Text Overlay No Action -->
+
+            
+            <div class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">            <div class="dui-card dui-card--basic-text-overlay-no-action dui-util-bdr-radi-5px-s dui-util-gry-shdw">
+                    <img class="dui-card__img dui-card__img--basic-text-overlay-no-action"
+                        src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+    
+                    <div class="dui-card__info dui-card__info--basic-text-overlay-no-action dui-util-spc-pad-0_8rem-xs">
+                        <h3 class="dui-card__primary-text dui-util-clr-lt-theme">Mountains Hill Top</h3>
+                        <p class="dui-card__secondary-text dui-util-txt-sm dui-util-clr-lt-theme">Author Name</p>
+                    </div>
+    
+                    <div class="dui-card__description dui-card__description--basic-text-overlay-no-action dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-clr-lt-theme">
+                        <p>Visit ten places on our planet that are undergoing the biggest changes today. Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                    </div>
+    
+                    <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs dui-util-disp-none">
+                        <div class="dui-card__buttons">
+                            <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                            <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                        </div>
+    
+                        <div class="dui-card__icons">
+                            <button class="dui-btn reset-button-inherit-parent">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </button>
+                            <button class="dui-btn reset-button-inherit-parent">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="6" cy="12" r="3" />
+                                    <circle cx="18" cy="6" r="3" />
+                                    <circle cx="18" cy="18" r="3" />
+                                    <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                    <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                                </svg>
+                            </button>
+                            
+                            <button class="dui-btn reset-button-inherit-parent">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="1" />
+                                    <circle cx="12" cy="19" r="1" />
+                                    <circle cx="12" cy="5" r="1" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </script>
+            </div>
+
+
+            <h2 class="container__content__sub-title">Card Component with Text</h2>
+            <!-- Card Component Starts -- Basic with Text Only -->
+            <div class="dui-card dui-card--basic-text-only dui-util-bdr-radi-5px-s dui-util-gry-shdw">
+                <img class="dui-card__img dui-util-disp-none"
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+                <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                    <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                    <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                </div>
+
+                <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                    <p>Visit ten places on our planet that are undergoing the biggest changes today. Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                </div>
+
+                <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs dui-util-disp-none">
+                    <div class="dui-card__buttons">
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                    </div>
+
+                    <div class="dui-card__icons">
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </button>
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="6" cy="12" r="3" />
+                                <circle cx="18" cy="6" r="3" />
+                                <circle cx="18" cy="18" r="3" />
+                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                            </svg>
+                        </button>
+                        
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Component Ends -- Basic with Text Only  -->
+
+            
+            <div class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-card dui-card--basic-text-only dui-util-bdr-radi-5px-s dui-util-gry-shdw">
+                        <img class="dui-card__img dui-util-disp-none"
+                            src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+        
+                        <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                            <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                            <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                        </div>
+        
+                        <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today. Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+        
+                        <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs dui-util-disp-none">
+                            <div class="dui-card__buttons">
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                            </div>
+        
+                            <div class="dui-card__icons">
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                    </svg>
+                                </button>
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="6" cy="12" r="3" />
+                                        <circle cx="18" cy="6" r="3" />
+                                        <circle cx="18" cy="18" r="3" />
+                                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                                    </svg>
+                                </button>
+                                
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="12" r="1" />
+                                        <circle cx="12" cy="19" r="1" />
+                                        <circle cx="12" cy="5" r="1" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+
+
+            <h2 class="container__content__sub-title">Card Component Horizontal Layout with Badge</h2>
+
+            <!-- Card Component Starts -- Horizontal -->
+            <div class="dui-card dui-card--horizontal dui-util-bdr-radi-5px-s dui-util-gry-shdw dui-util-pos-rel">
+                
+                <!-- Badge Component Starts -- with Text -->
+                <div class="dui-badge">
+                    <div class="dui-util-txt-xsm">
+                        SALE
+                    </div>
+                </div>
+                <!-- Badge Component Ends -- with Text -->
+
+                <img class="dui-card__img dui-card__img--basic"
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+                <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                    <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                    <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                </div>
+
+                <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                    <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                </div>
+
+                <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs">
+                    <div class="dui-card__buttons">
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                        <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                    </div>
+
+                    <div class="dui-card__icons">
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </button>
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="6" cy="12" r="3" />
+                                <circle cx="18" cy="6" r="3" />
+                                <circle cx="18" cy="18" r="3" />
+                                <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                            </svg>
+                        </button>
+                        
+                        <button class="dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <circle cx="12" cy="12" r="1" />
+                                <circle cx="12" cy="19" r="1" />
+                                <circle cx="12" cy="5" r="1" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Component Ends -- Horizontal -->
+
+            
+            <div class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-card dui-card--horizontal dui-util-bdr-radi-5px-s dui-util-gry-shdw dui-util-pos-rel">
+                        
+                        <!-- Badge Component Starts -- with Text -->
+                        <div class="dui-badge">
+                            <div class="dui-util-txt-xsm">
+                                SALE
+                            </div>
+                        </div>
+                        <!-- Badge Component Ends -- with Text -->
+
+                        <img class="dui-card__img dui-card__img--basic"
+                            src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"/>
+
+                        <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                            <h3 class="dui-card__primary-text">Mountains Hill Top</h3>
+                            <p class="dui-card__secondary-text dui-util-txt-sm">Author Name</p>
+                        </div>
+
+                        <div class="dui-card__description dui-util-txt-sm dui-util-spc-pad-0_8rem-xs">
+                            <p>Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                        </div>
+
+                        <div class="dui-card__actions dui-util-spc-pad-0_8rem-xs">
+                            <div class="dui-card__buttons">
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">READ</button>
+                                <button class="dui-btn dui-btn--txt-primary dui-util-txt-sm dui-util-bdr-radi-5px-s dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">BOOKMARK</button>
+                            </div>
+
+                            <div class="dui-card__icons">
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-heart" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                    </svg>
+                                </button>
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-share" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="6" cy="12" r="3" />
+                                        <circle cx="18" cy="6" r="3" />
+                                        <circle cx="18" cy="18" r="3" />
+                                        <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                                        <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                                    </svg>
+                                </button>
+                                
+                                <button class="dui-btn reset-button-inherit-parent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="dui-card__icon icon icon-tabler icon-tabler-dots-vertical" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="12" r="1" />
+                                        <circle cx="12" cy="19" r="1" />
+                                        <circle cx="12" cy="5" r="1" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+
+            <h2 class="container__content__sub-title">Card Component Product Display</h2>
+
+            <div class="component_demo_container">
+                <!-- Card Component Starts -- Product Horizontal -->
+                <div class="dui-card dui-card--hr-prod dui-util-bdr-radi-5px-s dui-util-gry-shdw dui-util-pos-rel">
+                    
+                    <!-- Badge Component Starts -- with Text -->
+                    <div class="dui-badge">
+                        <div class="dui-util-txt-sm dui-util-fw-reg">
+                            SALE
+                        </div>
+                    </div>
+                    <!-- Badge Component Ends -- with Text -->
+        
+                    <img class="dui-card__img dui-card__img--hr-prod"
+                        src="https://5.imimg.com/data5/HB/VQ/MY-44811379/men-black-plain-t-shirt-500x500.jpg"/>
+        
+                    <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                        <p class="dui-card__secondary-text">Men Premium Jacket</p>
+                        <h3 class="dui-card__primary-text dui-util-fw-blk">$2000 <s class="dui-card__secondary-text dui-util-txt-sm">$3999</s></h3>
+                        <p class="dui-card__secondary-text dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-sbld">50% OFF</p>
+                    </div>
+        
+                    <div class="dui-card__actions dui-util-spc-pad-1_6rem-s">
+                        <div class="dui-card__buttons dui-card__buttons--hr-prod">
+                            <button class="dui-btn dui-btn--hr-prod dui-btn--primary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">Go to Cart</button>
+                            <button class="dui-btn dui-btn--hr-prod dui-btn--secondary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">Remove from Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            
+            <div class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-card dui-card--hr-prod dui-util-bdr-radi-5px-s dui-util-gry-shdw dui-util-pos-rel">
+                    
+                        <!-- Badge Component Starts -- with Text -->
+                        <div class="dui-badge">
+                            <div class="dui-util-txt-sm dui-util-fw-reg">
+                                SALE
+                            </div>
+                        </div>
+                        <!-- Badge Component Ends -- with Text -->
+            
+                        <img class="dui-card__img dui-card__img--hr-prod"
+                            src="https://5.imimg.com/data5/HB/VQ/MY-44811379/men-black-plain-t-shirt-500x500.jpg"/>
+            
+                        <div class="dui-card__info dui-util-spc-pad-0_8rem-xs">
+                            <p class="dui-card__secondary-text">Men Premium Jacket</p>
+                            <h3 class="dui-card__primary-text dui-util-fw-blk">$2000 <s class="dui-card__secondary-text dui-util-txt-sm">$3999</s></h3>
+                            <p class="dui-card__secondary-text dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-sbld">50% OFF</p>
+                        </div>
+            
+                        <div class="dui-card__actions dui-util-spc-pad-1_6rem-s">
+                            <div class="dui-card__buttons dui-card__buttons--hr-prod">
+                                <button class="dui-btn dui-btn--hr-prod dui-btn--primary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">Go to Cart</button>
+                                <button class="dui-btn dui-btn--hr-prod dui-btn--secondary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">Remove from Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+
+            
+        </section>
+
+        <section class="container__footer">
+
+        </section>    
+    </div>
+
+    <script src="./cardPage.js"></script>
+    <script src="/assets/prism.js"></script>
+    
+</body>
+</html>
