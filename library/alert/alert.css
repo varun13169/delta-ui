@@ -1,4 +1,4 @@
-.alert {
+.dui-alert {
     display: flex;
     width: 48rem;
     height: 8rem;
@@ -6,58 +6,58 @@
     background: var(--alert-success-light-background-color);
 }
 
-.alert__icon {
+.dui-alert__icon {
     width: 4.8rem;
     height: 4.8rem;
 }
 
-.alert__content {
+.dui-alert__content {
     padding: 0rem 0.8rem;
     border-radius: 0.4rem;
 }
 
-.alert__text {
+.dui-alert__text {
     color: var(--alert-success-light-font-color);
 }
 
 /* Alert Component Starts -- Success */
-.alert--success {
+.dui-alert--success {
     background: var(--alert-success-light-background-color);
 }
 
-.alert__text--success {
+.dui-alert__text--success {
     color: var(--alert-success-light-font-color);
 }
 /* Alert Component Ends -- Success */
 
 /* Alert Component Starts -- Error */
-.alert--error {
+.dui-alert--error {
     background: var(--alert-error-light-background-color);
 }
 
-.alert__text--error {
+.dui-alert__text--error {
     color: var(--alert-error-light-font-color);
 }
 /* Alert Component Ends -- Error */
 
 
 /* Alert Component Starts -- Warning */
-.alert--warning {
+.dui-alert--warning {
     background: var(--alert-warning-light-background-color);
 }
 
-.alert__text--warning {
+.dui-alert__text--warning {
     color: var(--alert-warning-light-font-color);
 }
 /* Alert Component Ends -- Warning */
 
 
 /* Alert Component Starts -- Info */
-.alert--info {
+.dui-alert--info {
     background: var(--alert-info-light-background-color);
 }
 
-.alert__text--info {
+.dui-alert__text--info {
     color: var(--alert-info-light-font-color);
 }
 /* Alert Component Ends -- Info */

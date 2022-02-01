@@ -1,5 +1,5 @@
 /*  Badge Component Starts */
-.badge{
+.dui-badge{
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1rem;
@@ -14,17 +14,17 @@
     position: absolute;
 }
 
-.badge__content {
+.dui-badge__content {
     width: 70%;
     height: 70%;
 }
 
-.badge--sq-ele-1_5-top-1_5-right {
+.dui-badge--sq-ele-1_5-top-1_5-right {
     top: -1.5rem;
     right: -1.5rem;
 }
 
-.badge--round-ele-0_5-top-0_5-right {
+.dui-badge--round-ele-0_5-top-0_5-right {
     top: -0.5rem;
     right: -0.5rem;
 }
