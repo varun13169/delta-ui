@@ -13,6 +13,8 @@
 
 :root{
     --primary-color: #059669;
+    --primary-color-lgt-40pct: #6BFCCF; 
+
     --rgba-primary-color-hover: 5, 150, 105, 0.1;
     --dui-rgba-primary-color-hover-10pct: #05966919; /* 10% */
     --dui-rgba-primary-color-hover-75pct: #059669BF; /* 75% */
