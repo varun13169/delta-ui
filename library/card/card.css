@@ -9,6 +9,8 @@
 
 .dui-card__img {
     grid-area: cardImg;
+    width: 100%;
+    height: auto;
     width: 9.6rem;
     height: 9.6rem;
 }
@@ -156,6 +158,44 @@
     border-radius: 0;
     top: 1rem;
     left: 1rem;
+}
+/*  Card Component Ends -- Basic */
+
+
+/*  Card Component Starts -- Product Horizontal */
+.dui-card--hr-prod {
+    width: fit-content;
+    height: fit-content;
+    min-width: 50rem;
+    min-height: 30rem;
+    grid-auto-columns: 4fr 4fr 3fr 3fr 3fr 3fr;
+    grid-template-areas: 'cardImg  cardImg  cardInfo     cardInfo     cardInfo     cardInfo'
+                         'cardImg  cardImg  cardDesc     cardDesc     cardDesc     cardDesc'
+                         'cardImg  cardImg  cardActions  cardActions  cardActions  cardActions';
+}
+
+.dui-card__img--hr-prod {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.dui-card .dui-badge {
+    width: 5rem;
+    border-radius: 0;
+    top: 1rem;
+    left: 1rem;
+}
+
+.dui-card__buttons--hr-prod {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.dui-btn--hr-prod {
+    width: auto;
 }
 /*  Card Component Ends -- Basic */
 
