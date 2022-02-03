@@ -12,8 +12,8 @@
 @import "./utility-css.css";
 
 :root{
+    --primary-color-lgt-40pct: #6BFCCF; /* 40% Lighter */
     --primary-color: #059669;
-    --primary-color-lgt-40pct: #6BFCCF; 
 
     --rgba-primary-color-hover: 5, 150, 105, 0.1;
     --dui-rgba-primary-color-hover-10pct: #05966919; /* 10% */
@@ -21,7 +21,10 @@
     --secondary-color: white;
 
 
+    --primary-color-p2-lgt-20pct: #CDCDCD; /* 20% Lighter */
+    --primary-color-p2-lgt-10pct: #B4B4B4; /* 10% Lighter */
     --primary-color-p2: #9A9A9A;
+    --primary-color-p2-dkr-20pct: #676767; /* 20% Darker */
 
     --light-theme: #ffffff;
     --light-theme-contrast: #000000;
@@ -42,8 +45,9 @@
 
     --rgba-light-theme-hover: 255, 255, 255, 0.1;
     --grey-subtle: #F2F2F2;
-    --grey-secondary: #757575;
-
+    --grey-secondary: #757575; 
+    /* @ToDo: #757575 is ~15pct, consider repalcing with 20pct */
+    /* #676767;  20% pct darker*/
 
 
 }

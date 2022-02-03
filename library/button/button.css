@@ -1,5 +1,6 @@
 /*  Button Component Starts */
 .dui-btn {
+    width: fit-content;
     height: fit-content;
 }
 
@@ -8,20 +9,29 @@
     height: 100%;
 }
 
+/* Primary Button Starts */
 .dui-btn--primary {
     background-color: var(--primary-color);
-    color: var(--light-theme);
-}
-
-.dui-btn--primary-p2 {
-    background-color: var(--primary-color-p2);
     color: var(--light-theme);
 }
 
 .dui-btn--primary:hover {
     background-color: var(--dui-rgba-primary-color-hover-75pct);
 }
+/* Primary Button Ends */
 
+/* Secondary Button Starts */
+.dui-btn--secondary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.dui-btn--secondary:hover {
+    background-color: var(--dui-rgba-primary-color-hover-10pct);
+}
+/* Secondary Button Ends */
+
+/* Text Primary Button Starts */
 .dui-btn--txt-primary {
     color: var(--primary-color);
 }
@@ -29,10 +39,17 @@
 .dui-btn--txt-primary:hover {
     background-color: var(--dui-rgba-primary-color-hover-10pct);
 }
+/* Text Primary Button Starts */
 
 .dui-btn--floating-action {
     position: fixed;
 }
+
+.dui-btn--primary-p2 {
+    background-color: var(--primary-color-p2);
+    color: var(--light-theme);
+}
+
 /*  Button Component Ends */
 
 
@@ -41,6 +58,7 @@
     text-decoration: none;
 }
 
+/* Primary Link Starts */
 .dui-link--primary {
     background-color: var(--primary-color);
     color: var(--light-theme);
@@ -49,4 +67,27 @@
 .dui-link--primary:hover {
     background-color: var(--dui-rgba-primary-color-hover-75pct);
 }
+/* Primary Link Ends */
+
+/* Secondary Link Starts */
+.dui-link--secondary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.dui-link--secondary:hover {
+    background-color: var(--dui-rgba-primary-color-hover-10pct);
+}
+/* Secondary Link Ends */
+
+/* Text Primary Link Starts */
+.dui-link--txt-primary {
+    color: var(--primary-color);
+}
+
+.dui-link--txt-primary:hover {
+    background-color: var(--dui-rgba-primary-color-hover-10pct);
+}
+/* Text Primary Link Starts */
+
 /* Link Button Component Starts -- Link Primary */

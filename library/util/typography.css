@@ -2,65 +2,65 @@
 /* Font Heading */
 h1 {
     font-weight: 600;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
 }
 
 /* .dui-util-hdg-md  */
 h2 {
     font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
 }
 
 /* .dui-util-hdg-reg  */
 h3 {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
 }
 
 .h4 {
     font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 .h5 {
     font-weight: 600;
-    font-size: 8px;
-    line-height: 16px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
 }
 
 /* Font Text */
 .dui-util-txt-lg {
     font-weight: 400;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
 }
 
 .dui-util-txt-md {
     font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
 }
 
 .dui-util-txt-reg {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
 }
 
 .dui-util-txt-sm {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 .dui-util-txt-xsm {
     font-weight: 400;
-    font-size: 8px;
-    line-height: 16px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
 }
 
 
