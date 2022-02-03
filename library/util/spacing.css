@@ -30,6 +30,18 @@
     padding: 2.4rem;
 }
 
+.dui-util-spc-pad-3_2rem-l {
+    padding: 3.2rem;
+}
+
+.dui-util-spc-pad-4_0rem-xl {
+    padding: 4.0rem;
+}
+
+.dui-util-spc-pad-6_4rem-xxl {
+    padding: 6.4rem;
+}
+
 
 /* Margin */
 .dui-util-spc-mgn-0_8rem-xs {
@@ -42,4 +54,16 @@
 
 .dui-util-spc-mgn-2_4rem-m {
     margin: 2.4rem;
+}
+
+.dui-util-spc-mgn-3_2rem-l {
+    margin: 3.2rem;
+}
+
+.dui-util-spc-mgn-4_0rem-xl {
+    margin: 4.0rem;
+}
+
+.dui-util-spc-mgn-6_4rem-xxl {
+    margin: 6.4rem;
 }
