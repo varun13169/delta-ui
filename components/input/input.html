@@ -31,20 +31,16 @@
 <body>
     <h1 class="comp-lib-h1">Input Component</h1>
 
+    <!-- Input Component Starts -->
     <h3 class="comp-lib-h2">Input with No Focus</h3>
     <div class="component_demo_container">
-        <div class="input-field">
-            <i class="input-field__icon dui-util-disp-none">
-                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content icon icon-tabler icon-tabler-alert-triangle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M12 9v2m0 4v.01" />
-                    <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
-                  </svg>
-            </i>
-            <input class="input-field__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                type="text"
-                placeholder="Username">
-            
+        <div class="dui-inp-txt">
+            <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
+                <input class="dui-inp-txt__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                    type="text"
+                    placeholder="Username">
+                    <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
+            </label>
         </div>
         <div class="code_snippets_div">
             <iframe
@@ -58,17 +54,13 @@
 
     <h3 class="comp-lib-h2">Input with Focus</h3>
     <div class="component_demo_container">
-        <div class="input-field">
-            <i class="input-field__icon  dui-util-disp-none">
-                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content icon icon-tabler icon-tabler-alert-triangle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M12 9v2m0 4v.01" />
-                    <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
-                  </svg>
-            </i>
-            <input class="input-field__input input-field__input--focus dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                type="text"
-                placeholder="Username">
+        <div class="dui-inp-txt">
+            <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
+                <input class="dui-inp-txt__input dui-inp-txt__input--focus dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                    type="text"
+                    placeholder="Username">
+                    <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
+            </label>
             
         </div>
         <div class="code_snippets_div">
@@ -84,18 +76,13 @@
     <h3 class="comp-lib-h2">Input with Error</h3>
     <div class="component_demo_container">
         
-        <div class="input-field">
-            <i class="input-field__icon input-field__icon--error">
-                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content input-field__icon-content--error icon icon-tabler icon-tabler-alert-triangle" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M12 9v2m0 4v.01" />
-                    <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
-                  </svg>
-            </i>
-            <input class="input-field__input input-field__input--error dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                type="text"
-                placeholder="Username">
-            
+        <div class="dui-inp-txt">
+            <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
+                <input class="dui-inp-txt__input dui-inp-txt__input--error dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                    type="text"
+                    placeholder="Username">
+                    <p class="dui-inp-txt__info-txt--error dui-util-txt-xsm">*Please enter correct input</p>
+            </label>
         </div>
 
         <div class="code_snippets_div">
@@ -112,15 +99,15 @@
     <h3 class="comp-lib-h2">Input Search box</h3>
     <div class="component_demo_container">
         
-        <div class="input-field input-field--search">
-            <i class="input-field__icon input-field__icon--search">
-                <svg xmlns="http://www.w3.org/2000/svg" class="input-field__icon-content input-field__icon-content--search icon icon-tabler icon-tabler-search" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div class="dui-inp-txt dui-inp-txt--search">
+            <i class="dui-inp-txt__icon--search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="dui-inp-txt__icon-content--search icon icon-tabler icon-tabler-search" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <circle cx="10" cy="10" r="7" />
                     <line x1="21" y1="21" x2="15" y2="15" />
                   </svg>
             </i>
-            <input class="input-field__input input-field__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+            <input class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
                 type="text"
                 placeholder="Search">
         </div>

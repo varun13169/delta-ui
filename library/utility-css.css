@@ -5,6 +5,14 @@
     display: none;
 }
 
+.dui-util-disp-block {
+    display: block;
+}
+
+.dui-util-disp-inline-block {
+    display: inline-block;
+}
+
 .dui-util-gry-shdw {
     box-shadow: 2px 2px 2px 1px rgba(0.1, 0.1, 0.1, 0.1);
 }
