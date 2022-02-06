@@ -29,3 +29,9 @@
     right: -0.5rem;
 }
 /*  Badge Component Ends */
+
+/* Supporting Elements */
+.dui-badge__demo-icon {
+    width: 5rem;
+    height: auto;
+}

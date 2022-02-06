@@ -1,6 +1,7 @@
 @import "./util/typography.css";
 @import "./util/spacing.css";
 
+/* Display Utils */
 .dui-util-disp-none {
     display: none;
 }
@@ -13,6 +14,17 @@
     display: inline-block;
 }
 
+.dui-util-disp-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.dui-util-disp-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+/* Display Utils */
+
 .dui-util-gry-shdw {
     box-shadow: 2px 2px 2px 1px rgba(0.1, 0.1, 0.1, 0.1);
 }
@@ -21,14 +33,22 @@
     position: relative;
 }
 
+/* Color Utils */
 .dui-util-clr-lt-theme {
     color: var(--light-theme);
+}
+
+.dui-util-clr-prim {
+    color: var(--primary-color);
 }
 
 .dui-util-clr-prim-p2 {
     color: var(--primary-color-p2);
 }
+/* Color Utils */
 
+
+/* Text Utils */
 .dui-util-txt-align-cent {
     text-align: center;
 }
@@ -36,3 +56,9 @@
 .dui-util-txt-align-left {
     text-align: left;
 }
+
+.dui-util-txt-align-right {
+    text-align: right;
+}
+/* Text Utils */
+
