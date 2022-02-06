@@ -43,6 +43,8 @@
 
 .dui-btn--floating-action {
     position: fixed;
+    bottom: 2rem;
+    right: 4rem;
 }
 
 .dui-btn--primary-p2 {

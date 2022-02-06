@@ -2,13 +2,14 @@
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .img-circle__content {
     width: 100%;
-    height: auto;
-    /* border-radius: 50%; */
+    height: 100%;
+    min-height: fit-content;
+    border-radius: 50%;
     object-fit: cover;
 }
 
