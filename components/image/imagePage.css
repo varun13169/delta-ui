@@ -35,7 +35,7 @@
 
 iframe {
     width: 68rem;
-    height: 22.0rem;
+    height: 22rem;
     border: 0; 
     transform: scale(1);
     overflow: hidden;
@@ -43,7 +43,7 @@ iframe {
 
 .container__code-preview {
     width: 80rem;
-    min-height: 22.0rem;
+    min-height: 22rem;
     margin-top: 5rem;
     align-self: center;
     justify-content: center;

@@ -72,9 +72,6 @@ body{
 
 .header__btn {
     font-size: 100%;
-    /* width: 3em;
-    height: 3em; */
-    /* border-radius: 50%; */
     margin: auto 0.8rem;
     color: var(--light-theme);
 
