@@ -1,0 +1,27 @@
+.dui-ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Horizontal List Starts */
+.dui-ul__li--hzntl {
+    display: inline-block;
+}
+
+/* Horizontal List Ends */
+
+/* Notification List Starts */
+.dui-ul--notif-stnd {
+    background-color: var(--primary-color-p2-lgt-35pct);
+}
+
+.dui-ul__li--notif-stnd {
+    min-width: 40rem;
+    background-color: var(--light-theme);
+}
+
+.dui-ul__li--notif-stnd:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+
+/* Notification List Endss */

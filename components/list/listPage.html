@@ -8,7 +8,7 @@
     <title>Delta UI</title>
     <link rel="stylesheet" href="/assets/prism.css">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="./imagePage.css">
+    <link rel="stylesheet" href="./listPage.css">
 </head>
 
 <body>
@@ -86,7 +86,7 @@
                             Card
                         </a>
                     </div>
-                    <div id="drawer__content--image" class="drawer__content drawer__content--focus">
+                    <div id="drawer__content--image" class="drawer__content">
                         <a class="dui-link dui-util-txt-sm" href="/components/image/imagePage.html">
                             Image
                         </a>
@@ -101,7 +101,7 @@
                             Text Utilities
                         </a>
                     </div>
-                    <div id="drawer__content--input" class="drawer__content">
+                    <div id="drawer__content--input" class="drawer__content drawer__content--focus">
                         <a class="dui-link dui-util-txt-sm" href="/components/list/listPage.html">
                             List
                         </a>
@@ -114,40 +114,92 @@
         </section>
 
         <section class="container__content">
-            <h1>Image Component</h1>
+            <h1>Lists</h1>
 
-            <h3 class="container__content__sub-title">Circular Image</h3>
-            <!-- Image Component Starts -- Circle -->
-            <div class="img-circle">
-                <img class="img-circle__content" src="https://picsum.photos/300/300" alt="Avatar">
-                </img>
-            </div>
-            <!-- Image Component Ends -- Circle -->
-
-
+            <h3 class="container__content__sub-title">Notification List</h3>
+            <!-- Notification List Starts -->
+            <ui class="dui-ul dui-ul--notif-stnd dui-util-spc-pad-1_6rem-s dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                <li
+                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                    <p class="dui-util-txt-reg">Notification 1</p>
+                </li>
+                <li
+                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                    <p class="dui-util-txt-reg">Notification 2</p>
+                </li>
+                <li
+                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                    <p class="dui-util-txt-reg">Notification 3</p>
+                </li>
+                <li
+                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                    <p class="dui-util-txt-reg">Notification 4</p>
+                </li>
+            </ui>
+            <!-- Notification List Ends -->
             <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
                 <script type="text/plain" class="language-markup">
-                    <div class="dui-avatar dui-avatar--lg">
-                        <img class="dui-avatar__content" 
-                                src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
+                    <ui class="dui-ul dui-ul--notif-stnd dui-util-spc-pad-1_6rem-s dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                        <li
+                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                            <p class="dui-util-txt-reg">Notification 1</p>
+                        </li>
+                        <li
+                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                            <p class="dui-util-txt-reg">Notification 2</p>
+                        </li>
+                        <li
+                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                            <p class="dui-util-txt-reg">Notification 3</p>
+                        </li>
+                        <li
+                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
+                            <p class="dui-util-txt-reg">Notification 4</p>
+                        </li>
+                    </ui>
                 </script>
             </div>
 
 
-            <h3 class="container__content__sub-title">Responsive Image</h3>
-            <!-- Image Component Starts -- Responsive -->
-            <img class="img-responsive" src="https://picsum.photos/300/150" alt="Avatar">
-            </img>
-            <!-- Image Component Ends -- Responsive -->
-
+            <h3 class="container__content__sub-title">Vertical Spaced List</h3>
+            <!-- Vertical Spaced List Starts -->
+            <ui class="dui-ul">
+                <li class="dui-ul__li">Item 1</li>
+                <li class="dui-ul__li">Item 2</li>
+                <li class="dui-ul__li">Item 3</li>
+                <li class="dui-ul__li">Item 4</li>
+            </ui>
+            <!-- Vertical Spaced List Ends -->
             <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
                 <script type="text/plain" class="language-markup">
-                    <img class="img-responsive" 
-                    src="https://picsum.photos/400/200" alt="Avatar">
-                </img>
-            </script>
+                    <ui class="dui-ul">
+                        <li class="dui-ul__li">Item 1</li>
+                        <li class="dui-ul__li">Item 2</li>
+                        <li class="dui-ul__li">Item 3</li>
+                        <li class="dui-ul__li">Item 4</li>
+                    </ui>
+                </script>
+            </div>
+
+
+            <h3 class="container__content__sub-title">Horizontal Spaced List</h3>
+            <!-- Horizontal Spaced List Starts -->
+            <ui class="dui-ul">
+                <li class="dui-ul__li dui-ul__li--hzntl">Item 1</li>
+                <li class="dui-ul__li dui-ul__li--hzntl">Item 2</li>
+                <li class="dui-ul__li dui-ul__li--hzntl">Item 3</li>
+                <li class="dui-ul__li dui-ul__li--hzntl">Item 4</li>
+            </ui>
+            <!-- Horizontal Spaced List Ends -->
+            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <ui class="dui-ul">
+                        <li class="dui-ul__li dui-ul__li--hzntl">Item 1</li>
+                        <li class="dui-ul__li dui-ul__li--hzntl">Item 2</li>
+                        <li class="dui-ul__li dui-ul__li--hzntl">Item 3</li>
+                        <li class="dui-ul__li dui-ul__li--hzntl">Item 4</li>
+                    </ui>
+                </script>
             </div>
 
         </section>
@@ -157,7 +209,6 @@
         </section>
     </div>
 
-    <script src="./imagePage.js"></script>
     <script src="/assets/prism.js"></script>
 
 </body>
