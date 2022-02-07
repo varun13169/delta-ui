@@ -28,6 +28,7 @@
 .dui-alert__text--success {
     color: var(--alert-success-light-font-color);
 }
+
 /* Alert Component Ends -- Success */
 
 /* Alert Component Starts -- Error */
@@ -38,6 +39,7 @@
 .dui-alert__text--error {
     color: var(--alert-error-light-font-color);
 }
+
 /* Alert Component Ends -- Error */
 
 
@@ -49,6 +51,7 @@
 .dui-alert__text--warning {
     color: var(--alert-warning-light-font-color);
 }
+
 /* Alert Component Ends -- Warning */
 
 
@@ -60,4 +63,5 @@
 .dui-alert__text--info {
     color: var(--alert-info-light-font-color);
 }
+
 /* Alert Component Ends -- Info */

@@ -1,5 +1,5 @@
 /*  Avatar Component Starts */
-.dui-avatar{
+.dui-avatar {
     width: 6.4rem;
     height: 6.4rem;
     border-radius: 50%;
@@ -12,6 +12,7 @@
 
     position: relative;
 }
+
 .dui-avatar__content {
     width: 100%;
     height: 100%;
@@ -23,6 +24,7 @@
     width: 15rem;
     height: 15rem;
 }
+
 /*  Avatar Component Ends -- Extra Large */
 
 
@@ -31,6 +33,7 @@
     width: 10rem;
     height: 10rem;
 }
+
 /*  Avatar Component Ends -- Large */
 
 
@@ -39,6 +42,7 @@
     width: 6.4rem;
     height: 6.4rem;
 }
+
 /*  Avatar Component Ends -- Medium */
 
 
@@ -47,4 +51,5 @@
     width: 3rem;
     height: 3rem;
 }
+
 /*  Avatar Component Ends -- Small */

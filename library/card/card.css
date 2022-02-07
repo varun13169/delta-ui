@@ -1,5 +1,5 @@
 /*  Card Component Starts */
-.dui-card{
+.dui-card {
     display: grid;
     width: 32rem;
     height: fit-content;
@@ -23,13 +23,13 @@
     grid-area: cardActions;
 }
 
-.dui-card__info {
-}
+.dui-card__info {}
 
-.dui-card__primary-text{
+.dui-card__primary-text {
     color: var(--light-theme-contrast);
 }
-.dui-card__secondary-text{
+
+.dui-card__secondary-text {
     color: var(--grey-secondary);
 }
 
@@ -46,8 +46,7 @@
 
 }
 
-.dui-card__button {
-}
+.dui-card__button {}
 
 .dui-card__icons {
     margin-left: auto;
@@ -62,12 +61,12 @@
 /*  Card Component Starts -- Basic */
 .dui-card--basic {
     grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
-                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
-                         'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc'
-                         'cardActions cardActions cardActions cardActions cardActions cardActions';
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+        'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+        'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+        'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc'
+        'cardActions cardActions cardActions cardActions cardActions cardActions';
 }
 
 .dui-card .dui-badge {
@@ -76,18 +75,19 @@
     top: 1rem;
     left: 1rem;
 }
+
 /*  Card Component Ends -- Basic */
 
 
 /*  Card Component Starts -- Basic with Dismiss Button */
 .dui-card--basic-with-dismiss-button {
     grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
-                         'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
-                         'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc'
-                         'cardActions cardActions cardActions cardActions cardActions cardActions';
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+        'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+        'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
+        'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc'
+        'cardActions cardActions cardActions cardActions cardActions cardActions';
 }
 
 .dui-card__img--basic-with-dismiss-button {
@@ -96,18 +96,19 @@
     height: 100%;
 }
 
-.dui-card__actions--basic-with-dismiss-button  {
+.dui-card__actions--basic-with-dismiss-button {
     justify-content: end;
 }
+
 /*  Card Component Ends -- Basic with Dismiss Button */
 
 
 /*  Card Component Starts -- Basic with Text Overlay No Action */
 .dui-card--basic-text-overlay-no-action {
     grid-template-areas: 'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
-                         'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg';
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg'
+        'cardImg     cardImg     cardImg    cardImg    cardImg    cardImg';
 }
 
 .dui-card__img--basic-text-overlay-no-action {
@@ -129,22 +130,24 @@
 .dui-card__action--basic-text-overlay-no-action {
     display: none;
 }
+
 /*  Card Component Ends -- Basic with Text Overlay No Action  */
 
 
 /*  Card Component Starts -- Basic Text Only */
 .dui-card--basic-text-only {
     grid-template-areas: 'cardInfo     cardInfo     cardInfo    cardInfo    cardInfo    cardInfo'
-                         'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc';
+        'cardDesc     cardDesc     cardDesc    cardDesc    cardDesc    cardDesc';
 }
+
 /*  Card Component Ends -- Basic Text Only  */
 
 /*  Card Component Starts -- Basic */
 .dui-card--horizontal {
     width: 50rem;
     grid-template-areas: 'cardImg  cardImg  cardImg  cardInfo     cardInfo     cardInfo'
-                         'cardImg  cardImg  cardImg  cardDesc     cardDesc     cardDesc'
-                         'cardImg  cardImg  cardImg  cardActions  cardActions  cardActions';
+        'cardImg  cardImg  cardImg  cardDesc     cardDesc     cardDesc'
+        'cardImg  cardImg  cardImg  cardActions  cardActions  cardActions';
 }
 
 .dui-card__img--basic {
@@ -159,6 +162,7 @@
     top: 1rem;
     left: 1rem;
 }
+
 /*  Card Component Ends -- Basic */
 
 
@@ -170,8 +174,8 @@
     min-height: 30rem;
     grid-auto-columns: 4fr 4fr 3fr 3fr 3fr 3fr;
     grid-template-areas: 'cardImg  cardImg  cardInfo     cardInfo     cardInfo     cardInfo'
-                         'cardImg  cardImg  cardDesc     cardDesc     cardDesc     cardDesc'
-                         'cardImg  cardImg  cardActions  cardActions  cardActions  cardActions';
+        'cardImg  cardImg  cardDesc     cardDesc     cardDesc     cardDesc'
+        'cardImg  cardImg  cardActions  cardActions  cardActions  cardActions';
 }
 
 .dui-card__img--hr-prod {
@@ -194,9 +198,11 @@
     flex-direction: column;
     gap: 1.5rem;
 }
+
 .dui-btn--hr-prod {
     width: auto;
 }
+
 /*  Card Component Ends -- Basic */
 
 /*  Card Component Ends */

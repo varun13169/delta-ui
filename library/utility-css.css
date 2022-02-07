@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
 }
+
 /* Display Utils */
 
 .dui-util-gry-shdw {
@@ -45,6 +46,7 @@
 .dui-util-clr-prim-p2 {
     color: var(--primary-color-p2);
 }
+
 /* Color Utils */
 
 
@@ -60,5 +62,5 @@
 .dui-util-txt-align-right {
     text-align: right;
 }
-/* Text Utils */
 
+/* Text Utils */

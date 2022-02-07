@@ -1,5 +1,5 @@
 /*  Badge Component Starts */
-.dui-badge{
+.dui-badge {
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1rem;
@@ -28,6 +28,7 @@
     top: -0.5rem;
     right: -0.5rem;
 }
+
 /*  Badge Component Ends */
 
 /* Supporting Elements */

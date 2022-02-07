@@ -16,15 +16,18 @@
 .dui-inp-txt__input--focus {
     border: 1px solid var(--input-text-border-color-focus);
 }
+
 /* Input Text Component Ends -- Focus */
 
 /* Input Text Component Starts -- Error */
 .dui-inp-txt__input--error {
     border: 1px solid var(--input-text-border-color-error);
 }
+
 .dui-inp-txt__info-txt--error {
     color: var(--input-text-border-color-error);
 }
+
 /* Input Text Component Ends -- Error */
 
 
@@ -43,6 +46,7 @@
     padding: 0.8rem;
     padding-left: 5rem;
 }
+
 .dui-inp-txt__icon--search {
     bottom: 0;
     padding: 1rem;
@@ -50,11 +54,13 @@
     text-align: center;
     left: 0.5rem;
 }
+
 .dui-inp-txt__icon-content--search {
     width: 2rem;
     height: 2rem;
     stroke: var(--primary-color-p2)
 }
+
 /* Input Text Component Ends -- Search */
 
 /* Input Text Component Ends */
@@ -75,7 +81,7 @@
     -ms-user-select: none;
     user-select: none;
 }
-  
+
 /* Hide the browser's default checkbox */
 .dui-inp-chkbox input {
     position: absolute;
@@ -84,7 +90,7 @@
     height: 0;
     width: 0;
 }
-  
+
 /* Create a custom checkbox */
 .dui-inp-chkbox__checkmark {
     position: absolute;
@@ -95,29 +101,29 @@
     background-color: var(--light-theme);
     border: 1px solid var(--primary-color-p2)
 }
-  
+
 /* On mouse-over, add a grey background color */
-.dui-inp-chkbox:hover input ~ .dui-inp-chkbox__checkmark {
+.dui-inp-chkbox:hover input~.dui-inp-chkbox__checkmark {
     background-color: var(--grey-subtle);
 }
-  
+
 /* When the checkbox is checked, add a blue background */
-.dui-inp-chkbox input:checked ~ .dui-inp-chkbox__checkmark {
+.dui-inp-chkbox input:checked~.dui-inp-chkbox__checkmark {
     background-color: var(--primary-color-lgt-40pct);
 }
-  
+
 /* Create the checkmark/indicator (hidden when not checked) */
 .dui-inp-chkbox__checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
-  
+
 /* Show the checkmark when checked */
-.dui-inp-chkbox input:checked ~ .dui-inp-chkbox__checkmark:after {
+.dui-inp-chkbox input:checked~.dui-inp-chkbox__checkmark:after {
     display: block;
 }
-  
+
 /* Style the checkmark/indicator */
 .dui-inp-chkbox .dui-inp-chkbox__checkmark:after {
     left: 0.5rem;
@@ -149,17 +155,17 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .dui-inp-radio-btn input {
+}
+
+/* Hide the browser's default radio button */
+.dui-inp-radio-btn input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  /* Create a custom radio button */
-  .dui-inp-radio-btn__checkmark {
+}
+
+/* Create a custom radio button */
+.dui-inp-radio-btn__checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -168,42 +174,39 @@
     background-color: var(--light-theme);
     border-radius: 50%;
     border: 1px solid var(--primary-color-p2)
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .dui-inp-radio-btn:hover input ~ .dui-inp-radio-btn__checkmark {
+}
+
+/* On mouse-over, add a grey background color */
+.dui-inp-radio-btn:hover input~.dui-inp-radio-btn__checkmark {
     background-color: var(--grey-subtle);
-  }
-  
-  /* When the radio button is checked, add a blue background */
-  .dui-inp-radio-btn input:checked ~ .dui-inp-radio-btn__checkmark {
+}
+
+/* When the radio button is checked, add a blue background */
+.dui-inp-radio-btn input:checked~.dui-inp-radio-btn__checkmark {
     background-color: var(--light-theme);
     /* var(--primary-color-lgt-40pct) */
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .dui-inp-radio-btn__checkmark:after {
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.dui-inp-radio-btn__checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .dui-inp-radio-btn input:checked ~ .dui-inp-radio-btn__checkmark:after {
+}
+
+/* Show the indicator (dot/circle) when checked */
+.dui-inp-radio-btn input:checked~.dui-inp-radio-btn__checkmark:after {
     display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .dui-inp-radio-btn .dui-inp-radio-btn__checkmark:after {
-        top: 0.15rem;
-        left: 0.15rem;
-        width: 1.4rem;
-        height: 1.4rem;
-        border-radius: 50%;
-        background: var(--primary-color-lgt-40pct);
-  }
-  
+}
+
+/* Style the indicator (dot/circle) */
+.dui-inp-radio-btn .dui-inp-radio-btn__checkmark:after {
+    top: 0.15rem;
+    left: 0.15rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background: var(--primary-color-lgt-40pct);
+}
 
 /* Radio Button Component Ends */
-
-

@@ -22,21 +22,21 @@
     background-color: var(--primary-color-p2-lgt-30pct);
 }
 
-.container__components-holder > div {
+.container__components-holder>div {
     flex-basis: 0;
     flex-grow: 1;
     height: 100%;
     position: relative;
 }
 
-.container__components-holder > div:not(:last-child) {
+.container__components-holder>div:not(:last-child) {
     margin-bottom: 1.6rem;
 }
 
 iframe {
     width: 68rem;
     height: 22rem;
-    border: 0; 
+    border: 0;
     transform: scale(1);
     overflow: hidden;
 }

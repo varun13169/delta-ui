@@ -17,12 +17,12 @@ componentHolderEles.forEach((ele) => {
 
         // set the border for the clicked element 
         ele.style.border = `3px solid var(--primary-color-p2-lgt-10pct)`;
-        
+
         // get index of the clicked element
         let eleIdx = Array.prototype.slice.call(componentHolderEles).indexOf(ele);
 
         setCodeAllContainerDisplayNone();
-        switch(eleIdx) {
+        switch (eleIdx) {
             case 0:
                 codePreviewContainerAlert_s.classList.remove("dui-util-disp-none");
                 break;
@@ -52,6 +52,3 @@ function setCodeAllContainerDisplayNone() {
 }
 
 setDefault();
-
-
-
