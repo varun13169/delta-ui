@@ -16,11 +16,11 @@ componentHolderEles.forEach((ele) => {
 
         // set the color for the clicked element 
         ele.style.backgroundColor = `var(--primary-color-p2-lgt-10pct)`;
-        
+
         // get index of the clicked element
         let eleIdx = Array.prototype.slice.call(componentHolderEles).indexOf(ele);
         setCodeAllContainerDisplayNone();
-        switch(eleIdx) {
+        switch (eleIdx) {
             case 0:
                 codePreviewContainerAvatar_xlg.classList.remove("dui-util-disp-none");
                 break;
@@ -50,6 +50,3 @@ function setCodeAllContainerDisplayNone() {
 }
 
 setDefault();
-
-
-

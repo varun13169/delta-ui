@@ -21,7 +21,7 @@
     background-color: var(--primary-color-p2-lgt-20pct);
 }
 
-.container__components-holder > div {
+.container__components-holder>div {
     flex-basis: 0;
     flex-grow: 1;
     height: 100%;
@@ -33,18 +33,18 @@
     justify-content: center;
 }
 
-.container__components-holder > div:not(:last-child) {
+.container__components-holder>div:not(:last-child) {
     margin-right: 1.6rem;
 }
 
-.container__components-holder > div > h3 {
+.container__components-holder>div>h3 {
     text-align: center;
 }
 
 iframe {
     width: 68rem;
     height: 22rem;
-    border: 0; 
+    border: 0;
     transform: scale(1);
     overflow: hidden;
 }
