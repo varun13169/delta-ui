@@ -8,7 +8,7 @@
     <title>Delta UI</title>
     <link rel="stylesheet" href="/assets/prism.css">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="./avatarPage.css">
+    <link rel="stylesheet" href="./textUtilsPage.css">
 </head>
 
 <body>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="drawer__content-holder">
-                    <div id="drawer__content--avatar" class="drawer__content drawer__content--focus">
+                    <div id="drawer__content--avatar" class="drawer__content">
                         <a class="dui-link dui-util-txt-sm" href="/components/avatar/avatarPage.html">
                             Avatar
                         </a>
@@ -96,7 +96,7 @@
                             Input
                         </a>
                     </div>
-                    <div id="drawer__content--avatar" class="drawer__content">
+                    <div id="drawer__content--avatar" class="drawer__content drawer__content--focus">
                         <a class="dui-link dui-util-txt-sm" href="/components/textutils/textutilsPage.html">
                             Text Utilities
                         </a>
@@ -107,105 +107,96 @@
             <!-- Drawer Component Ends-->
 
         </section>
+
         <section class="container__content">
+            <h1>Text Utilities</h1>
 
-            <h1>Avatar Component</h1>
-            <div class="container__components-holder dui-util-spc-pad-1_6rem-s">
-                <div id="container__component-holder">
-                    <!-- Avatar Component Starts -- Extra Large -->
-                    <div class="dui-avatar dui-avatar--xlg">
-                        <img class="dui-avatar__content" src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
-                    <!-- Avatar Component Ends -- Extra Large -->
-                    <h3 class="comp-lib-h2">Avatar Extra Large</h3>
-                </div>
-
-                <div id="container__component-holder">
-                    <!-- Avatar Component Starts -- Large -->
-                    <div class="dui-avatar dui-avatar--lg">
-                        <img class="dui-avatar__content" src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
-                    <!-- Avatar Component Ends -- Large  -->
-                    <h3 class="comp-lib-h2">Avatar Large</h3>
-                </div>
-
-                <div id="container__component-holder">
-                    <!-- Avatar Component Starts -- Medium -->
-                    <div class="dui-avatar dui-avatar--md">
-                        <img class="dui-avatar__content" src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
-                    <!-- Avatar Component Ends -- Medium  -->
-                    <h3 class="comp-lib-h2">Avatar Medium</h3>
-                </div>
-
-                <div id="container__component-holder">
-                    <!-- Avatar Component Starts -- Small -->
-                    <div class="dui-avatar dui-avatar--sm">
-                        <img class="dui-avatar__content" src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
-                    <!-- Avatar Component Ends -- Small  -->
-                    <h3 class="comp-lib-h2">Avatar Small</h3>
-                </div>
-
+            <h3 class="container__content__sub-title">Typography: Headline</h3>
+            <div>
+                <h1>Headline 1</h1>
+                <p class="util-mgn-btm-1_6prem">H1 4.8rem Line Height 6.4rem</p>
+                <h2>Headline 2</h2>
+                <p class="util-mgn-btm-1_6prem">H1 3.2rem Line Height 4.0rem</p>
+                <h3>Headline 3</h3>
+                <p class="util-mgn-btm-1_6prem">H1 2.4rem Line Height 3.2rem</p>
+                <h4>Headline 4</h4>
+                <p class="util-mgn-btm-1_6prem">H1 4.8rem Line Height 6.4rem</p>
+                <h5>Headline 5</h5>
+                <p class="util-mgn-btm-1_6prem">H1 4.8rem Line Height 6.4rem</p>
             </div>
 
-            <div id="container__code-preview--avatar-xlg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
-                <script type="text/plain" class="language-markup">
-                    <div class="dui-avatar dui-avatar--xlg">
-                        <img class="dui-avatar__content" 
-                                src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
-                </script>
-            </div>
 
-            <div id="container__code-preview--avatar-lg"
-                class="container__code-preview dui-util-spc-pad-1_6rem-s dui-util-disp-none">
+            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
                 <script type="text/plain" class="language-markup">
-                    <div class="dui-avatar dui-avatar--lg">
-                        <img class="dui-avatar__content" 
-                                src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
+                    <h1>Headline 1</h1>
+                    <p class="util-mgn-btm-1_6prem">H1 4.8rem  Line Height 6.4rem</p>
+                    <h2>Headline 2</h2>
+                    <p class="util-mgn-btm-1_6prem">H1 3.2rem  Line Height 4.0rem</p>
+                    <h3>Headline 3</h3>
+                    <p class="util-mgn-btm-1_6prem">H1 2.4rem  Line Height 3.2rem</p>
+                    <h4>Headline 4</h4>
+                    <p class="util-mgn-btm-1_6prem">H1 4.8rem  Line Height 6.4rem</p>
+                    <h5>Headline 5</h5>
+                    <p class="util-mgn-btm-1_6prem">H1 4.8rem  Line Height 6.4rem</p>
                 </script>
             </div>
 
 
-            <div id="container__code-preview--avatar-md"
-                class="container__code-preview dui-util-spc-pad-1_6rem-s dui-util-disp-none">
+            <h3 class="container__content__sub-title">Typography: Text</h3>
+            <div>
+                <p class="dui-util-txt-lg">Lorem Ipsum</p>
+                <p class="util-mgn-btm-1_6prem">P 4.8rem Line Height 6.4rem</p>
+                <p class="dui-util-txt-md">Lorem Ipsum</p>
+                <p class="util-mgn-btm-1_6prem">P 3.2rem Line Height 4.0rem</p>
+                <p class="dui-util-txt-reg">Lorem Ipsum</p>
+                <p class="util-mgn-btm-1_6prem">P 2.4rem Line Height 3.2rem</p>
+                <p class="dui-util-txt-sm">Lorem Ipsum</p>
+                <p class="util-mgn-btm-1_6prem">P 1.6rem Line Height 2.4rem</p>
+                <p class="dui-util-txt-xsm">Lorem Ipsum</p>
+                <p class="util-mgn-btm-1_6prem">P 0.8rem Line Height 1.6rem</p>
+            </div>
+
+            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
                 <script type="text/plain" class="language-markup">
-                    <div class="dui-avatar dui-avatar--md">
-                        <img class="dui-avatar__content" 
-                                src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
+                    <p class="dui-util-txt-lg">Lorem Ipsum</p>
+                    <p class="util-mgn-btm-1_6prem">P 4.8rem  Line Height 6.4rem</p>
+                    <p class="dui-util-txt-md">Lorem Ipsum</p>
+                    <p class="util-mgn-btm-1_6prem">P 3.2rem  Line Height 4.0rem</p>
+                    <p class="dui-util-txt-reg">Lorem Ipsum</p>
+                    <p class="util-mgn-btm-1_6prem">P 2.4rem  Line Height 3.2rem</p>
+                    <p class="dui-util-txt-sm">Lorem Ipsum</p>
+                    <p class="util-mgn-btm-1_6prem">P 1.6rem  Line Height 2.4rem</p>
+                    <p class="dui-util-txt-xsm">Lorem Ipsum</p>
+                    <p class="util-mgn-btm-1_6prem">P 0.8rem  Line Height 1.6rem</p>
                 </script>
             </div>
 
-            <div id="container__code-preview--avatar-sm"
-                class="container__code-preview dui-util-spc-pad-1_6rem-s dui-util-disp-none">
+
+            <h3 class="container__content__sub-title">Grey Text</h3>
+            <p class="dui-util-txt-md dui-util-clr-prim-p2">Lorem Ipsum</p>
+            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
                 <script type="text/plain" class="language-markup">
-                    <div class="dui-avatar dui-avatar--sm">
-                        <img class="dui-avatar__content" 
-                                src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
-                    </div>
+                    <p class="dui-util-txt-md dui-util-clr-prim-p2">Lorem Ipsum</p>
+                </script>
+            </div>
+
+            <h3 class="container__content__sub-title">Text Align Center</h3>
+            <h3 class="dui-util-txt-align-cent">Lorem Ipsum</h3>
+            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <h3 class="dui-util-txt-align-cent">Lorem Ipsum</h3>
                 </script>
             </div>
 
         </section>
+
         <section class="container__footer">
 
         </section>
     </div>
 
-
-    <script src="./avatarPage.js"></script>
     <script src="/assets/prism.js"></script>
+
 </body>
 
 </html>
