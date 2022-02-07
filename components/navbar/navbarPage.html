@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta UI</title>
+    <link rel="stylesheet" href="/assets/prism.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./navbarPage.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="container__header">
+            <!-- Header Component Starts -- Standard -->
+            <div class="header header--standard">
+                <button class="header__btn button-inherit-parent">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere"
+                        width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 17.6l-2 -1.1v-2.5" />
+                        <path d="M4 10v-2.5l2 -1.1" />
+                        <path d="M10 4.1l2 -1.1l2 1.1" />
+                        <path d="M18 6.4l2 1.1v2.5" />
+                        <path d="M20 14v2.5l-2 1.12" />
+                        <path d="M14 19.9l-2 1.1l-2 -1.1" />
+                        <line x1="12" y1="12" x2="14" y2="10.9" />
+                        <line x1="18" y1="8.6" x2="20" y2="7.5" />
+                        <line x1="12" y1="12" x2="12" y2="14.5" />
+                        <line x1="12" y1="18.5" x2="12" y2="21" />
+                        <path d="M12 12l-2 -1.12" />
+                        <line x1="6" y1="8.6" x2="4" y2="7.5" />
+                    </svg>
+                </button>
+                <h3 class="header__title">
+                    Delta UI
+                </h3>
+
+                <div class="header__action">
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs"
+                        href="/index.html">
+                        HOME
+                    </a>
+                    <a class="header__btn dui-link dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs"
+                        href="/components/avatar/avatarPage.html">
+                        DOCUMENTATION
+                    </a>
+                </div>
+            </div>
+            <!-- Header Component Ends -- Standard -->
+
+        </section>
+        <section class="container__sidebar">
+            <!-- Drawer Component Regular -->
+            <div class="drawer">
+                <div class="drawer__heading">
+                    <h3 class="drawer__title">Components</h3>
+                </div>
+
+                <div class="drawer__content-holder">
+                    <div id="drawer__content--avatar" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/avatar/avatarPage.html">
+                            Avatar
+                        </a>
+                    </div>
+                    <div id="drawer__content--alert" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/alert/alertPage.html">
+                            Alert
+                        </a>
+                    </div>
+                    <div id="drawer__content--badge" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/badge/badgePage.html">
+                            Badge
+                        </a>
+                    </div>
+                    <div id="drawer__content--button" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/button/buttonPage.html">
+                            Button
+                        </a>
+                    </div>
+                    <div id="drawer__content--card" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/card/cardPage.html">
+                            Card
+                        </a>
+                    </div>
+                    <div id="drawer__content--image" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/image/imagePage.html">
+                            Image
+                        </a>
+                    </div>
+                    <div id="drawer__content--input" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/input/inputPage.html">
+                            Input
+                        </a>
+                    </div>
+                    <div id="drawer__content--avatar" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/textutils/textutilsPage.html">
+                            Text Utilities
+                        </a>
+                    </div>
+                    <div id="drawer__content--input" class="drawer__content">
+                        <a class="dui-link dui-util-txt-sm" href="/components/list/listPage.html">
+                            List
+                        </a>
+                    </div>
+                    <div id="drawer__content--input" class="drawer__content drawer__content--focus">
+                        <a class="dui-link dui-util-txt-sm" href="/components/navbar/navbarPage.html">
+                            Navbar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drawer Component Ends-->
+
+        </section>
+
+        <section class="container__content">
+            <h1>Navbar Component</h1>
+
+
+
+            <h3 class="container__content__sub-title">Standard Navbar</h3>
+            <div style="width:100%; min-height:7.5rem">
+                <!-- Standard Navbar Starts -->
+                <nav class="dui-nav">
+                    <a class="dui-nav__logo dui-util-txt-decoration-none" href="#">
+                        <h3 class="dui-util-fw-bld dui-util-clr-prim-p2">
+                            My Webside
+                        </h3>
+                    </a>
+
+                    <!-- Search -->
+                    <div class="dui-nav__search dui-inp-txt dui-inp-txt--search">
+                        <i class="dui-inp-txt__icon dui-inp-txt__icon--search">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="dui-inp-txt__icon-content dui-inp-txt__icon-content--search icon icon-tabler icon-tabler-search"
+                                width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="10" cy="10" r="7" />
+                                <line x1="21" y1="21" x2="15" y2="15" />
+                            </svg>
+                        </i>
+                        <input
+                            class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+                            type="text" placeholder="Search">
+                    </div>
+
+                    <div class="dui-nav__actions">
+                        <!-- Login Button -->
+                        <a class="dui-nav__login-btn dui-link dui-link--primary-p2 dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
+                            href="#">
+                            Login
+                        </a>
+
+                        <div>
+                            <button class="dui-nav__wish-lst-btn dui-btn reset-button-inherit-parent">
+                                <div class="dui-badge dui-badge--round-ele-0_5-top-0_5-right">
+                                    <div>
+                                        0
+                                    </div>
+                                </div>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                    width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <button class="dui-nav__card_lst-btn btn reset-button-inherit-parent">
+                            <div class="dui-util-clr-prim-p2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="btn__icon icon icon-tabler icon-tabler-shopping-cart" width="56" height="56"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <circle cx="6" cy="19" r="2" />
+                                    <circle cx="17" cy="19" r="2" />
+                                    <path d="M17 17h-11v-14h-2" />
+                                    <path d="M6 5l14 1l-1 7h-13" />
+                                </svg>
+                                <p class="dui-util-fw-bld">Card</p>
+                            </div>
+                        </button>
+                    </div>
+                </nav>
+                <!-- Standard Navbar Ends -->
+            </div>
+
+            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
+                <script type="text/plain" class="language-markup">
+                    <nav class="dui-nav">
+                        <a class="dui-nav__logo dui-util-txt-decoration-none" href="#">
+                            <h3 class="dui-util-fw-bld dui-util-clr-prim-p2">
+                                My Webside
+                            </h3>
+                        </a>
+    
+                        <!-- Search -->
+                        <div class="dui-nav__search dui-inp-txt dui-inp-txt--search">
+                            <i class="dui-inp-txt__icon dui-inp-txt__icon--search">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dui-inp-txt__icon-content dui-inp-txt__icon-content--search icon icon-tabler icon-tabler-search"
+                                    width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <circle cx="10" cy="10" r="7" />
+                                    <line x1="21" y1="21" x2="15" y2="15" />
+                                </svg>
+                            </i>
+                            <input
+                                class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+                                type="text" placeholder="Search">
+                        </div>
+    
+                        <div class="dui-nav__actions">
+                            <!-- Login Button -->
+                            <a class="dui-nav__login-btn dui-link dui-link--primary-p2 dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
+                                href="#">
+                                Login
+                            </a>
+    
+                            <div>
+                                <button class="dui-nav__wish-lst-btn dui-btn reset-button-inherit-parent">
+                                    <div class="dui-badge dui-badge--round-ele-0_5-top-0_5-right">
+                                        <div>
+                                            0
+                                        </div>
+                                    </div>
+    
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                        width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                    </svg>
+                                </button>
+                            </div>
+    
+                            <button class="dui-nav__card_lst-btn btn reset-button-inherit-parent">
+                                <div class="dui-util-clr-prim-p2">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="btn__icon icon icon-tabler icon-tabler-shopping-cart" width="56" height="56"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="6" cy="19" r="2" />
+                                        <circle cx="17" cy="19" r="2" />
+                                        <path d="M17 17h-11v-14h-2" />
+                                        <path d="M6 5l14 1l-1 7h-13" />
+                                    </svg>
+                                    <p class="dui-util-fw-bld">Card</p>
+                                </div>
+                            </button>
+                        </div>
+                    </nav>
+                </script>
+            </div>
+
+        </section>
+
+        <section class="container__footer">
+
+        </section>
+    </div>
+
+    <script src="/assets/prism.js"></script>
+
+</body>
+
+</html>

@@ -96,6 +96,14 @@
     background-color: var(--dui-rgba-primary-color-hover-10pct);
 }
 
-/* Text Primary Link Starts */
+/* Text Primary Link Ends */
+
+/* Primary P2 Link Starts */
+.dui-link--primary-p2 {
+    background-color: var(--primary-color-p2);
+    color: var(--light-theme);
+}
+
+/* Primary P2 Link Ends */
 
 /* Link Button Component Starts -- Link Primary */
