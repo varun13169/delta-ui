@@ -8,7 +8,7 @@
     <title>Delta UI</title>
     <link rel="stylesheet" href="/assets/prism.css">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="./imagePage.css">
+    <link rel="stylesheet" href="./toastPage.css">
 </head>
 
 <body>
@@ -86,7 +86,7 @@
                             Card
                         </a>
                     </div>
-                    <div id="drawer__content--image" class="drawer__content drawer__content--focus">
+                    <div id="drawer__content--image" class="drawer__content">
                         <a class="dui-link dui-util-txt-sm" href="/components/image/imagePage.html">
                             Image
                         </a>
@@ -111,7 +111,7 @@
                             Navbar
                         </a>
                     </div>
-                    <div id="drawer__content--input" class="drawer__content">
+                    <div id="drawer__content--input" class="drawer__content drawer__content--focus">
                         <a class="dui-link dui-util-txt-sm" href="/components/toast/toastPage.html">
                             Toast
                         </a>
@@ -124,40 +124,21 @@
         </section>
 
         <section class="container__content">
-            <h1>Image Component</h1>
+            <h1>Toast Component</h1>
 
-            <h3 class="container__content__sub-title">Circular Image</h3>
-            <!-- Image Component Starts -- Circle -->
-            <div class="img-circle">
-                <img class="img-circle__content" src="https://picsum.photos/300/300" alt="Avatar">
-                </img>
+            <h3 class="container__content__sub-title">Toast Component</h3>
+            
+            <!-- Toast Component Starts -->
+            <div class="dui-toast dui-util-spc-pad-1_6rem-s dui-util-bdr-radi-10px-m">
+                <p class="dui-util-txt-sm">What you are seeing is a toast.</p>
             </div>
-            <!-- Image Component Ends -- Circle -->
-
-
+            <!-- Toast Component Ends -->
             <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
                 <script type="text/plain" class="language-markup">
-                    <div class="dui-avatar dui-avatar--lg">
-                        <img class="dui-avatar__content" 
-                                src="https://i.pravatar.cc/300" alt="Avatar">
-                        </img>
+                    <div class="dui-toast dui-util-spc-pad-1_6rem-s dui-util-bdr-radi-10px-m">
+                        <p class="dui-util-txt-sm">What you are seeing is a toast.</p>
                     </div>
                 </script>
-            </div>
-
-
-            <h3 class="container__content__sub-title">Responsive Image</h3>
-            <!-- Image Component Starts -- Responsive -->
-            <img class="img-responsive" src="https://picsum.photos/300/150" alt="Avatar">
-            </img>
-            <!-- Image Component Ends -- Responsive -->
-
-            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
-                <script type="text/plain" class="language-markup">
-                    <img class="img-responsive" 
-                    src="https://picsum.photos/400/200" alt="Avatar">
-                </img>
-            </script>
             </div>
 
         </section>
@@ -167,7 +148,6 @@
         </section>
     </div>
 
-    <script src="./imagePage.js"></script>
     <script src="/assets/prism.js"></script>
 
 </body>
