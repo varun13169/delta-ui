@@ -1,5 +1,77 @@
 /* Spacing */
 /* Border */
+.dui-util-bdr-radi-s {
+    border-radius: 5px;
+}
+
+.dui-util-bdr-radi-m {
+    border-radius: 10px;
+}
+
+.dui-util-bdr-radi-l {
+    border-radius: 15px;
+}
+
+.dui-util-bdr-radi-max {
+    border-radius: 999px;
+}
+
+
+/* Padding */
+.dui-util-spc-pad-xs {
+    padding: 0.8rem;
+}
+
+.dui-util-spc-pad-s {
+    padding: 1.6rem;
+}
+
+.dui-util-spc-pad-m {
+    padding: 2.4rem;
+}
+
+.dui-util-spc-pad-l {
+    padding: 3.2rem;
+}
+
+.dui-util-spc-pad-xl {
+    padding: 4.0rem;
+}
+
+.dui-util-spc-pad-xxl {
+    padding: 6.4rem;
+}
+
+
+/* Margin */
+.dui-util-spc-mgn-xs {
+    margin: 0.8rem;
+}
+
+.dui-util-spc-mgn-s {
+    margin: 1.6rem;
+}
+
+.dui-util-spc-mgn-m {
+    margin: 2.4rem;
+}
+
+.dui-util-spc-mgn-l {
+    margin: 3.2rem;
+}
+
+.dui-util-spc-mgn-xl {
+    margin: 4.0rem;
+}
+
+.dui-util-spc-mgn-xxl {
+    margin: 6.4rem;
+}
+
+
+/* LEGACY */
+/* Please use the above  utils */
+/* Border */
 .dui-util-bdr-radi-5px-s {
     border-radius: 5px;
 }
@@ -67,3 +139,6 @@
 .dui-util-spc-mgn-6_4rem-xxl {
     margin: 6.4rem;
 }
+
+/* LEGACY */
+/* Please use the above  utils */

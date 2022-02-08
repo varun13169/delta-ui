@@ -86,7 +86,7 @@ body {
 }
 
 .header__btn:hover {
-    background: rgba(var(--rgba-light-theme-hover));
+    background: var(--light-theme-color-hover-10pct);
 }
 
 .header__btn--download {}
@@ -157,7 +157,7 @@ body {
 }
 
 .drawer__content--focus {
-    background-color: rgba(var(--rgba-primary-color-hover));
+    background-color: var(--dui-primary-color-hover-10pct);
     color: var(--primary-color);
 }
 
