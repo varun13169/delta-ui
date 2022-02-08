@@ -61,5 +61,5 @@ iframe {
     padding-right: 5rem;
     align-self: center;
     justify-content: center;
-    overflow: scroll;
+    overflow: auto;
 }

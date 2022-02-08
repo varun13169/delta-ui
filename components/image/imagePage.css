@@ -53,5 +53,5 @@ iframe {
     min-height: 22rem;
     align-self: center;
     justify-content: center;
-    overflow: scroll;
+    overflow: auto;
 }

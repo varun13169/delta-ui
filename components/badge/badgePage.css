@@ -48,7 +48,7 @@ iframe {
     min-height: 30rem;
     align-self: center;
     justify-content: center;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .badge_component_demo_container {

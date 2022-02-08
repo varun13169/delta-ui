@@ -55,7 +55,7 @@ iframe {
     height: 22rem;
     align-self: center;
     justify-content: center;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .component_demo_container {

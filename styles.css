@@ -38,7 +38,7 @@ body {
 .container__content {
     grid-area: mcontent;
     padding: 3rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .container__footer {
