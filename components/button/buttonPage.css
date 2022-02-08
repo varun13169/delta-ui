@@ -47,6 +47,10 @@
     text-align: center;
 }
 
+.container__component-holder:hover {
+    background-color: var(--primary-color-p2-lgt-20pct);
+}
+
 iframe {
     width: 68rem;
     height: 22rem;
