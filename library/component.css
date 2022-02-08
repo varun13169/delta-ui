@@ -10,6 +10,7 @@
 @import "./input/input.css";
 @import "./list/list.css";
 @import "./navbar/navbar.css";
+@import "./toast/toast.css";
 @import "./utility-css.css";
 
 :root{
@@ -35,6 +36,7 @@
     --light-theme: #FFFFFF;
     --light-theme-color-hover-10pct: #FFFFFF19; /* 10% Opacity */
     --light-theme-contrast: #000000;
+    --light-theme-contrast-opc-25pct: #0000003F; /* 25% Opacity */
 
     /* LEGACY: Use --light-theme */
     --secondary-color: white;
