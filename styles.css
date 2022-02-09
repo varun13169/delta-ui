@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #dedede;
+    background: #F3F4F6;
     /* padding: 15rem; */
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
@@ -38,7 +38,7 @@ body {
 .container__content {
     grid-area: mcontent;
     padding: 3rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .container__footer {
