@@ -1,0 +1,24 @@
+.dui-rating {
+    display: flex;
+}
+
+.dui-rating__step {
+    width: 3rem;
+    height: auto;
+    stroke: var(--primary-color-p2);
+}
+
+.dui-rating__step:hover, .dui-rating__step--filled {
+    stroke: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+/* Heart */
+.dui-rating__step-heart {
+}
+
+.dui-rating__step-heart:hover, .dui-rating__step-heart--filled {
+    stroke: var(--alert-error-light-font-color);
+    fill: var(--alert-error-light-font-color);
+}
+/* Heart */
