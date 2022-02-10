@@ -8,7 +8,7 @@
     <title>Delta UI</title>
     <link rel="stylesheet" href="/assets/prism.css">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="./listPage.css">
+    <link rel="stylesheet" href="./modalPage.css">
 </head>
 
 <body>
@@ -101,7 +101,7 @@
                             Text Utilities
                         </a>
                     </div>
-                    <div id="drawer__content--input" class="drawer__content drawer__content--focus">
+                    <div id="drawer__content--input" class="drawer__content">
                         <a class="dui-link dui-util-txt-sm" href="/components/list/listPage.html">
                             List
                         </a>
@@ -111,7 +111,7 @@
                             Navbar
                         </a>
                     </div>
-                    <div id="drawer__content--input" class="drawer__content">
+                    <div id="drawer__content--input" class="drawer__content drawer__content--focus">
                         <a class="dui-link dui-util-txt-sm" href="/components/modal/modalPage.html">
                             Modal
                         </a>
@@ -134,93 +134,36 @@
         </section>
 
         <section class="container__content">
-            <h1>Lists</h1>
+            <h1>Modal Component</h1>
 
-            <h3 class="container__content__sub-title">Notification List</h3>
-            <!-- Notification List Starts -->
-            <ui class="dui-ul dui-ul--notif-stnd dui-util-spc-pad-1_6rem-s dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                <li
-                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                    <p class="dui-util-txt-reg">Notification 1</p>
-                </li>
-                <li
-                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                    <p class="dui-util-txt-reg">Notification 2</p>
-                </li>
-                <li
-                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                    <p class="dui-util-txt-reg">Notification 3</p>
-                </li>
-                <li
-                    class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                    <p class="dui-util-txt-reg">Notification 4</p>
-                </li>
-            </ui>
-            <!-- Notification List Ends -->
-            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
+            <p class="container__description dui-util-txt-reg dui-util-txt-align-cent">
+                Please click the following "Demo Modal" button to get quick demo of the component.
+            </p>
+
+
+            <button id="demo-btn"
+                class="dui-btn dui-btn--primary dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-mgn-1_6rem-s dui-util-spc-pad-1_6rem-s reset-button-inherit-parent">
+                Demo Modal
+            </button>
+
+            <p class="container__description dui-util-txt-reg ">Code Snippet
+            </p>
+
+            <div id="container__code-preview" class="container__code-preview">
                 <script type="text/plain" class="language-markup">
-                    <ui class="dui-ul dui-ul--notif-stnd dui-util-spc-pad-1_6rem-s dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                        <li
-                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                            <p class="dui-util-txt-reg">Notification 1</p>
-                        </li>
-                        <li
-                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                            <p class="dui-util-txt-reg">Notification 2</p>
-                        </li>
-                        <li
-                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                            <p class="dui-util-txt-reg">Notification 3</p>
-                        </li>
-                        <li
-                            class="dui-ul__li dui-ul__li--notif-stnd dui-util-spc-pad-2_4rem-m dui-util-bdr-radi-10px-m dui-util-gry-shdw">
-                            <p class="dui-util-txt-reg">Notification 4</p>
-                        </li>
-                    </ui>
+                    <div class="dui-modal dui-util-disp-none dui-util-gry-shdw">
+                        <div class="dui-modal__info-card dui-util-spc-pad-s">
+                            <p class="dui-modal__close">X</p>
+                            <h2 class="dui-modal__title dui-util-txt-align-cent">Subscribe to our Newsletter !!!</h2>
+                            <button
+                                class="dui-btn dui-btn--primary dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">
+                                SUNSCRIBE
+                            </button>
+                        </div>
+                    </div>
                 </script>
             </div>
 
-
-            <h3 class="container__content__sub-title">Vertical Spaced List</h3>
-            <!-- Vertical Spaced List Starts -->
-            <ui class="dui-ul">
-                <li class="dui-ul__li">Item 1</li>
-                <li class="dui-ul__li">Item 2</li>
-                <li class="dui-ul__li">Item 3</li>
-                <li class="dui-ul__li">Item 4</li>
-            </ui>
-            <!-- Vertical Spaced List Ends -->
-            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
-                <script type="text/plain" class="language-markup">
-                    <ui class="dui-ul">
-                        <li class="dui-ul__li">Item 1</li>
-                        <li class="dui-ul__li">Item 2</li>
-                        <li class="dui-ul__li">Item 3</li>
-                        <li class="dui-ul__li">Item 4</li>
-                    </ui>
-                </script>
-            </div>
-
-
-            <h3 class="container__content__sub-title">Horizontal Spaced List</h3>
-            <!-- Horizontal Spaced List Starts -->
-            <ui class="dui-ul">
-                <li class="dui-ul__li dui-ul__li--hzntl">Item 1</li>
-                <li class="dui-ul__li dui-ul__li--hzntl">Item 2</li>
-                <li class="dui-ul__li dui-ul__li--hzntl">Item 3</li>
-                <li class="dui-ul__li dui-ul__li--hzntl">Item 4</li>
-            </ui>
-            <!-- Horizontal Spaced List Ends -->
-            <div id="container__code-preview--avatar-lg" class="container__code-preview dui-util-spc-pad-1_6rem-s">
-                <script type="text/plain" class="language-markup">
-                    <ui class="dui-ul">
-                        <li class="dui-ul__li dui-ul__li--hzntl">Item 1</li>
-                        <li class="dui-ul__li dui-ul__li--hzntl">Item 2</li>
-                        <li class="dui-ul__li dui-ul__li--hzntl">Item 3</li>
-                        <li class="dui-ul__li dui-ul__li--hzntl">Item 4</li>
-                    </ui>
-                </script>
-            </div>
 
         </section>
 
@@ -229,8 +172,22 @@
         </section>
     </div>
 
-    <script src="/assets/prism.js"></script>
 
+    <!-- Modal Component Starts -->
+    <div class="dui-modal dui-util-disp-none dui-util-gry-shdw">
+        <div class="dui-modal__info-card dui-util-spc-pad-s">
+            <p class="dui-modal__close">X</p>
+            <h2 class="dui-modal__title dui-util-txt-align-cent">Subscribe to our Newsletter !!!</h2>
+            <button
+                class="dui-btn dui-btn--primary dui-util-bdr-radi-5px-s dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-button-inherit-parent">
+                SUBSCRIBE
+            </button>
+        </div>
+    </div>
+    <!-- Modal Component Ends -->
+
+    <script src="./modalPage.js"></script>
+    <script src="/assets/prism.js"></script>
 </body>
 
 </html>

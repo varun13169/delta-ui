@@ -1,0 +1,33 @@
+.dui-modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dui-modal__info-card {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--light-theme);
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dui-modal__title {
+    margin-bottom: 3rem;
+}
+
+.dui-modal__close {
+    align-self: flex-end;
+    cursor: pointer;
+}
