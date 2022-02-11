@@ -2,7 +2,6 @@
 
 .home-container {
     grid-template-areas:
-        'header header header header header header'
         'mcontent mcontent mcontent mcontent mcontent mcontent'
         'mcontent mcontent mcontent mcontent mcontent mcontent'
         'mcontent mcontent mcontent mcontent mcontent mcontent';
@@ -52,5 +51,37 @@
     color: var(--light-theme);
     font-size: 300%;
     margin-top: 5rem;
+    margin-right: -2rem;
     letter-spacing: 2rem;
+}
+
+.action-btn {
+    display: flex;
+    padding-top: 7rem;
+    gap: 3rem
+}
+
+.action-btn>a {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    /*add those for opera and mozilla support*/
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+}
+.action-btn>a:first-child:hover {
+    background-color: var(--light-theme);
+    transition: 1s;
+    text-decoration-color: var(--primary-color);
+    /*add those for opera and mozilla support*/
+    -webkit-text-decoration-color: var(--primary-color);
+    -moz-text-decoration-color: var(--primary-color);
+}
+
+.action-btn>a:last-child:hover {
+    background-color: var(--primary-color);
+    transition: 1s;
+    text-decoration-color: var(--light-theme);
+    /*add those for opera and mozilla support*/
+    -webkit-text-decoration-color: var(--primary-color);
+    -moz-text-decoration-color: var(--primary-color);
 }
