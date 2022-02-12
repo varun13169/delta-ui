@@ -15,13 +15,17 @@
 .container__code-preview {
     width: 80rem;
     min-height: 22rem;
-    margin-top: 5rem;
     align-self: center;
     justify-content: center;
     overflow: auto;
 }
 
-/*  */
+.container__description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* small util for this specific page */
 .util-mgn-btm-1_6prem {
     margin-bottom: 1.6rem;
 }

@@ -20,7 +20,6 @@
 .container__code-preview {
     width: 80rem;
     min-height: 22rem;
-    margin-top: 5rem;
     align-self: center;
     justify-content: center;
     overflow: auto;
