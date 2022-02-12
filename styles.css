@@ -224,6 +224,15 @@ body {
 }
 
 
+/* Hide Scrollbar */
+*::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar for Chrome, Safari and Opera */
+}
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* Hide Scrollbar */
 
 
 @media only screen and (max-width: 1280px) {
