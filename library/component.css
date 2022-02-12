@@ -16,32 +16,36 @@
 @import "./utility-css.css";
 
 :root{
+    /* Primary Color */
     --primary-color-lgt-40pct: #6BFCCF; /* 40% Lighter */
     --primary-color-lgt-20pct:#38C99C; /* 20% Lighter */
     --primary-color: #059669;
 
     --dui-primary-color-opc-10pct: #05966919; /* 10% Opacity */
     --dui-primary-color-opc-75pct: #059669BF; /* 75% Opacity */
-    /* LEGACY: Use non rgba value */
-    --dui-rgba-primary-color-hover-10pct: #05966919; /* 10% Opacity */
-    /* LEGACY: Use non rgba value */
-    --dui-rgba-primary-color-hover-75pct: #059669BF; /* 75% Opacity */
+    /* Primary Color */
 
-
+    /* PrimaryColor P2 */
     --primary-color-p2-lgt-35pct: #F3F3F3; /* 35% Lighter */
     --primary-color-p2-lgt-30pct: #E7E7E7; /* 30% Lighter */
     --primary-color-p2-lgt-20pct: #CDCDCD; /* 20% Lighter */
     --primary-color-p2-lgt-10pct: #B4B4B4; /* 10% Lighter */
     --primary-color-p2: #9A9A9A;
     --primary-color-p2-dkr-20pct: #676767; /* 20% Darker */
+    /* PrimaryColor P2 */
 
-    --light-theme: #FFFFFF;
-    --light-theme-color-hover-10pct: #FFFFFF19; /* 10% Opacity */
-    --light-theme-contrast: #000000;
-    --light-theme-contrast-opc-25pct: #0000003F; /* 25% Opacity */
+    /* Text Theme */
+    --dui-light-theme-txt: #FFFFFF;
+    --dui-light-theme-contrast-txt: #000000;
+    /* Text Theme */
 
-    /* LEGACY: Use --light-theme */
-    --secondary-color: white;
+    /* Background Theme */
+    --dui-light-theme-bg: #FFFFFF;
+    --dui-light-theme-bg-opc-10pct: #FFFFFF19; /* 10% Opacity */
+
+    --dui-light-theme-contrast-bg: #000000;
+    --dui-light-theme-contrast-bg-opc-25pct: #0000003F; /* 25% Opacity */
+    /* Background Theme */
 
     --input-text-border-color: #D0D0D0;
     --input-text-border-color-focus: #7BB9FA;
@@ -62,7 +66,10 @@
     /* @ToDo: #757575 is ~15pct, consider repalcing with 20pct */
     /* #676767;  20% pct darker*/
 
-
+    /* LEGACY: Use themes with dui preffix */
+    --light-theme: #FFFFFF;
+    --light-theme-contrast: #000000;
+    /* LEGACY: Use themes with dui preffix */
 }
 
 html {
