@@ -87,7 +87,7 @@ body {
 }
 
 .header__btn:hover {
-    background: var(--light-theme-color-hover-10pct);
+    background: var(--dui-light-theme-bg-opc-10pct);
 }
 
 .header__btn--download {}

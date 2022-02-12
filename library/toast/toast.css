@@ -1,5 +1,5 @@
 .dui-toast {
     min-width: 50rem;
     min-height: 5rem;
-    background-color: var(--light-theme-contrast-opc-25pct);
+    background-color: var(--dui-light-theme-contrast-bg-opc-25pct);
 }

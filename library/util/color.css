@@ -24,3 +24,21 @@
 .dui-primary-color-opc-10pct {
     color: var(--dui-primary-color-opc-10pct);
 }
+
+/* Theme */
+.dui-light-theme-txt {
+    color: var(--dui-light-theme-txt);
+}
+
+.dui-light-theme-bg {
+    background-color: var(--dui-light-theme-bg);
+}
+
+
+.dui-light-theme-contrast-txt {
+    color: var(--dui-light-theme-contrast-txt);
+}
+
+.dui-light-theme-contrast-bg {
+    background-color: var(--dui-light-theme-contrast-bg);
+}

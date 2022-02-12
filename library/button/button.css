@@ -16,7 +16,7 @@
 }
 
 .dui-btn--primary:hover {
-    background-color: var(--dui-rgba-primary-color-hover-75pct);
+    background-color: var(--dui-primary-color-opc-75pct);
 }
 
 /* Primary Button Ends */
@@ -28,7 +28,7 @@
 }
 
 .dui-btn--secondary:hover {
-    background-color: var(--dui-rgba-primary-color-hover-10pct);
+    background-color: var(--dui-primary-color-opc-10pct);
 }
 
 /* Secondary Button Ends */
@@ -39,7 +39,7 @@
 }
 
 .dui-btn--txt-primary:hover {
-    background-color: var(--dui-rgba-primary-color-hover-10pct);
+    background-color: var(--dui-primary-color-opc-10pct);
 }
 
 /* Text Primary Button Starts */
@@ -86,7 +86,7 @@
 }
 
 .dui-link--primary:hover {
-    background-color: var(--dui-rgba-primary-color-hover-75pct);
+    background-color: var(--dui-primary-color-opc-75pct);
 }
 
 /* Primary Link Ends */
@@ -98,7 +98,7 @@
 }
 
 .dui-link--secondary:hover {
-    background-color: var(--dui-rgba-primary-color-hover-10pct);
+    background-color: var(--dui-primary-color-opc-10pct);
 }
 
 /* Secondary Link Ends */
@@ -128,7 +128,7 @@
 }
 
 .dui-link--txt-primary:hover {
-    background-color: var(--dui-rgba-primary-color-hover-10pct);
+    background-color: var(--dui-primary-color-opc-10pct);
 }
 
 /* Text Primary Link Ends */
