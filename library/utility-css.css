@@ -1,5 +1,6 @@
 @import "./util/typography.css";
 @import "./util/spacing.css";
+@import "./util/color.css";
 
 /* Display Utils */
 .dui-util-disp-none {

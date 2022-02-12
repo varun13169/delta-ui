@@ -159,7 +159,7 @@ body {
 }
 
 .drawer__content--focus {
-    background-color: var(--dui-primary-color-hover-10pct);
+    background-color: var(--dui-primary-color-opc-10pct);
     color: var(--primary-color);
 }
 

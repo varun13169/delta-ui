@@ -1,0 +1,26 @@
+/* Colors */
+/* Background Color */
+.dui-primary-bg-color {
+    background-color: var(--dui-primary-color);
+}
+
+.dui-primary-bg-color-opc-75pct {
+    background-color: var(--dui-primary-color-opc-75pct);
+}
+
+.dui-primary-bg-color-opc-10pct {
+    background-color: var(--dui-primary-color-opc-10pct);
+}
+
+/* Color */
+.dui-primary-color {
+    color: var(--dui-primary-color);
+}
+
+.dui-primary-color-opc-75pct {
+    color: var(--dui-primary-color-opc-75pct);
+}
+
+.dui-primary-color-opc-10pct {
+    color: var(--dui-primary-color-opc-10pct);
+}
