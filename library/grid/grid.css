@@ -1,0 +1,11 @@
+.dui-grid {
+    display: grid;
+}
+
+.dui-grid__col--2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.dui-grid__col--3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
