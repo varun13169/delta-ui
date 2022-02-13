@@ -42,3 +42,8 @@
 .dui-light-theme-contrast-bg {
     background-color: var(--dui-light-theme-contrast-bg);
 }
+
+/* Border */
+.dui-primary-p2-bdr-s {
+    border: 1.6px solid var(--primary-color-p2);
+}
