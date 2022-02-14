@@ -13,14 +13,16 @@
 }
 
 /* Input Text Component Starts -- Focus */
-.dui-inp-txt__input--focus {
-    border: 1px solid var(--input-text-border-color-focus);
+.dui-inp-txt__input:focus {
+    border: 1px solid var(--primary-color);
 }
-
 /* Input Text Component Ends -- Focus */
 
 /* Input Text Component Starts -- Error */
 .dui-inp-txt__input--error {
+    border: 1px solid var(--input-text-border-color-error);
+}
+.dui-inp-txt__input--error:focus {
     border: 1px solid var(--input-text-border-color-error);
 }
 
@@ -66,6 +68,23 @@
 /* Input Text Component Ends */
 
 
+/* Text Area Component Starts */
+.dui-inp-txt-area {
+    height: fit-content;
+}
+.dui-inp-txt-area__input {
+    width: 100%;
+    text-align: left;
+    background: var(--light-theme);
+    border: 1px solid var(--input-text-border-color);
+}
+
+.dui-inp-txt-area__input:focus {
+    border: 1px solid var(--primary-color);
+}
+/* Text Area Component Ends */
+
+
 
 /* Checkbox Component Starts */
 /* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
@@ -109,7 +128,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .dui-inp-chkbox input:checked~.dui-inp-chkbox__checkmark {
-    background-color: var(--primary-color-lgt-40pct);
+    background-color: var(--primary-color-lgt-20pct);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -184,7 +203,6 @@
 /* When the radio button is checked, add a blue background */
 .dui-inp-radio-btn input:checked~.dui-inp-radio-btn__checkmark {
     background-color: var(--light-theme);
-    /* var(--primary-color-lgt-40pct) */
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -206,7 +224,7 @@
     width: 1.4rem;
     height: 1.4rem;
     border-radius: 50%;
-    background: var(--primary-color-lgt-40pct);
+    background: var(--primary-color-lgt-20pct);
 }
 
 /* Radio Button Component Ends */
