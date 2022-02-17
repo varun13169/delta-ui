@@ -9,8 +9,8 @@
 }
 
 .dui-rating__step:hover, .dui-rating__step--filled {
-    stroke: var(--primary-color);
-    fill: var(--primary-color);
+    stroke: var(--dui-primary-color);
+    fill: var(--dui-primary-color);
 }
 
 /* Heart */

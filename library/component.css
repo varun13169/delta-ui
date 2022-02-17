@@ -18,9 +18,9 @@
 
 :root{
     /* Primary Color */
-    --primary-color-lgt-40pct: #6BFCCF; /* 40% Lighter */
-    --primary-color-lgt-20pct:#38C99C; /* 20% Lighter */
-    --primary-color: #059669;
+    --dui-primary-color-lgt-40pct: #6BFCCF; /* 40% Lighter */
+    --dui-primary-color-lgt-20pct:#38C99C; /* 20% Lighter */
+    --dui-primary-color: #059669;
 
     --dui-primary-color-opc-10pct: #05966919; /* 10% Opacity */
     --dui-primary-color-opc-75pct: #059669BF; /* 75% Opacity */

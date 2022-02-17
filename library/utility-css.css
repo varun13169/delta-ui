@@ -41,7 +41,7 @@
 }
 
 .dui-util-clr-prim {
-    color: var(--primary-color);
+    color: var(--dui-primary-color);
 }
 
 .dui-util-clr-prim-p2 {

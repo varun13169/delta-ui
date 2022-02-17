@@ -1,7 +1,7 @@
 /* Colors */
 /* Background Color */
 .dui-primary-bg-color {
-    background-color: var(--primary-color);
+    background-color: var(--dui-primary-color);
 }
 
 .dui-primary-bg-color-opc-75pct {
@@ -14,7 +14,7 @@
 
 /* Color */
 .dui-primary-color {
-    color: var(--primary-color);
+    color: var(--dui-primary-color);
 }
 
 .dui-primary-color-opc-75pct {

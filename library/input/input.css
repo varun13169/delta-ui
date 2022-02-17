@@ -14,7 +14,7 @@
 
 /* Input Text Component Starts -- Focus */
 .dui-inp-txt__input:focus {
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--dui-primary-color);
 }
 /* Input Text Component Ends -- Focus */
 
@@ -80,7 +80,7 @@
 }
 
 .dui-inp-txt-area__input:focus {
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--dui-primary-color);
 }
 /* Text Area Component Ends */
 
@@ -128,7 +128,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .dui-inp-chkbox input:checked~.dui-inp-chkbox__checkmark {
-    background-color: var(--primary-color-lgt-20pct);
+    background-color: var(--dui-primary-color-lgt-20pct);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -224,7 +224,7 @@
     width: 1.4rem;
     height: 1.4rem;
     border-radius: 50%;
-    background: var(--primary-color-lgt-20pct);
+    background: var(--dui-primary-color-lgt-20pct);
 }
 
 /* Radio Button Component Ends */
