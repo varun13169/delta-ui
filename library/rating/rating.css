@@ -18,7 +18,7 @@
 }
 
 .dui-rating__step-heart:hover, .dui-rating__step-heart--filled {
-    stroke: var(--alert-error-light-font-color);
-    fill: var(--alert-error-light-font-color);
+    stroke: var(--dui-alert-error-light-font-color);
+    fill: var(--dui-alert-error-light-font-color);
 }
 /* Heart */

@@ -48,18 +48,18 @@
     --dui-light-theme-contrast-bg-opc-25pct: #0000003F; /* 25% Opacity */
     /* Background Theme */
 
-    --input-text-border-color: #D0D0D0;
-    --input-text-border-color-focus: #7BB9FA;
-    --input-text-border-color-error: #F34E4E;
+    --dui-input-text-border-color: #D0D0D0;
+    --dui-input-text-border-color-focus: #7BB9FA;
+    --dui-input-text-border-color-error: #F34E4E;
 
-    --alert-success-light-font-color: #00b341;
-    --alert-success-light-background-color: #00AD3F19; /* 10% Opacity */
-    --alert-error-light-font-color: #ff4500;
-    --alert-error-light-background-color: #fA430026; /* 15% Opacity */
-    --alert-warning-light-font-color: #e6ac00;
-    --alert-warning-light-background-color: #FFBF0026; /* 15% Opacity */
-    --alert-info-light-font-color: #00abfb;
-    --alert-info-light-background-color: #1FB8FF26; /* 15% Opacity */
+    --dui-alert-success-light-font-color: #00b341;
+    --dui-alert-success-light-background-color: #00AD3F19; /* 10% Opacity */
+    --dui-alert-error-light-font-color: #ff4500;
+    --dui-alert-error-light-background-color: #fA430026; /* 15% Opacity */
+    --dui-alert-warning-light-font-color: #e6ac00;
+    --dui-alert-warning-light-background-color: #FFBF0026; /* 15% Opacity */
+    --dui-alert-info-light-font-color: #00abfb;
+    --dui-alert-info-light-background-color: #1FB8FF26; /* 15% Opacity */
 
 
     --grey-subtle: #F2F2F2;

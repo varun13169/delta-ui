@@ -9,7 +9,7 @@
     width: 100%;
     text-align: left;
     background: var(--light-theme);
-    border: 1px solid var(--input-text-border-color);
+    border: 1px solid var(--dui-input-text-border-color);
 }
 
 /* Input Text Component Starts -- Focus */
@@ -20,14 +20,14 @@
 
 /* Input Text Component Starts -- Error */
 .dui-inp-txt__input--error {
-    border: 1px solid var(--input-text-border-color-error);
+    border: 1px solid var(--dui-input-text-border-color-error);
 }
 .dui-inp-txt__input--error:focus {
-    border: 1px solid var(--input-text-border-color-error);
+    border: 1px solid var(--dui-input-text-border-color-error);
 }
 
 .dui-inp-txt__info-txt--error {
-    color: var(--input-text-border-color-error);
+    color: var(--dui-input-text-border-color-error);
 }
 
 /* Input Text Component Ends -- Error */
@@ -76,7 +76,7 @@
     width: 100%;
     text-align: left;
     background: var(--light-theme);
-    border: 1px solid var(--input-text-border-color);
+    border: 1px solid var(--dui-input-text-border-color);
 }
 
 .dui-inp-txt-area__input:focus {
