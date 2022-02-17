@@ -51,7 +51,7 @@
 }
 
 .dui-btn--primary-p2 {
-    background-color: var(--primary-color-p2);
+    background-color: var(--dui-primary-color-p2);
     color: var(--light-theme);
 }
 
@@ -135,7 +135,7 @@
 
 /* Primary P2 Link Starts */
 .dui-link--primary-p2 {
-    background-color: var(--primary-color-p2);
+    background-color: var(--dui-primary-color-p2);
     color: var(--light-theme);
 }
 

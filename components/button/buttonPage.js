@@ -25,7 +25,7 @@ componentHolderEles.forEach((ele) => {
             })
 
             // set the color for the clicked element 
-            ele.style.backgroundColor = `var(--primary-color-p2-lgt-10pct)`;
+            ele.style.backgroundColor = `var(--dui-primary-color-p2-lgt-10pct)`;
 
             // get index of the clicked element
             let eleIdx = Array.prototype.slice.call(componentHolderEles).indexOf(ele);
@@ -50,7 +50,7 @@ function setDefault() {
 
     componentHolderEles.forEach((ele) => {
         if (ele.getAttribute("data-col-idx") === eleColIdx) {
-            ele.style.backgroundColor = `var(--primary-color-p2-lgt-10pct)`;
+            ele.style.backgroundColor = `var(--dui-primary-color-p2-lgt-10pct)`;
         } else {
             ele.style.removeProperty("background-color");
         }

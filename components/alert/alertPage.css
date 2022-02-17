@@ -64,9 +64,9 @@ iframe {
 
 /* Default boarder */
 .container__component-holder {
-    border: 3px solid var(--primary-color-p2-lgt-30pct);
+    border: 3px solid var(--dui-primary-color-p2-lgt-30pct);
 }
 
 .container__component-holder:hover {
-    border: 3px solid var(--primary-color-p2-lgt-20pct);
+    border: 3px solid var(--dui-primary-color-p2-lgt-20pct);
 }

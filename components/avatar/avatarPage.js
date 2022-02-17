@@ -15,7 +15,7 @@ componentHolderEles.forEach((ele) => {
         })
 
         // set the color for the clicked element 
-        ele.style.backgroundColor = `var(--primary-color-p2-lgt-10pct)`;
+        ele.style.backgroundColor = `var(--dui-primary-color-p2-lgt-10pct)`;
 
         // get index of the clicked element
         let eleIdx = Array.prototype.slice.call(componentHolderEles).indexOf(ele);
@@ -39,7 +39,7 @@ componentHolderEles.forEach((ele) => {
 
 function setDefault() {
     let eleIdx = 0;
-    componentHolderEles.item(eleIdx).style.backgroundColor = `var(--primary-color-p2-lgt-10pct)`;
+    componentHolderEles.item(eleIdx).style.backgroundColor = `var(--dui-primary-color-p2-lgt-10pct)`;
     codePreviewContainerAvatar_xlg.classList.remove("dui-util-disp-none");
 }
 

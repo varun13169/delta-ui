@@ -27,12 +27,12 @@
     /* Primary Color */
 
     /* PrimaryColor P2 */
-    --primary-color-p2-lgt-35pct: #F3F3F3; /* 35% Lighter */
-    --primary-color-p2-lgt-30pct: #E7E7E7; /* 30% Lighter */
-    --primary-color-p2-lgt-20pct: #CDCDCD; /* 20% Lighter */
-    --primary-color-p2-lgt-10pct: #B4B4B4; /* 10% Lighter */
-    --primary-color-p2: #9A9A9A;
-    --primary-color-p2-dkr-20pct: #676767; /* 20% Darker */
+    --dui-primary-color-p2-lgt-35pct: #F3F3F3; /* 35% Lighter */
+    --dui-primary-color-p2-lgt-30pct: #E7E7E7; /* 30% Lighter */
+    --dui-primary-color-p2-lgt-20pct: #CDCDCD; /* 20% Lighter */
+    --dui-primary-color-p2-lgt-10pct: #B4B4B4; /* 10% Lighter */
+    --dui-primary-color-p2: #9A9A9A;
+    --dui-primary-color-p2-dkr-20pct: #676767; /* 20% Darker */
     /* PrimaryColor P2 */
 
     /* Text Theme */

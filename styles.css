@@ -146,11 +146,11 @@ body {
 }
 
 .drawer__content:hover {
-    background-color: var(--primary-color-p2-lgt-30pct);
+    background-color: var(--dui-primary-color-p2-lgt-30pct);
 }
 
 .drawer__content a:any-link {
-    color: var(--primary-color-p2-dkr-20pct);
+    color: var(--dui-primary-color-p2-dkr-20pct);
     width: auto;
     height: auto;
     display: block;

@@ -45,5 +45,5 @@
 
 /* Border */
 .dui-primary-p2-bdr-s {
-    border: 1.6px solid var(--primary-color-p2);
+    border: 1.6px solid var(--dui-primary-color-p2);
 }

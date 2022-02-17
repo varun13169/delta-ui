@@ -5,7 +5,7 @@
 .dui-rating__step {
     width: 3rem;
     height: auto;
-    stroke: var(--primary-color-p2);
+    stroke: var(--dui-primary-color-p2);
 }
 
 .dui-rating__step:hover, .dui-rating__step--filled {

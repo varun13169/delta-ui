@@ -43,8 +43,8 @@
 }
 
 .dui-inp-txt__input--search {
-    border: 1px solid var(--primary-color-p2);
-    color: var(--primary-color-p2);
+    border: 1px solid var(--dui-primary-color-p2);
+    color: var(--dui-primary-color-p2);
     padding: 0.8rem;
     padding-left: 5rem;
 }
@@ -60,7 +60,7 @@
 .dui-inp-txt__icon-content--search {
     width: 2rem;
     height: 2rem;
-    stroke: var(--primary-color-p2)
+    stroke: var(--dui-primary-color-p2)
 }
 
 /* Input Text Component Ends -- Search */
@@ -118,7 +118,7 @@
     height: 2rem;
     width: 2rem;
     background-color: var(--light-theme);
-    border: 1px solid var(--primary-color-p2)
+    border: 1px solid var(--dui-primary-color-p2)
 }
 
 /* On mouse-over, add a grey background color */
@@ -192,7 +192,7 @@
     width: 2rem;
     background-color: var(--light-theme);
     border-radius: 50%;
-    border: 1px solid var(--primary-color-p2)
+    border: 1px solid var(--dui-primary-color-p2)
 }
 
 /* On mouse-over, add a grey background color */
