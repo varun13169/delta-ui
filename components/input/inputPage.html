@@ -155,18 +155,18 @@
         <section class="container__content">
             <h1>Input Component</h1>
 
-            <h3 class="container__content__sub-title">Input with No Focus</h3>
+            <h3 class="container__content__sub-title">Input with primary color on Focus</h3>
 
             <p class="container__description dui-util-txt-reg">
-                Below input component can be used to take inputs as part of forms
+                Below input component matches primary color for border on focus
             </p>
 
             <!-- Text Input Component Starts -->
             <div class="dui-inp-txt">
                 <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
-                    <input
+                    <input id="username"
                         class="dui-inp-txt__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                        type="text" placeholder="Username">
+                        type="text" placeholder="Username" />
                     <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
                 </label>
             </div>
@@ -180,44 +180,10 @@
                 <script type="text/plain" class="language-markup">
                     <div class="dui-inp-txt">
                         <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
-                            <input class="dui-inp-txt__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                                type="text"
-                                placeholder="Username">
-                                <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
-                        </label>
-                    </div>
-                </script>
-            </div>
-
-            <h3 class="container__content__sub-title">Input with Focus</h3>
-
-            <p class="container__description dui-util-txt-reg">
-                Below input component can be used when input is in focus
-            </p>
-
-            <!-- Text Input Component with Focus Starts -->
-            <div class="dui-inp-txt">
-                <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
-                    <input
-                        class="dui-inp-txt__input dui-inp-txt__input--focus dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                        type="text" placeholder="Username">
-                    <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
-                </label>
-            </div>
-            <!-- Text Input Component with Focus Ends -->
-
-            <p class="container__description dui-util-txt-reg">
-                Code Snippet
-            </p>
-
-            <div class="container__code-preview">
-                <script type="text/plain" class="language-markup">
-                    <div class="dui-inp-txt">
-                        <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
-                            <input class="dui-inp-txt__input dui-inp-txt__input--focus dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                                type="text"
-                                placeholder="Username">
-                                <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
+                            <input id="username"
+                                class="dui-inp-txt__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                                type="text" placeholder="Username"/>
+                            <p class="dui-util-txt-xsm dui-util-disp-none">*Some Additional Info</p>
                         </label>
                     </div>
                 </script>
@@ -231,10 +197,10 @@
 
             <!-- Text Input Component with Error Starts -->
             <div class="dui-inp-txt">
-                <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
-                    <input
+                <label for="password" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
+                    <input id="password"
                         class="dui-inp-txt__input dui-inp-txt__input--error dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                        type="text" placeholder="Username">
+                        type="text" placeholder="Password" />
                     <p class="dui-inp-txt__info-txt--error dui-util-txt-sm">*Please enter correct input</p>
                 </label>
             </div>
@@ -247,11 +213,11 @@
             <div class="container__code-preview">
                 <script type="text/plain" class="language-markup">
                     <div class="dui-inp-txt">
-                        <label for="username" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
-                            <input class="dui-inp-txt__input dui-inp-txt__input--error dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
-                                type="text"
-                                placeholder="Username">
-                                <p class="dui-inp-txt__info-txt--error dui-util-txt-xsm">*Please enter correct input</p>
+                        <label for="password" class="dui-util-txt-sm dui-util-fw-sbld">Enter your username:
+                            <input id="password"
+                                class="dui-inp-txt__input dui-inp-txt__input--error dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                                type="text" placeholder="Password"/>
+                            <p class="dui-inp-txt__info-txt--error dui-util-txt-sm">*Please enter correct input</p>
                         </label>
                     </div>
                 </script>
@@ -276,9 +242,11 @@
                         <line x1="21" y1="21" x2="15" y2="15" />
                     </svg>
                 </i>
-                <input
-                    class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
-                    type="text" placeholder="Search">
+                <label>
+                    <input
+                        class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+                        type="text" placeholder="Search" />
+                </label>
             </div>
             <!-- Input Search Box Ends -->
 
@@ -290,15 +258,53 @@
                 <script type="text/plain" class="language-markup">
                     <div class="dui-inp-txt dui-inp-txt--search">
                         <i class="dui-inp-txt__icon--search">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="dui-inp-txt__icon-content--search icon icon-tabler icon-tabler-search" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="dui-inp-txt__icon-content--search icon icon-tabler icon-tabler-search" width="56"
+                                height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <circle cx="10" cy="10" r="7" />
                                 <line x1="21" y1="21" x2="15" y2="15" />
-                              </svg>
+                            </svg>
                         </i>
-                        <input class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
-                            type="text"
-                            placeholder="Search">
+                        <label>
+                            <input
+                                class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+                                type="text" placeholder="Search"/>
+                        </label>
+                    </div>
+                </script>
+            </div>
+
+
+            <h3 class="container__content__sub-title">TextArea Input</h3>
+
+            <p class="container__description dui-util-txt-reg">
+                Below text area component matches primary color for border on focus
+            </p>
+
+            <!-- Text Area Input Component Starts -->
+            <div class="dui-inp-txt-area">
+                <label for="description" class="dui-util-txt-sm dui-util-fw-sbld">Enter the Description
+                    <textarea id="description" rows="4" cols="50"
+                        class="dui-inp-txt-area__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                        placeholder="Enter the description"></textarea>
+                </label>
+            </div>
+            <!-- Text Area Input Component Ends -->
+
+            <p class="container__description dui-util-txt-reg">
+                Code Snippet
+            </p>
+
+            <div class="container__code-preview">
+                <script type="text/plain" class="language-markup">
+                    <div class="dui-inp-txt-area">
+                        <label for="description" class="dui-util-txt-sm dui-util-fw-sbld">Enter the Description
+                            <textarea id="description" rows="4" cols="50"
+                                class="dui-inp-txt-area__input dui-util-txt-sm dui-util-spc-pad-0_8rem-xs reset-input-inherit-parent"
+                                placeholder="Enter the description"></textarea>
+                        </label>
                     </div>
                 </script>
             </div>

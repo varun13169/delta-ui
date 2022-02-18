@@ -9,23 +9,25 @@
     width: 100%;
     text-align: left;
     background: var(--light-theme);
-    border: 1px solid var(--input-text-border-color);
+    border: 1px solid var(--dui-input-text-border-color);
 }
 
 /* Input Text Component Starts -- Focus */
-.dui-inp-txt__input--focus {
-    border: 1px solid var(--input-text-border-color-focus);
+.dui-inp-txt__input:focus {
+    border: 1px solid var(--dui-primary-color);
 }
-
 /* Input Text Component Ends -- Focus */
 
 /* Input Text Component Starts -- Error */
 .dui-inp-txt__input--error {
-    border: 1px solid var(--input-text-border-color-error);
+    border: 1px solid var(--dui-input-text-border-color-error);
+}
+.dui-inp-txt__input--error:focus {
+    border: 1px solid var(--dui-input-text-border-color-error);
 }
 
 .dui-inp-txt__info-txt--error {
-    color: var(--input-text-border-color-error);
+    color: var(--dui-input-text-border-color-error);
 }
 
 /* Input Text Component Ends -- Error */
@@ -41,8 +43,8 @@
 }
 
 .dui-inp-txt__input--search {
-    border: 1px solid var(--primary-color-p2);
-    color: var(--primary-color-p2);
+    border: 1px solid var(--dui-primary-color-p2);
+    color: var(--dui-primary-color-p2);
     padding: 0.8rem;
     padding-left: 5rem;
 }
@@ -58,12 +60,29 @@
 .dui-inp-txt__icon-content--search {
     width: 2rem;
     height: 2rem;
-    stroke: var(--primary-color-p2)
+    stroke: var(--dui-primary-color-p2)
 }
 
 /* Input Text Component Ends -- Search */
 
 /* Input Text Component Ends */
+
+
+/* Text Area Component Starts */
+.dui-inp-txt-area {
+    height: fit-content;
+}
+.dui-inp-txt-area__input {
+    width: 100%;
+    text-align: left;
+    background: var(--light-theme);
+    border: 1px solid var(--dui-input-text-border-color);
+}
+
+.dui-inp-txt-area__input:focus {
+    border: 1px solid var(--dui-primary-color);
+}
+/* Text Area Component Ends */
 
 
 
@@ -99,7 +118,7 @@
     height: 2rem;
     width: 2rem;
     background-color: var(--light-theme);
-    border: 1px solid var(--primary-color-p2)
+    border: 1px solid var(--dui-primary-color-p2)
 }
 
 /* On mouse-over, add a grey background color */
@@ -109,7 +128,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .dui-inp-chkbox input:checked~.dui-inp-chkbox__checkmark {
-    background-color: var(--primary-color-lgt-40pct);
+    background-color: var(--dui-primary-color-lgt-20pct);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -173,7 +192,7 @@
     width: 2rem;
     background-color: var(--light-theme);
     border-radius: 50%;
-    border: 1px solid var(--primary-color-p2)
+    border: 1px solid var(--dui-primary-color-p2)
 }
 
 /* On mouse-over, add a grey background color */
@@ -184,7 +203,6 @@
 /* When the radio button is checked, add a blue background */
 .dui-inp-radio-btn input:checked~.dui-inp-radio-btn__checkmark {
     background-color: var(--light-theme);
-    /* var(--primary-color-lgt-40pct) */
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -206,7 +224,7 @@
     width: 1.4rem;
     height: 1.4rem;
     border-radius: 50%;
-    background: var(--primary-color-lgt-40pct);
+    background: var(--dui-primary-color-lgt-20pct);
 }
 
 /* Radio Button Component Ends */

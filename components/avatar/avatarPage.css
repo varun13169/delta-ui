@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    background-color: var(--primary-color-p2-lgt-30pct);
+    background-color: var(--dui-primary-color-p2-lgt-30pct);
 }
 
 .container__components-holder>div {
@@ -43,7 +43,7 @@
 }
 
 .container__component-holder:hover {
-    background-color: var(--primary-color-p2-lgt-20pct);
+    background-color: var(--dui-primary-color-p2-lgt-20pct);
 }
 
 iframe {

@@ -3,7 +3,7 @@
     width: 48rem;
     height: 8rem;
     padding: 0.8rem 1.6rem;
-    background: var(--alert-success-light-background-color);
+    background: var(--dui-alert-success-light-background-color);
 }
 
 .dui-alert__icon {
@@ -17,27 +17,27 @@
 }
 
 .dui-alert__text {
-    color: var(--alert-success-light-font-color);
+    color: var(--dui-alert-success-light-font-color);
 }
 
 /* Alert Component Starts -- Success */
 .dui-alert--success {
-    background: var(--alert-success-light-background-color);
+    background: var(--dui-alert-success-light-background-color);
 }
 
 .dui-alert__text--success {
-    color: var(--alert-success-light-font-color);
+    color: var(--dui-alert-success-light-font-color);
 }
 
 /* Alert Component Ends -- Success */
 
 /* Alert Component Starts -- Error */
 .dui-alert--error {
-    background: var(--alert-error-light-background-color);
+    background: var(--dui-alert-error-light-background-color);
 }
 
 .dui-alert__text--error {
-    color: var(--alert-error-light-font-color);
+    color: var(--dui-alert-error-light-font-color);
 }
 
 /* Alert Component Ends -- Error */
@@ -45,11 +45,11 @@
 
 /* Alert Component Starts -- Warning */
 .dui-alert--warning {
-    background: var(--alert-warning-light-background-color);
+    background: var(--dui-alert-warning-light-background-color);
 }
 
 .dui-alert__text--warning {
-    color: var(--alert-warning-light-font-color);
+    color: var(--dui-alert-warning-light-font-color);
 }
 
 /* Alert Component Ends -- Warning */
@@ -57,11 +57,11 @@
 
 /* Alert Component Starts -- Info */
 .dui-alert--info {
-    background: var(--alert-info-light-background-color);
+    background: var(--dui-alert-info-light-background-color);
 }
 
 .dui-alert__text--info {
-    color: var(--alert-info-light-font-color);
+    color: var(--dui-alert-info-light-font-color);
 }
 
 /* Alert Component Ends -- Info */

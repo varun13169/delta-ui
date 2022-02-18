@@ -16,7 +16,7 @@ componentHolderEles.forEach((ele) => {
         })
 
         // set the border for the clicked element 
-        ele.style.border = `3px solid var(--primary-color-p2-lgt-10pct)`;
+        ele.style.border = `3px solid var(--dui-primary-color-p2-lgt-10pct)`;
 
         // get index of the clicked element
         let eleIdx = Array.prototype.slice.call(componentHolderEles).indexOf(ele);
@@ -41,7 +41,7 @@ componentHolderEles.forEach((ele) => {
 
 function setDefault() {
     let eleIdx = 0;
-    componentHolderEles.item(eleIdx).style.border = `3px solid var(--primary-color-p2-lgt-10pct)`;
+    componentHolderEles.item(eleIdx).style.border = `3px solid var(--dui-primary-color-p2-lgt-10pct)`;
     codePreviewContainerAlert_s.classList.remove("dui-util-disp-none");
 }
 

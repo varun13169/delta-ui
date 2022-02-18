@@ -6,7 +6,7 @@
         'mcontent mcontent mcontent mcontent mcontent mcontent'
         'mcontent mcontent mcontent mcontent mcontent mcontent';
 
-    background-color: var(--primary-color);
+    background-color: var(--dui-primary-color);
 }
 
 .home-container .container__header .header {
@@ -71,17 +71,17 @@
 .action-btn>a:first-child:hover {
     background-color: var(--light-theme);
     transition: 1s;
-    text-decoration-color: var(--primary-color);
+    text-decoration-color: var(--dui-primary-color);
     /*add those for opera and mozilla support*/
-    -webkit-text-decoration-color: var(--primary-color);
-    -moz-text-decoration-color: var(--primary-color);
+    -webkit-text-decoration-color: var(--dui-primary-color);
+    -moz-text-decoration-color: var(--dui-primary-color);
 }
 
 .action-btn>a:last-child:hover {
-    background-color: var(--primary-color);
+    background-color: var(--dui-primary-color);
     transition: 1s;
     text-decoration-color: var(--light-theme);
     /*add those for opera and mozilla support*/
-    -webkit-text-decoration-color: var(--primary-color);
-    -moz-text-decoration-color: var(--primary-color);
+    -webkit-text-decoration-color: var(--dui-primary-color);
+    -moz-text-decoration-color: var(--dui-primary-color);
 }

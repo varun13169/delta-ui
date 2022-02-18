@@ -12,7 +12,7 @@
 
 /* Notification List Starts */
 .dui-ul--notif-stnd {
-    background-color: var(--primary-color-p2-lgt-35pct);
+    background-color: var(--dui-primary-color-p2-lgt-35pct);
 }
 
 .dui-ul__li--notif-stnd {
