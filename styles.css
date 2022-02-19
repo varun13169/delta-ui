@@ -223,6 +223,34 @@ body {
     display: none;
 }
 
+/* Magic Sidebar */
+.mobile-menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    overflow: auto;
+
+    display: flex;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+ .mobile-menu_list {
+     width: 100%;
+     height: fit-content;
+ }
+
+ .mobile-menu>h2 {
+     align-self: flex-start;
+     padding: 3rem;
+ }
+
+/* Magic Sidebar */
+
+
 
 /* Hide Scrollbar */
 *::-webkit-scrollbar {
@@ -235,14 +263,49 @@ body {
 /* Hide Scrollbar */
 
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1300px) {
     html {
-        font-size: 50%;
+        /* font-size: 50%; */
     }
 }
 
 @media only screen and (max-width: 768px) {
     html {
+        /* font-size: 30%; */
+    }
+}
+
+
+/* Hide Sidebar for Resonsivenes */
+@media only screen and (max-width: 980px) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 12rem 12rem;
+        grid-template-rows: 6.4rem;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+            'header header header header header header'
+            'mcontent mcontent mcontent mcontent mcontent mcontent'
+            'mcontent mcontent mcontent mcontent mcontent mcontent'
+            'mcontent mcontent mcontent mcontent mcontent mcontent';
+    }
+    .container__sidebar {
+        display: none;
+    }
+    .mobl-flt-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    html {
         font-size: 30%;
     }
 }
+

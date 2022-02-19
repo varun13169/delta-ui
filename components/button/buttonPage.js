@@ -1,3 +1,5 @@
+import {initMobileMenu, addFocusBySubSecId} from "/initNavigation.js";
+
 let codePreviewContainer_btn_p = document.querySelector("#container__code-preview--btn-p");
 let codePreviewContainer_btn_s = document.querySelector("#container__code-preview--btn-s");
 let codePreviewContainer_btn_t = document.querySelector("#container__code-preview--btn-t");
@@ -73,3 +75,14 @@ function setAllCodeContainerDisplayForRowNone(eleRowIdx) {
 }
 
 setDefault();
+
+// Add buttin listener for hamburger functionality
+const moblFltMenu = document.querySelector(".mobl-flt-menu");
+moblFltMenu.addEventListener('click', (e) => {
+    const mobileMenu = document.querySelector(".mobile-menu")
+    console.log(mobileMenu.classList)
+    mobileMenu.style.display !== "none" ? mobileMenu.style.display="flex" : mobileMenu.style.display="none";
+})
+
+initMobileMenu();
+addFocusBySubSecId("subsec-button");

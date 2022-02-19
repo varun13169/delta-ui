@@ -70,3 +70,10 @@ iframe {
 .container__component-holder:hover {
     border: 3px solid var(--dui-primary-color-p2-lgt-20pct);
 }
+
+@media only screen and (max-width: 1300px) {
+    .container__content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
