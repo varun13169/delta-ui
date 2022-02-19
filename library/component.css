@@ -72,13 +72,3 @@
     --light-theme-contrast: #000000;
     /* LEGACY: Use themes with dui preffix */
 }
-
-html {
-    font-size: 62.5%;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 160%;
-}
