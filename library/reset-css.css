@@ -1,8 +1,20 @@
+/* Common Reset Styling Starts */
 * {
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
 }
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 160%;
+}
+/* Common Reset Styling Ends */
 
 
 /* Legacy Common CSS Starts */
