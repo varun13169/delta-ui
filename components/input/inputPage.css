@@ -66,4 +66,8 @@ iframe {
     .container__code-preview {
         width: 100%;
     }
+    .dui-inp-radio-btn .dui-inp-radio-btn__checkmark:after {
+        top: 0.1rem;
+        left: 0.1rem;
+    }
 }
