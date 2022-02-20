@@ -61,6 +61,9 @@ iframe {
 .component_demo_container {
     width: 33%;
 }
+.component_demo_container-fxd-w {
+    width: 50rem;
+}
 
 @media only screen and (max-width: 1300px) {
     .container__content {
