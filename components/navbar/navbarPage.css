@@ -13,6 +13,7 @@
 .container__code-preview {
     width: 80rem;
     min-height: 22rem;
+    height: 40rem;
     align-self: center;
     justify-content: center;
     overflow: auto;
