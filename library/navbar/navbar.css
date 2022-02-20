@@ -3,13 +3,12 @@
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
     background-color: var(--light-theme);
 }
 
 .dui-nav__logo {
-    flex-grow: 1;
-    margin: auto;
     text-align: center;
 }
 
@@ -18,10 +17,20 @@
 }
 
 .dui-nav__actions {
-    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.dui-nav__actions>*:not(:last-child) {
+    margin-right: 4rem;
+}
+
+.dui-nav__auth-actions>*:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.dui-nav__signup-btn {
 }
 
 .dui-nav__login-btn {
@@ -33,8 +42,6 @@
     position: relative;
     width: auto;
     height: auto;
-    margin-left: 4rem;
-    margin-right: 4rem;
 }
 
 .dui-nav__wish-lst-btn>div {
@@ -65,4 +72,10 @@
     width: 4rem;
     height: 4rem;
     margin-right: 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .dui-nav__search {
+        display: none;
+    }
 }
