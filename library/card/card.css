@@ -4,7 +4,6 @@
     width: 32rem;
     height: fit-content;
     background: var(--light-theme);
-    overflow: hidden;
 }
 
 .dui-card__img {
@@ -169,11 +168,10 @@
 /*  Card Component Starts -- Product Horizontal */
 .dui-card--hr-prod {
     width: fit-content;
-    height: fit-content;
-    min-width: 50rem;
-    min-height: 30rem;
+    height: auto;
     grid-auto-columns: 4fr 4fr 3fr 3fr 3fr 3fr;
-    grid-template-areas: 'cardImg  cardImg  cardInfo     cardInfo     cardInfo     cardInfo'
+    grid-template-areas:
+        'cardImg  cardImg  cardInfo     cardInfo     cardInfo     cardInfo'
         'cardImg  cardImg  cardDesc     cardDesc     cardDesc     cardDesc'
         'cardImg  cardImg  cardActions  cardActions  cardActions  cardActions';
 }
