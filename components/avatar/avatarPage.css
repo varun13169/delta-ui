@@ -63,3 +63,10 @@ iframe {
     justify-content: center;
     overflow: auto;
 }
+
+@media only screen and (max-width: 1300px) {
+    .container__content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}

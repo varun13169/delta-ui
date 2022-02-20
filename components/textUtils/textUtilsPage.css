@@ -29,3 +29,10 @@
 .util-mgn-btm-1_6prem {
     margin-bottom: 1.6rem;
 }
+
+@media only screen and (max-width: 1300px) {
+    .container__content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}

@@ -9,4 +9,4 @@ moblFltMenu.addEventListener('click', (e) => {
 })
 
 initMobileMenu();
-addFocusBySubSecId("subsec-input");
+addFocusBySubSecId("subsec-installationpage");

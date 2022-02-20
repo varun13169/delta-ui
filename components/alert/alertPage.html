@@ -16,7 +16,7 @@
         <section class="container__header">
             <!-- Header Component Starts -- Standard -->
             <div class="header header--standard">
-                <a href="http://127.0.0.1:5500/index.html" class="header__btn dui-link dui-util-disp-flex-row">
+                <a  href="/index.html" class="header__btn dui-link dui-util-disp-flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-3d-cube-sphere"
                         width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -162,7 +162,7 @@
                     <div id="container__component-holder" class="container__component-holder">
                         <!-- Alert Component Starts -- Success -->
                         <div class="dui-alert dui-alert--success">
-                            <img class="dui-alert__icon" src="/components/alert/success.svg" alt="success">
+                            <img class="dui-alert__icon" src="/assets/alertPage/success.svg" alt="success">
                             </img>
 
                             <div class="dui-alert__content">
@@ -179,7 +179,7 @@
                     <div id="container__component-holder" class="container__component-holder">
                         <!-- Alert Component Starts -- Error -->
                         <div class="dui-alert dui-alert--error">
-                            <img class="dui-alert__icon" src="/components/alert/error.svg" alt="error">
+                            <img class="dui-alert__icon" src="/assets/alertPage/error.svg" alt="error">
                             </img>
 
                             <div class="dui-alert__content">
@@ -196,7 +196,7 @@
                     <div id="container__component-holder" class="container__component-holder">
                         <!-- Alert Component Starts -- Warning -->
                         <div class="dui-alert dui-alert--warning">
-                            <img class="dui-alert__icon" src="/components/alert/warning.svg" alt="warning">
+                            <img class="dui-alert__icon" src="/assets/alertPage/warning.svg" alt="warning">
                             </img>
 
                             <div class="dui-alert__content">
@@ -213,7 +213,7 @@
                     <div id="container__component-holder" class="container__component-holder">
                         <!-- Alert Component Starts -- Info -->
                         <div class="dui-alert dui-alert--info">
-                            <img class="dui-alert__icon" src="/components/alert/info.svg" alt="Info">
+                            <img class="dui-alert__icon" src="/assets/alertPage/info.svg" alt="Info">
                             </img>
 
                             <div class="dui-alert__content">
@@ -235,7 +235,7 @@
                 <div id="container__code-preview--alert-success" class="container__code-preview">
                     <script type="text/plain" class="language-markup">
                         <div class="dui-alert dui-alert--success">
-                        <img class="dui-alert__icon" src="/components/alert/success.svg" alt="success">
+                        <img class="dui-alert__icon" src="/assets/alertPage/success.svg" alt="success">
                         </img>
                 
                         <div class="dui-alert__content">
@@ -251,7 +251,7 @@
                 <div id="container__code-preview--alert-error" class="container__code-preview dui-util-disp-none">
                     <script type="text/plain" class="language-markup">
                         <div class="dui-alert dui-alert--error">
-                        <img class="dui-alert__icon" src="/components/alert/error.svg" alt="error">
+                        <img class="dui-alert__icon" src="/assets/alertPage/error.svg" alt="error">
                         </img>
                 
                         <div class="dui-alert__content">
@@ -267,7 +267,7 @@
                 <div id="container__code-preview--alert-warning" class="container__code-preview dui-util-disp-none">
                     <script type="text/plain" class="language-markup">
                         <div class="dui-alert dui-alert--warning">
-                        <img class="dui-alert__icon" src="/components/alert/warning.svg" alt="warning">
+                        <img class="dui-alert__icon" src="/assets/alertPage/warning.svg" alt="warning">
                         </img>
                 
                         <div class="dui-alert__content">
@@ -283,7 +283,7 @@
                 <div id="container__code-preview--alert-info" class="container__code-preview dui-util-disp-none">
                     <script type="text/plain" class="language-markup">
                         <div class="dui-alert dui-alert--info">
-                        <img class="dui-alert__icon" src="/components/alert/info.svg" alt="Info">
+                        <img class="dui-alert__icon" src="/assets/alertPage/info.svg" alt="Info">
                         </img>
                 
                         <div class="dui-alert__content">
@@ -297,6 +297,21 @@
                 </div>
             </div>
 
+            <button
+            class="mobl-flt-menu dui-btn dui-btn--primary dui-btn--floating-action dui-util-spc-pad-0_8rem-xs dui-util-bdr-radi-5px-s dui-util-disp-none reset-button-inherit-parent">
+            <svg xmlns="http://www.w3.org/2000/svg" class="dui-btn__icon icon icon-tabler icon-tabler-menu-2"
+                width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+            </svg>
+        </button>
+
+        <div class="mobile-menu">
+            <h1 class="dui-primary-color">Delta UI Components</h1>
+        </div>
 
         </section>
         <section class="container__footer">
@@ -305,7 +320,7 @@
     </div>
 
 
-    <script src="./alertPage.js"></script>
+    <script type="module" src="./alertPage.js"></script>
     <script src="/assets/prism.js"></script>
 
 </body>

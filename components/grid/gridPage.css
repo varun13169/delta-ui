@@ -49,9 +49,21 @@ iframe {
 }
 
 .container__code-preview {
-    width: 80rem;
+    width: 70rem;
     min-height: 22rem;
     align-self: center;
     justify-content: center;
     overflow: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .container__content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .container__code-preview {
+        width: 100%;
+    }
 }

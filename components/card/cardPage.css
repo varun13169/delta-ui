@@ -61,3 +61,15 @@ iframe {
 .component_demo_container {
     width: 33%;
 }
+
+@media only screen and (max-width: 1300px) {
+    .container__content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .container__code-preview {
+        width: 100%;
+    }
+}
