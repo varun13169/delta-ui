@@ -48,7 +48,7 @@
 }
 
 .home-container .container__content h2 {
-    color: var(--light-theme);
+    color: var(--dui-light-theme-txt);
     font-size: 300%;
     margin-top: 5rem;
     margin-right: -2rem;
@@ -69,7 +69,7 @@
     -moz-text-decoration-color: transparent;
 }
 .action-btn>a:first-child:hover {
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
     transition: 1s;
     text-decoration-color: var(--dui-primary-color);
     /*add those for opera and mozilla support*/
@@ -80,7 +80,7 @@
 .action-btn>a:last-child:hover {
     background-color: var(--dui-primary-color);
     transition: 1s;
-    text-decoration-color: var(--light-theme);
+    text-decoration-color: var(--dui-light-theme-txt);
     /*add those for opera and mozilla support*/
     -webkit-text-decoration-color: var(--dui-primary-color);
     -moz-text-decoration-color: var(--dui-primary-color);

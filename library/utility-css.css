@@ -37,7 +37,7 @@
 
 /* Color Utils */
 .dui-util-clr-lt-theme {
-    color: var(--light-theme);
+    color: var(--dui-light-theme-txt);
 }
 
 .dui-util-clr-prim {

@@ -5,7 +5,7 @@
     font-size: 1rem;
     border-radius: 50%;
     background-color: var(--dui-primary-color);
-    color: var(--light-theme);
+    color: var(--dui-light-theme-txt);
 
     display: flex;
     justify-content: center;

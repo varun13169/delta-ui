@@ -13,7 +13,7 @@
 .dui-modal__info-card {
     width: fit-content;
     height: fit-content;
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
 
     border-radius: 10px;
 

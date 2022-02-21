@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-around;
 
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
 }
 
 .dui-nav__logo {
