@@ -163,8 +163,8 @@
                 <!-- Standard Navbar Starts -->
                 <nav class="dui-nav">
                     <a class="dui-nav__logo dui-util-txt-decoration-none" href="#">
-                        <h3 class="dui-util-fw-bld dui-util-clr-prim-p2">
-                            My Webside
+                        <h3 class="dui-util-fw-bld dui-primary-color">
+                            My Website
                         </h3>
                     </a>
 
@@ -180,37 +180,47 @@
                                 <line x1="21" y1="21" x2="15" y2="15" />
                             </svg>
                         </i>
-                        <input
-                            class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
-                            type="text" placeholder="Search">
+                        <label>
+                            <input
+                                class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+                                type="text" placeholder="Search">
+                        </label>
                     </div>
 
                     <div class="dui-nav__actions">
-                        <!-- Login Button -->
-                        <a class="dui-nav__login-btn dui-link dui-link--primary-p2 dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
-                            href="#">
-                            Login
-                        </a>
+                        <div class="dui-nav__auth-actions">
+                            <!-- SignUp Button -->
+                            <a class="dui-nav__signup-btn dui-link dui-link--primary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
+                                href="#" style="margin-right: 2rem;">
+                                Sign Up
+                            </a>
 
-                        <div>
-                            <button class="dui-nav__wish-lst-btn dui-btn reset-button-inherit-parent">
-                                <div class="dui-badge dui-badge--round-ele-0_5-top-0_5-right">
-                                    <div>
-                                        0
-                                    </div>
-                                </div>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
-                                    width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path
-                                        d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                </svg>
-                            </button>
+                            <!-- Login Button -->
+                            <a class="dui-nav__login-btn dui-link dui-link--primary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
+                                href="#">
+                                Login
+                            </a>
                         </div>
 
-                        <button class="dui-nav__card_lst-btn btn reset-button-inherit-parent">
+                        <!-- <div> -->
+                        <a class="dui-nav__wish-lst-btn dui-util-disp-inline-block" href="#">
+                            <div class="dui-badge dui-badge--round-ele-0_5-top-0_5-right">
+                                <div>
+                                    0
+                                </div>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
+                                width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </a>
+                        <!-- </div> -->
+
+                        <a class="dui-nav__card_lst-btn dui-link" href="#">
                             <div class="dui-util-clr-prim-p2">
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="btn__icon icon icon-tabler icon-tabler-shopping-cart" width="56" height="56"
@@ -222,8 +232,29 @@
                                     <path d="M17 17h-11v-14h-2" />
                                     <path d="M6 5l14 1l-1 7h-13" />
                                 </svg>
-                                <p class="dui-util-fw-bld">Card</p>
+                                <p class="dui-util-fw-bld">Cart</p>
                             </div>
+                        </a>
+
+                        <button class="dui-nav__drk-mode-btn dui-btn reset-button-inherit-parent">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="dui-nav__drk-mode-lgt icon icon-tabler icon-tabler-brightness-2" width="44"
+                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="3" />
+                                <path
+                                    d="M6 6h3.5l2.5 -2.5l2.5 2.5h3.5v3.5l2.5 2.5l-2.5 2.5v3.5h-3.5l-2.5 2.5l-2.5 -2.5h-3.5v-3.5l-2.5 -2.5l2.5 -2.5z" />
+                            </svg>
+
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="dui-nav__drk-mode-drk icon icon-tabler icon-tabler-moon dui-util-disp-none"
+                                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                            </svg>
                         </button>
                     </div>
                 </nav>
@@ -235,54 +266,65 @@
                 <script type="text/plain" class="language-markup">
                     <nav class="dui-nav">
                         <a class="dui-nav__logo dui-util-txt-decoration-none" href="#">
-                            <h3 class="dui-util-fw-bld dui-util-clr-prim-p2">
-                                My Webside
+                            <h3 class="dui-util-fw-bld dui-primary-color">
+                                My Website
                             </h3>
                         </a>
-    
+        
                         <!-- Search -->
                         <div class="dui-nav__search dui-inp-txt dui-inp-txt--search">
                             <i class="dui-inp-txt__icon dui-inp-txt__icon--search">
                                 <svg xmlns="http://www.w3.org/2000/svg"
                                     class="dui-inp-txt__icon-content dui-inp-txt__icon-content--search icon icon-tabler icon-tabler-search"
-                                    width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#059669" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <circle cx="10" cy="10" r="7" />
                                     <line x1="21" y1="21" x2="15" y2="15" />
                                 </svg>
                             </i>
-                            <input
-                                class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
-                                type="text" placeholder="Search">
+                            <label>
+                                <input
+                                    class="dui-inp-txt__input dui-inp-txt__input--search dui-util-txt-sm dui-util-bdr-radi-5px-s reset-input-inherit-parent"
+                                    type="text" placeholder="Search">
+                            </label>
                         </div>
-    
+        
                         <div class="dui-nav__actions">
-                            <!-- Login Button -->
-                            <a class="dui-nav__login-btn dui-link dui-link--primary-p2 dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
-                                href="#">
-                                Login
-                            </a>
-    
-                            <div>
-                                <button class="dui-nav__wish-lst-btn dui-btn reset-button-inherit-parent">
-                                    <div class="dui-badge dui-badge--round-ele-0_5-top-0_5-right">
-                                        <div>
-                                            0
-                                        </div>
-                                    </div>
-    
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart"
-                                        width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path
-                                            d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                    </svg>
-                                </button>
+                            <div class="dui-nav__auth-actions">
+                                <!-- SignUp Button -->
+                                <a class="dui-nav__signup-btn dui-link dui-link--primary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
+                                    href="#" style="margin-right: 2rem;">
+                                    Sign Up
+                                </a>
+        
+                                <!-- Login Button -->
+                                <a class="dui-nav__login-btn dui-link dui-link--primary dui-util-txt-sm dui-util-spc-pad-0_8rem-xs dui-util-fw-bld"
+                                    href="#">
+                                    Login
+                                </a>
                             </div>
-    
-                            <button class="dui-nav__card_lst-btn btn reset-button-inherit-parent">
+        
+                            <!-- <div> -->
+                            <a class="dui-nav__wish-lst-btn dui-util-disp-inline-block"
+                                href="#">
+                                <div class="dui-badge dui-badge--round-ele-0_5-top-0_5-right">
+                                    <div>
+                                        0
+                                    </div>
+                                </div>
+        
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="56"
+                                    height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9A9A9A" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </a>
+                            <!-- </div> -->
+        
+                            <a class="dui-nav__card_lst-btn dui-link" href="#">
                                 <div class="dui-util-clr-prim-p2">
                                     <svg xmlns="http://www.w3.org/2000/svg"
                                         class="btn__icon icon icon-tabler icon-tabler-shopping-cart" width="56" height="56"
@@ -294,8 +336,28 @@
                                         <path d="M17 17h-11v-14h-2" />
                                         <path d="M6 5l14 1l-1 7h-13" />
                                     </svg>
-                                    <p class="dui-util-fw-bld">Card</p>
+                                    <p class="dui-util-fw-bld">Cart</p>
                                 </div>
+                            </a>
+        
+                            <button class="dui-nav__drk-mode-btn dui-btn reset-button-inherit-parent">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dui-nav__drk-mode-lgt icon icon-tabler icon-tabler-brightness-2" width="44"
+                                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <circle cx="12" cy="12" r="3" />
+                                    <path
+                                        d="M6 6h3.5l2.5 -2.5l2.5 2.5h3.5v3.5l2.5 2.5l-2.5 2.5v3.5h-3.5l-2.5 2.5l-2.5 -2.5h-3.5v-3.5l-2.5 -2.5l2.5 -2.5z" />
+                                </svg>
+        
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="dui-nav__drk-mode-drk icon icon-tabler icon-tabler-moon dui-util-disp-none" width="44" height="44"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+                                </svg>
                             </button>
                         </div>
                     </nav>
