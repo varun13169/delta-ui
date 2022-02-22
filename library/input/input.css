@@ -8,7 +8,7 @@
 .dui-inp-txt__input {
     width: 100%;
     text-align: left;
-    background: var(--light-theme);
+    background: var(--dui-light-theme-bg);
     border: 1px solid var(--dui-input-text-border-color);
 }
 
@@ -75,7 +75,7 @@
 .dui-inp-txt-area__input {
     width: 100%;
     text-align: left;
-    background: var(--light-theme);
+    background: var(--dui-light-theme-bg);
     border: 1px solid var(--dui-input-text-border-color);
 }
 
@@ -117,7 +117,7 @@
     left: 0;
     height: 2rem;
     width: 2rem;
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
     border: 1px solid var(--dui-primary-color-p2)
 }
 
@@ -149,7 +149,8 @@
     top: 0.1rem;
     width: 0.5rem;
     height: 1rem;
-    border: solid var(--light-theme);
+    /* varundev: need to experiment */
+    border: solid var(--dui-light-theme-txt);
     border-width: 0 0.3rem 0.3rem 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -190,7 +191,7 @@
     left: 0;
     height: 2rem;
     width: 2rem;
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
     border-radius: 50%;
     border: 1px solid var(--dui-primary-color-p2)
 }
@@ -202,7 +203,7 @@
 
 /* When the radio button is checked, add a blue background */
 .dui-inp-radio-btn input:checked~.dui-inp-radio-btn__checkmark {
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */

@@ -3,7 +3,7 @@
     display: grid;
     width: 32rem;
     height: fit-content;
-    background: var(--light-theme);
+    background: var(--dui-light-theme-bg);
 }
 
 .dui-card__img {
@@ -25,7 +25,7 @@
 .dui-card__info {}
 
 .dui-card__primary-text {
-    color: var(--light-theme-contrast);
+    color: var(--dui-light-theme-contrast-txt);
 }
 
 .dui-card__secondary-text {

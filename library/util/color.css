@@ -25,6 +25,11 @@
     color: var(--dui-primary-color-opc-10pct);
 }
 
+/* Color P2 */
+.dui-primary-color-p2 {
+    color: var(--dui-primary-color-p2);
+}
+
 /* Theme */
 .dui-light-theme-txt {
     color: var(--dui-light-theme-txt);

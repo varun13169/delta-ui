@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-around;
 
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
 }
 
 .dui-nav__logo {
@@ -23,15 +23,14 @@
 }
 
 .dui-nav__actions>*:not(:last-child) {
-    margin-right: 4rem;
+    margin-right: 3rem;
 }
 
 .dui-nav__auth-actions>*:not(:last-child) {
     margin-right: 2rem;
 }
 
-.dui-nav__signup-btn {
-}
+.dui-nav__signup-btn {}
 
 .dui-nav__login-btn {
     padding-left: 2.8rem;
@@ -72,6 +71,12 @@
     width: 4rem;
     height: 4rem;
     margin-right: 1rem;
+}
+
+.dui-nav__drk-mode-btn>svg {
+    width: 4rem;
+    height: 4rem;
+    stroke: var(--dui-primary-color-p2);
 }
 
 @media only screen and (max-width: 750px) {

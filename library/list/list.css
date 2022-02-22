@@ -17,7 +17,7 @@
 
 .dui-ul__li--notif-stnd {
     min-width: 40rem;
-    background-color: var(--light-theme);
+    background-color: var(--dui-light-theme-bg);
 }
 
 .dui-ul__li--notif-stnd:not(:last-child) {
