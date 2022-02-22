@@ -3,12 +3,11 @@
 
 :root {
     --grey-secondary: #757575;
-
+    --site-background-color: #F3F4F6;
 }
 
 body {
-    background: #F3F4F6;
-    /* padding: 15rem; */
+    background: var(--site-background-color);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
 }
@@ -88,6 +87,17 @@ body {
 
 .header__btn:hover {
     background: var(--dui-light-theme-bg-opc-10pct);
+}
+
+.header__drk-mode-btn {
+    font-size: 100%;
+    margin: auto 0.8rem;
+    color: var(--dui-light-theme-txt);
+}
+
+.header__drk-mode-btn>svg {
+    width: 3rem;
+    height: 3rem;
 }
 
 .header__btn--download {}
