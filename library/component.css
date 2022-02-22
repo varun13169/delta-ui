@@ -62,13 +62,10 @@
     --dui-alert-info-light-background-color: #1FB8FF26; /* 15% Opacity */
 
 
-    /* LEGACY: Use above themes with dui preffix */
-    --grey-subtle: #F2F2F2;
-    --grey-secondary: #757575; 
+    /* LEGACY: Use above themes with dui preffix, will be removed in next refactor */
     /* @ToDo: #757575 is ~15pct, consider repalcing with 20pct */
     /* #676767;  20% pct darker*/
-
-    --light-theme: #FFFFFF;
-    --light-theme-contrast: #000000;
-    /* LEGACY: Use above themes with dui preffix */
+    --grey-subtle: #F2F2F2;
+    --grey-secondary: #757575;
+    /* LEGACY: Use above themes with dui preffix, will be removed in next refactor */
 }
