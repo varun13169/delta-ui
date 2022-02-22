@@ -54,6 +54,10 @@ iframe {
     overflow: hidden;
 }
 
+.comp-lib-h2 {
+    color: var(--dui-light-theme-contrast-bg);
+}
+
 .container__code-preview {
     width: 100%;
     min-height: 22rem;

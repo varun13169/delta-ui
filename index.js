@@ -1,56 +1,30 @@
+const darkModeBtn = document.querySelector(".header__drk-mode-btn");
+const darModeImg = document.querySelector(".header__drk-mode-drk");
+const lgtModeImg = document.querySelector(".header__drk-mode-lgt");
 
+darkModeBtn.addEventListener("click", () => {
+    const isDarkModeEn = localStorage.getItem("isDarkModeEn");
+    isDarkModeEn === null || isDarkModeEn === "0" ? localStorage.setItem("isDarkModeEn", "1") : localStorage.setItem("isDarkModeEn", "0");
+    location.reload();
 
-// let drawerContent = document.querySelectorAll(".drawer__content");
+    console.log(localStorage.getItem("isDarkModeEn"));
+});
 
-// let iframeList = document.querySelectorAll(".container__iframe");
-// let avatarIframe = document.querySelector(".container__iframe--avatar-component");
-// let alertIframe = document.querySelector(".container__iframe--alert-component");
-// let badgeIframe = document.querySelector(".container__iframe--badge-component");
-// let buttonIframe = document.querySelector(".container__iframe--button-component");
-// let cardIframe = document.querySelector(".container__iframe--card-component");
-// let imageIframe = document.querySelector(".container__iframe--image-component");
-// let inputIframe = document.querySelector(".container__iframe--input-component");
-
-// drawerContent.forEach((element) =>{
-//     element.addEventListener("click", (e)=>{
-//         addClassToAllElements(iframeList, "display-none");
-//         removeClassFromAllElements(drawerContent, "drawer__content--focus");
-
-//         const drawerContentClicked = e.target;
-//         drawerContentClicked.classList.add("drawer__content--focus");
-
-//         switch(drawerContentClicked.id) {
-//             case "drawer__content--avatar":
-//                 avatarIframe.classList.remove("display-none");
-//               break;
-//             case "drawer__content--alert":
-//                 alertIframe.classList.remove("display-none")
-//               break;
-//             case "drawer__content--badge":
-//                 badgeIframe.classList.remove("display-none")
-//             break;
-//             case "drawer__content--button":
-//                 buttonIframe.classList.remove("display-none")
-//             break;
-//             case "drawer__content--card":
-//                 cardIframe.classList.remove("display-none")
-//             break;
-//             case "drawer__content--image":
-//                 imageIframe.classList.remove("display-none")
-//             break;
-//             case "drawer__content--input":
-//                 inputIframe.classList.remove("display-none")
-//             break;
-//             default:
-//                 console.error("Error: No switch case found !!")
-//           }
-//     });
-// })
-
-// function addClassToAllElements(eleList, className) {
-//     eleList.forEach((ifr) => {ifr.classList.add(className)});
-// }
-// function removeClassFromAllElements(eleList, className) {
-//     eleList.forEach((ifr) => {ifr.classList.remove(className)});
-// }
-
+const initTheme = () => {
+    const isDarkModeEn = localStorage.getItem("isDarkModeEn");
+    if(isDarkModeEn === null || isDarkModeEn === "0") {
+        darModeImg.style.display = "none";
+        lgtModeImg.style.display = "block";
+    }
+    else if(isDarkModeEn === "1") {
+        darModeImg.style.display = "block";
+        lgtModeImg.style.display = "none";
+        document.documentElement.style.setProperty('--dui-light-theme-bg', '#000000');
+        document.documentElement.style.setProperty('--dui-light-theme-contrast-txt', '#ffffff');
+        document.documentElement.style.setProperty('--site-background-color', '#374151');
+    }
+    else {
+        console.error("Error in theme mode, please debug")
+    }
+}
+initTheme();
