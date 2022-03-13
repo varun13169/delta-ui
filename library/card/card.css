@@ -208,7 +208,8 @@
 
 .dui-card-prod-hzntl {
     width: fit-content;
-    height: auto;
+    height: fit-content;
+    max-width: 70rem;
 
     background: var(--dui-light-theme-bg);
     display: grid;
