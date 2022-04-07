@@ -57,6 +57,11 @@ iframe {
     margin: 4rem;
 }
 
+.badge_component_demo_container>.dui-badge {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 @media only screen and (max-width: 1300px) {
     .container__content {
         padding-left: 5rem;

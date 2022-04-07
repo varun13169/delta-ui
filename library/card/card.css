@@ -203,4 +203,170 @@
 
 /*  Card Component Ends -- Basic */
 
+
+/* Card Component Starts -- Prod Horizontal Card */
+
+.dui-card-prod-hzntl {
+    width: fit-content;
+    height: fit-content;
+    max-width: 70rem;
+
+    background: var(--dui-light-theme-bg);
+    display: grid;
+
+    grid-auto-columns: 4fr 4fr 3fr 3fr 3fr 3fr;
+    grid-template-areas:
+        'cardImg  cardImg  cardInfo     cardInfo     cardInfo     cardInfo'
+        'cardImg  cardImg  cardDesc     cardDesc     cardDesc     cardDesc'
+        'cardImg  cardImg  cardActions  cardActions  cardActions  cardActions';
+}
+
+.dui-card-prod-hzntl>.dui-badge {
+    width: 5rem;
+    border-radius: 0;
+    top: 1rem;
+    left: 1rem;
+}
+
+.dui-card-prod-hzntl__img-container {
+    grid-area: cardImg;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: grid;
+}
+
+.dui-card-prod-hzntl__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+}
+
+.dui-card-prod-hzntl__img-prod-status {
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+    background-color: var(--dui-light-theme-contrast-bg-opc-25pct);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dui-card-prod-hzntl__info {
+    grid-area: cardInfo;
+}
+
+.dui-card-prod-hzntl__primary-text {
+    color: var(--dui-light-theme-contrast-txt);
+}
+
+.dui-card-prod-hzntl__secondary-text {
+    color: var(--grey-secondary);
+}
+
+.dui-card-prod-hzntl__actions {
+    grid-area: cardActions;
+    display: flex;
+
+    min-height: 3.2rem;
+    align-items: center;
+}
+
+.dui-card-prod-hzntl__buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.dui-card-prod-hzntl__buttons>button {
+    width: auto;
+}
+
+/* Card Component Ends -- Prod Horizontal Card */
+
+
+/* Card Component Starts -- Prod Vertical Card */
+.dui-card-prod-vertcl {
+    width: fit-content;
+    height: auto;
+
+    background: var(--dui-light-theme-bg);
+    display: grid;
+
+    grid-auto-columns: 1fr 1fr;
+    grid-template-areas:
+        'cardImg      cardImg'
+        'cardImg      cardImg'
+        'cardInfo     cardInfo'
+        'cardDesc     cardDesc'
+        'cardActions  cardActions';
+}
+
+.dui-card-prod-vertcl>.dui-badge {
+    width: 5rem;
+    border-radius: 0;
+    top: 1rem;
+    left: 1rem;
+}
+
+.dui-card-prod-vertcl__img-container {
+    grid-area: cardImg;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: grid;
+}
+
+.dui-card-prod-vertcl__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+}
+
+.dui-card-prod-vertcl__img-prod-status {
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+    background-color: var(--dui-light-theme-contrast-bg-opc-25pct);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dui-card-prod-vertcl__info {
+    grid-area: cardInfo;
+}
+
+.dui-card-prod-vertcl__primary-text {
+    color: var(--dui-light-theme-contrast-txt);
+}
+
+.dui-card-prod-vertcl__secondary-text {
+    color: var(--grey-secondary);
+}
+
+.dui-card-prod-vertcl__actions {
+    grid-area: cardActions;
+    display: flex;
+
+    min-height: 3.2rem;
+    align-items: center;
+}
+
+.dui-card-prod-vertcl__buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.dui-card-prod-vertcl__buttons>button {
+    width: auto;
+}
+/* Card Component Ends -- Prod Vertical Card */
+
+
 /*  Card Component Ends */
